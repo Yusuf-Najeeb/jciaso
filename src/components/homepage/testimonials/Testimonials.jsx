@@ -3,7 +3,7 @@ import React from "react";
 const Testimonials = () => {
   return (
     <div className="p-5 mt-24 relative">
-      <h1 className="bg-white font-[Karla] text-center text-5xl font-medium">
+      <h1 className="title bg-white font-[Karla] text-center text-5xl font-medium">
         Our Stories and Testimonials
       </h1>
       <div className="bg-slate-700 p-10 mt-8">
