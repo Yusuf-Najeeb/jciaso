@@ -3,13 +3,7 @@ import React from "react";
 const Mission = () => {
   return (
     <section className="flex flex-col justify-center items-center gap-10 px-6 mt-20 lg:px-16">
-      <h1 className="text-[#01A85A] font-bold text-[2rem]">
-        Mission, <span className="text-[#328CB1]">Vision,</span> & Values
-      </h1>
-      <p className="text-[1.2rem] text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi.
-        Aliquam in hendrerit urna. Pellentesque sit amet sapi
-      </p>
+      <h1 className="text-[#01A85A] font-bold text-[2rem]">Mission & Vision</h1>
       <section className="flex flex-wrap justify-center gap-10">
         <div className="border border-[#000] flex flex-col items-center text-center gap-4 p-4 rounded-lg lg:w-[30%]">
           <h3 className="text-[#328CB1] text-[1.4rem]">Vision</h3>
@@ -23,7 +17,7 @@ const Mission = () => {
             talent while impacting our immediate environment.
           </p>
         </div>
-        <div className="border border-[#000] flex flex-col items-center gap-4 p-4 rounded-lg lg:w-[30%]">
+        {/* <div className="border border-[#000] flex flex-col items-center gap-4 p-4 rounded-lg lg:w-[30%]">
           <h3 className="text-[#328CB1] text-[1.4rem]">Values</h3>
           <p>
             <span className="py-2 font-bold text-[#01A85A] ">We Believe</span>
@@ -45,7 +39,7 @@ const Mission = () => {
               <li>That Service to humanity is the best work of life</li>
             </ul>
           </p>
-        </div>
+        </div> */}
       </section>
     </section>
   );

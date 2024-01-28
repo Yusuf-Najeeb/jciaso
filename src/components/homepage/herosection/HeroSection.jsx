@@ -32,7 +32,7 @@ const HeroSection = () => {
     <React.Fragment>
       <div className="bg-black/80 relative">
         <div
-          className="w-full h-screen bg-black/60 bg-cover bg-center mix-blend-overlay object-cover absolute "
+          className="w-full h-screen  bg-cover bg-center mix-blend-overlay object-cover absolute "
           style={heroStyle}
         ></div>
         <div className="text-white flex flex-col gap-6 justify-center   h-screen  z-10 relative px-4 lg:px-24 lg:w-[70%]">
