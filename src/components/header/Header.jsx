@@ -1,14 +1,40 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
+import { Link } from "react-router-dom";
+import { MdAddCall, MdLocationPin } from "react-icons/md";
 
 const Header = () => {
+  const [isSticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+
+      if (offset > 100) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       {/* easy and fast contact */}
-      <div className="w-full p-4 flex justify-between bg-sky-500">
-        <div className=" text-white text-base font-medium font-['Karla'] leading-normal">
+      <div className="w-full p-4 flex justify-between bg-sky-500 px-10 py-7">
+        <div className="flex items-center gap-2 text-white text-base font-medium font-['Karla'] leading-normal">
+          <span>
+            <MdLocationPin />
+          </span>
           Abuja, Aso, Abuja
         </div>
-        <div className=""> 
+        <div className="flex flex-col items-center gap-2 lg:flex-row">
+          <MdAddCall className="hidden text-white lg:flex" />
           <span className="text-white text-base font-medium font-['Karla'] leading-normal">
             +2347035551111,
           </span>
@@ -20,29 +46,31 @@ const Header = () => {
 
       <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white"></div>
       {/* NavBar Section */}
-      <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+      <nav
+        className={
+          isSticky
+            ? "fixed top-0 left-0 right-0 z-50 bg-white border-gray-200 py-7 dark:bg-gray-900 px-10"
+            : "bg-white border-gray-200 py-7 dark:bg-gray-900 px-6"
+        }
+      >
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-          <a href="#" className="flex items-center">
+          <Link to="/" className="flex items-baseline ">
             <img
-              src="https://www.figma.com/file/UyF0ohAtfL17vmDaduag8o/jci-aso?type=design&node-id=17-65&mode=dev"
-              className="h-6 mr-3 sm:h-9"
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706423288611/6824c0e2-9cb4-43d5-a65a-f2d46be78040.png"
+              className="h-6 sm:h-9"
               alt="JCI Logo"
             />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            <span className=" text-xl font-bold whitespace-nowrap text-[#E3DB07] dark:text-white">
               ASO
             </span>
-          </a>
+          </Link>
           <div className="flex items-center lg:order-2">
             <div className="hidden mt-2 mr-4 sm:inline-block">
               <span></span>
             </div>
 
-            <a
-              href="https://themesberg.com/product/tailwind-css/landing-page"
-              className="text-white bg-sky-500 hover:bg-sky-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-sky-500 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800"
-            >
-              Join JCI now !
-            </a>
+            <JoinJCIButton />
+
             <button
               data-collapse-toggle="mobile-menu-2"
               type="button"
@@ -83,45 +111,45 @@ const Header = () => {
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-white bg-sky-500 rounded lg:bg-transparent lg:text-sky-500 lg:p-0 dark:text-white"
+                <Link
+                  to=""
+                  className="block py-2 pl-3 pr-4 text-white bg-sky-500 rounded lg:bg-transparent lg:text-sky-500 lg:p-0 dark:text-white duration-300"
                   aria-current="page"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to=""
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
                 >
                   Excos & Members
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to=""
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
                 >
-                 News & Articles
-                </a>
+                  News & Articles
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to=""
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
                 >
                   Donate
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                <Link
+                  to=""
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               {/* <li>
                 <a
