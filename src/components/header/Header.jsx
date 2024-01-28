@@ -1,82 +1,69 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
+import { FaPhone } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
 import { Link } from "react-router-dom";
-import { MdAddCall, MdLocationPin } from "react-icons/md";
 
 const Header = () => {
-  const [isSticky, setSticky] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const offset = window.scrollY;
-
-      if (offset > 100) {
-        setSticky(true);
-      } else {
-        setSticky(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+    function toggleBtn() {
+            const mobileMenu = document.getElementById("mobile-menu-4");
+                mobileMenu.classList.toggle("hidden");
+        }
 
   return (
     <>
-      {/* easy and fast contact */}
-      <div className="w-full p-4 flex justify-between bg-sky-500 px-10 py-7">
-        <div className="flex items-center gap-2 text-white text-base font-medium font-['Karla'] leading-normal">
-          <span>
-            <MdLocationPin />
-          </span>
-          Abuja, Aso, Abuja
+      {/* easy and fast contact for users*/}
+      <div className="py-4 px-12 bg-sky-500 hidden sm:flex flex-row justify-between">
+        <div className=" text-white text-base font-medium font-['Karla'] ">
+          <HiLocationMarker className="inline text-white mr-2 animate-bounce" />
+          Aso, Abuja
         </div>
-        <div className="flex flex-col items-center gap-2 lg:flex-row">
-          <MdAddCall className="hidden text-white lg:flex" />
-          <span className="text-white text-base font-medium font-['Karla'] leading-normal">
+        <div className="">
+          <FaPhone className="inline text-white mr-2 animate-pulse" />
+          <span className="text-white text-base mr-2 font-['Karla'] leading-normal">
             +2347035551111,
           </span>
-          <span className="text-white text-base font-medium font-['Karla'] leading-normal">
+          <span className="text-white text-base font-['Karla'] leading-normal">
             +2347023333221
           </span>
         </div>
       </div>
 
-      <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white"></div>
+      <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white hidden sm:block"></div>
       {/* NavBar Section */}
-      <nav
-        className={
-          isSticky
-            ? "fixed top-0 left-0 right-0 z-50 bg-white border-gray-200 py-7 dark:bg-gray-900 px-10"
-            : "bg-white border-gray-200 py-7 dark:bg-gray-900 px-6"
-        }
-      >
+      <header className="sticky top-0 bg-white border-b border-gray-200 dark:bg-gray-900 z-50">
+      <nav className="bg-white border-gray-200 shadow-md py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-          <Link to="/" className="flex items-baseline ">
+          <Link to="#" className="flex items-center">
             <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706423288611/6824c0e2-9cb4-43d5-a65a-f2d46be78040.png"
-              className="h-6 sm:h-9"
+              src="https://logonoid.com/images/thumbs/jci-logo.png"
+              className="h-20 sm:h-20"
               alt="JCI Logo"
             />
-            <span className=" text-xl font-bold whitespace-nowrap text-[#E3DB07] dark:text-white">
+            <span className="self-center pb-[-6px] text-[#ecbd37] text-sm font-bold whitespace-nowrap dark:text-[#ecbd37]">
               ASO
             </span>
           </Link>
+
           <div className="flex items-center lg:order-2">
             <div className="hidden mt-2 mr-4 sm:inline-block">
               <span></span>
             </div>
 
-            <JoinJCIButton />
-
+            <Link
+              to="/"
+              className="text-white pr-8 bg-sky-500 hover:bg-sky-700 focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-sky-500 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800"
+            >
+               <JoinJCIButton />
+            </Link>
             <button
+              onClick={toggleBtn}
               data-collapse-toggle="mobile-menu-2"
               type="button"
               className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="mobile-menu-2"
-              aria-expanded="true"
+              aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -106,14 +93,14 @@ const Header = () => {
             </button>
           </div>
           <div
-            className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1"
-            id="mobile-menu-2"
+            className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 hidden"
+            id="mobile-menu-4"
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
                 <Link
-                  to=""
-                  className="block py-2 pl-3 pr-4 text-white bg-sky-500 rounded lg:bg-transparent lg:text-sky-500 lg:p-0 dark:text-white duration-300"
+                  to="#"
+                  className="block py-2 pl-3 pr-4 text-white bg-sky-500 rounded lg:bg-transparent lg:text-sky-500 lg:p-0 dark:text-white"
                   aria-current="page"
                 >
                   Home
@@ -121,48 +108,41 @@ const Header = () => {
               </li>
               <li>
                 <Link
-                  to=""
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Excos & Members
                 </Link>
               </li>
               <li>
                 <Link
-                  to=""
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-blue-200 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                 >
                   News & Articles
                 </Link>
               </li>
               <li>
                 <Link
-                  to=""
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
+                  href="#"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Donate
                 </Link>
               </li>
               <li>
                 <Link
-                  to=""
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700 duration-300"
+                  to="#"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   About Us
                 </Link>
               </li>
-              {/* <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>
       </nav>
+      </header>
     </>
   );
 };
