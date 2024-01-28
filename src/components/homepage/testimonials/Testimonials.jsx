@@ -7,8 +7,8 @@ const Testimonials = () => {
         Our Stories and Testimonials
       </h1>
       <div className="bg-slate-700 p-10 mt-8">
-        <div className="flex flex-col gap-32 justify-between lg:gap-8 lg:flex-row">
-          <div className="w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+        <div className="flex flex-col gap-8 lg:flex-row lg:justify-between">
+          <div className="w-full lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 From day one I joined JCI Aso, I am filled with gratitude for
@@ -25,7 +25,8 @@ const Testimonials = () => {
               Oladejo Ayomide <br /> Position
             </p>
           </div>
-          <div className=" w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+
+          <div className="w-full lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 Since joining, I have learnt the culture of excellence,
@@ -43,12 +44,13 @@ const Testimonials = () => {
               Joshua Aigbona Oghorialu <br /> Position
             </p>
           </div>
-          <div className="w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+
+          <div className="w-full lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 JCI Aso provided a platform for self-discovery and an avenue for
                 self-development. The leaders and members are amazing. I am
-                super grateful
+                super grateful.
               </p>
             </div>
             <img
@@ -61,7 +63,7 @@ const Testimonials = () => {
             </p>
           </div>
         </div>
-        <div className="flex justify-end text-right mt-20">
+        <div className="flex justify-end text-right mt-8 lg:mt-20">
           <button className="text-white py-2 px-4 rounded-md border hover:border-sky-500 hover:text-sky-500 text-right">
             See More
           </button>
