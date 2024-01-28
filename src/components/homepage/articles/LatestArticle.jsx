@@ -12,7 +12,11 @@ const LatestArticle = () => {
         {news.map((updates) => {
           return (
             <div className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%] ">
-              <img src={updates.Image} alt="article coverImage" />
+              <img
+                src={updates.Image}
+                className="w-full h-[50%]"
+                alt="article coverImage"
+              />
               <section className="p-4 flex flex-col gap-6 items-start">
                 <section className="flex flex-col gap-2 font-semibold">
                   <div className="text-red-500 flex gap-4 items-center font-medium">
@@ -25,12 +29,12 @@ const LatestArticle = () => {
                     <p className="opacity-60">{updates.date}</p>
                   </div>
                 </section>
-                <p>{updates.content}</p>
-                <Link>
+                <p className="">{updates.content}</p>
+                <a href={updates.site}>
                   <button className="border border-[#2288A9] text-[#2288A9] font-medium px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-500 duration-300 mb-4">
                     {updates.read}
                   </button>
-                </Link>
+                </a>
               </section>
             </div>
           );

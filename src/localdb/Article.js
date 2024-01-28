@@ -1,35 +1,38 @@
 export const articleUpdates = [
   {
     Image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706383292713/952dbe19-8e67-4773-b9fb-f60b1d862dd4.png",
+      "https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg",
     post1: "POLITICS",
     post2: "CONSTITUTION",
-    heading: "2023 Constituency and Manual",
-    date: "11th June 2023",
+    heading: "Build Skills and Capacity.",
+    date: "Dec 11, 2023 ",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.",
+      "My advise to young persons is let's continue to build skills, let's continue to build capacities that will enable them have more than stream of income in order to survive the hardship we have now",
     read: "Read More",
+    site: "https://freshnewsng.com/build-skills-capacity-fmr-jci-counsels-young-nigerians",
   },
   {
     Image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706383292713/952dbe19-8e67-4773-b9fb-f60b1d862dd4.png",
+      "https://freshnewsng.com/uploads/images/202312/image_870x_657d852146243.jpg",
     post1: "POLITICS",
     post2: "CONSTITUTION",
-    heading: "2023 Constituency and Manual",
-    date: "11th June 2023",
+    heading: "Leadership Development",
+    date: "Dec 16, 2023 ",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.",
+      "We plan to advance the chapter by creating avenues for and supporting the advancement of members personally and professionally. We also aim to create sustainable partnerships that will benefit the organization as a whole and individual members where possible",
     read: "Read More",
+    site: "https://freshnewsng.com/leadership-development-jci-will-collaborate-with-govt-yetunde-adebisi",
   },
   {
     Image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706383292713/952dbe19-8e67-4773-b9fb-f60b1d862dd4.png",
+      "https://leadership.ng/wp-content/uploads/2023/12/Untitled-design-2023-12-12T113713.229-750x422.png",
     post1: "POLITICS",
     post2: "CONSTITUTION",
-    heading: "2023 Constituency and Manual",
-    date: "11th June 2023",
+    heading: "Youths In Governance",
+    date: "Nov 20, 2023",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi. Aliquam in hendrerit urna.",
+      "The government is barely a year and there is also a fact that there will be a certain level of acclimatisation and understanding of what the process should be an individual like you.",
     read: "Read More",
+    site: "https://leadership.ng/junior-chamber-international-wants-more-youths-in-governance/",
   },
 ];
