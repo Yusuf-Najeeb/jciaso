@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SocialMedia from "../socialmedia/SocialMedia";
 
 const Footer = () => {
   const today = new Date();
@@ -30,9 +31,7 @@ const Footer = () => {
             <Link to="">Junior Chamber International</Link>
             <Link to="">Transcorp hilton , Maitama , Abuja.</Link>
             <Link to="">info@jciaso.ng</Link>
-            {/* <Link to="" className="hover:underline duration-300">
-              News & Articles
-            </Link> */}
+            <SocialMedia />
           </ul>
         </div>
       </section>

@@ -34,7 +34,7 @@ const HeroSection = () => {
           className="w-full h-screen bg-black/60 bg-cover bg-center mix-blend-overlay object-cover absolute "
           style={heroStyle}
         ></div>
-        <div className=" flex flex-col gap-6 justify-center   h-screen  z-10 relative px-24 lg:w-[80%]">
+        <div className=" flex flex-col gap-6 justify-center   h-screen  z-10 relative px-4 lg:px-24 lg:w-[80%]">
           <h1 className="font-bold text-[2rem]  ">
             Lorem ipsum dolor, sit amet consectetur
           </h1>
