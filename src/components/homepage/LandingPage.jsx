@@ -16,7 +16,6 @@ const LandingPage = () => {
       <Vision />
       <Testimonials />
       <Articles />
-      <LatestArticle />
       <Sponsors />
       <Footer />
     </React.Fragment>
