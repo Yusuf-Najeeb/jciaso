@@ -2,11 +2,11 @@ import React from "react";
 
 const Sponsors = () => {
   return (
-    <div className=" flex flex-col gap-16 px-6  lg:px-10 lg:py-32 mt-20">
+    <div className=" flex flex-col  px-6 py-4 mt-6 lg:px-10 lg:py-32 lg:gap-16 ">
       <h1 className="font-bold text-center text-[1.8rem] lg:text-[2.5rem]">
         Our Proud Sponsors
       </h1>
-      <section className="flex flex-wrap justify-start items-start gap-16">
+      <section className="flex flex-wrap justify-start items-start gap-6 lg:gap-16">
         <img
           src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706352060049/0fda7174-a30d-4f05-9e02-cdcef33389a8.png"
           alt="quick teller"

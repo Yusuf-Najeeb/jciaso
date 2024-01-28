@@ -1,4 +1,4 @@
-export const article = [
+export const articleUpdates = [
   {
     Image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1706383292713/952dbe19-8e67-4773-b9fb-f60b1d862dd4.png",

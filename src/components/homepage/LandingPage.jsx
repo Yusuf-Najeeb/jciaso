@@ -6,6 +6,7 @@ import Footer from "../footer/Footer";
 import Testimonials from "./testimonials/Testimonials";
 import Articles from "./articles/Articles";
 import Header from "../header/Header";
+import LatestArticle from "./articles/LatestArticle";
 
 const LandingPage = () => {
   return (
@@ -13,8 +14,9 @@ const LandingPage = () => {
       <Header />
       <HeroSection />
       <Vision />
-      <Articles />
       <Testimonials />
+      <Articles />
+      <LatestArticle />
       <Sponsors />
       <Footer />
     </React.Fragment>
