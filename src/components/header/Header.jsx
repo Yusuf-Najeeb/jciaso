@@ -1,6 +1,8 @@
 import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
+import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
+import { Link } from "react-router-dom";
 
 const Header = () => {
 
@@ -33,7 +35,7 @@ const Header = () => {
       <header className="sticky top-0 bg-white border-b border-gray-200 dark:bg-gray-900 z-50">
       <nav className="bg-white border-gray-200 shadow-md py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-          <a href="#" className="flex items-center">
+          <Link to="#" className="flex items-center">
             <img
               src="https://logonoid.com/images/thumbs/jci-logo.png"
               className="h-20 sm:h-20"
@@ -42,19 +44,19 @@ const Header = () => {
             <span className="self-center pb-[-6px] text-[#ecbd37] text-sm font-bold whitespace-nowrap dark:text-[#ecbd37]">
               ASO
             </span>
-          </a>
+          </Link>
 
           <div className="flex items-center lg:order-2">
             <div className="hidden mt-2 mr-4 sm:inline-block">
               <span></span>
             </div>
 
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-white pr-8 bg-sky-500 hover:bg-sky-700 focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-sky-500 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800"
             >
-              Join JCI now!
-            </a>
+               <JoinJCIButton />
+            </Link>
             <button
               onClick={toggleBtn}
               data-collapse-toggle="mobile-menu-2"
@@ -96,45 +98,45 @@ const Header = () => {
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="block py-2 pl-3 pr-4 text-white bg-sky-500 rounded lg:bg-transparent lg:text-sky-500 lg:p-0 dark:text-white"
                   aria-current="page"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Excos & Members
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-blue-200 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                 >
                   News & Articles
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#"
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Donate
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
+                <Link
+                  to="#"
                   className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
