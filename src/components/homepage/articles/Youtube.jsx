@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player/youtube";
+import { BsYoutube } from "react-icons/bs";
 import "../../../App.css";
 
 const videos = [
@@ -27,12 +28,21 @@ const videos = [
 
 const Youtube = () => {
   return (
-    <div className="w-1/2 max-h-[70vh] overflow-y-scroll youtube">
-      {videos.map((item) => (
-        <div className="w-[95%] my-6" key={item.id}>
-          <ReactPlayer url={item.vid} width={{ width: "80%" }} />
-        </div>
-      ))}
+    <div className="basis:full md:basis-1/2 border rounded-xl">
+      <div className="flex flex-row justify-between items-center p-2">
+        <h4 className="font-semibold">Youtube Videos</h4>
+        <button className="py-2 px-3 rounded-lg text-white bg-red-700 hover:bg-red-700/70 transition text-sm flex flex-row items-center justify-around gap-1">
+          Subscribe&nbsp;
+          <BsYoutube size={20} />
+        </button>
+      </div>
+      <div className="mx-auto max-h-[70vh] overflow-y-scroll youtube py-2 pl-8">
+        {videos.map((item) => (
+          <div className="w-full my-6" key={item.id}>
+            <ReactPlayer url={item.vid} width={{ width: "80%" }} />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
