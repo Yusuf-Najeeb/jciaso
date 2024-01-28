@@ -34,8 +34,8 @@ const Articles = () => {
           <Youtube />
         </div>
         {/* Articles */}
-        <LatestArticle />
       </div>
+      {/* <LatestArticle /> */}
     </main>
   );
 };
