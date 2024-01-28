@@ -7,7 +7,7 @@ const Testimonials = () => {
         Our Stories and Testimonials
       </h1>
       <div className="bg-slate-700 p-10 mt-8">
-        <div className="flex flex-row gap-8 justify-between">
+        <div className="flex flex-col  gap-32 justify-between lg:gap-8 lg:flex-row">
           <div className="border flex flex-col justify-center items-center p-6 rounded-md shadow-lg relative">
             <div className="px-6 py-4">
               <p className="text-white text-base">
