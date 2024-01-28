@@ -3,14 +3,12 @@ import { FaXTwitter } from "react-icons/fa6";
 import { BsYoutube } from "react-icons/bs";
 import Tweets from "./Tweets";
 import Youtube from "./Youtube";
-import LatestArticle from "./LatestArticle";
-// import YouTube from "react-youtube";
 
 const Articles = () => {
   return (
     <main className="mx-12">
       <h2 className="text-3xl my-4">Latest Posts</h2>
-      <div className="relative shadow-md rounded-md w-full py-4 px-3">
+      <div className="relative w-full py-4 px-3">
         {/* header */}
         <div className="w-full flex flex-row justify-between items-center gap-8 mb-4">
           {/* Tweets */}
@@ -29,13 +27,12 @@ const Articles = () => {
           </div>
         </div>
         {/* content */}
-        <div className="w-full flex flex-row justify-between items-center gap-8">
+        <div className="w-full flex flex-row justify-between items-center gap-8 ">
           <Tweets />
           <Youtube />
         </div>
         {/* Articles */}
       </div>
-      {/* <LatestArticle /> */}
     </main>
   );
 };
