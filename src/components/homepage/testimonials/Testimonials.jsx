@@ -9,7 +9,7 @@ const Testimonials = () => {
       <div className="bg-slate-700 p-10 mt-8">
         <div className="flex flex-col  gap-32 justify-between lg:gap-8 lg:flex-row">
           <div className="border flex flex-col justify-center p-2 items-center  rounded-md shadow-lg relative lg:p-6">
-            <div className="px-3 py-4 lg:px-6">
+            <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
                 labore accusamus doloremque praesentium laboriosam sint dolor
@@ -27,7 +27,7 @@ const Testimonials = () => {
             </p>
           </div>
           <div className="border flex flex-col justify-center p-2 items-center  rounded-md shadow-lg relative lg:p-6">
-            <div className="px-3 py-4 lg:px-6">
+            <div className="px-3 py-4 pb-16  lg:px-6">
               <p className="text-white text-base">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
                 labore accusamus doloremque praesentium laboriosam sint dolor
@@ -45,7 +45,7 @@ const Testimonials = () => {
             </p>
           </div>
           <div className="border flex flex-col justify-center p-2 items-center  rounded-md shadow-lg relative lg:p-6">
-            <div className="px-3 py-4 lg:px-6">
+            <div className="px-3 py-4 pb-16  lg:px-6">
               <p className="text-white text-base">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
                 labore accusamus doloremque praesentium laboriosam sint dolor
