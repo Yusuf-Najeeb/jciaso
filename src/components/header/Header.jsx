@@ -11,7 +11,7 @@ const Header = () => {
 
   return (
     <>
-      {/* easy and fast contact */}
+      {/* easy and fast contact for users*/}
       <div className="py-4 px-12 bg-sky-500 hidden sm:flex flex-row justify-between">
         <div className=" text-white text-base font-medium font-['Karla'] ">
           <HiLocationMarker className="inline text-white mr-2 animate-bounce" />
