@@ -8,12 +8,16 @@ const Vision = () => {
   return (
     <React.Fragment>
       <div className="flex flex-col gap-16 w-[100%] px-6 lg:flex-row lg:px-16 lg:py-10 lg:mt-16">
-        <section className="lg:w-[50%]">
+        <section className="flex flex-col items-center gap-2 lg:w-[50%]">
           <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706348931433/7383af98-ff45-489b-ac58-3efcfca10058.png"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706434169210/6a30b8fa-0719-4c52-b001-9e1490aa2f08.png"
             alt="JCI_President"
-            className="w-full object-cover"
+            className="w-full rounded-lg object-cover"
           />
+          <div className="flex flex-col items-center">
+            <h1 className="text-[1.5rem] font-bold">Engr. Yetunde Adewale </h1>
+            <p className="font-semibold">President of JCI Aso</p>
+          </div>
         </section>
         <section className="flex flex-col items-center gap-10 lg:w-[50%]">
           <h1 className="font-bold text-[1.8rem] lg:text-[2.5rem] text-center">

@@ -5,11 +5,12 @@ const HeroSection = () => {
   const [backgroundIndex, setBackgroundIndex] = useState(0);
 
   const backgroundData = [
-    "https://images.pexels.com/photos/1367274/pexels-photo-1367274.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    "https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "https://cdn.hashnode.com/res/hashnode/image/upload/v1706437958071/e0b3386c-dce8-473f-9190-4aa8e89b1d10.jpeg",
+    "https://cdn.hashnode.com/res/hashnode/image/upload/v1706438077523/18580b6d-f15d-4fec-a54f-c4d23cb79e15.jpeg",
+    "https://cdn.hashnode.com/res/hashnode/image/upload/v1706438174134/3fcf6917-a166-4dae-af2e-24d454580e8f.jpeg",
+    "https://cdn.hashnode.com/res/hashnode/image/upload/v1706438225729/0e54b97a-cce3-4828-b109-50a5f5f96e80.jpeg",
+    "https://cdn.hashnode.com/res/hashnode/image/upload/v1706438267652/8b0398c7-a686-4a65-a84a-f0491148fe09.jpeg",
+    "https://cdn.hashnode.com/res/hashnode/image/upload/v1706438523837/191afa02-aa93-4dac-ba51-c8786027cef0.jpeg",
   ];
 
   useEffect(() => {
@@ -29,19 +30,19 @@ const HeroSection = () => {
   };
   return (
     <React.Fragment>
-      <div className="bg-gradient-to-r from-[#FBDA5A47] via-neutral-400 to-neutral-400 relative">
+      <div className="bg-black/80 relative">
         <div
           className="w-full h-screen bg-black/60 bg-cover bg-center mix-blend-overlay object-cover absolute "
           style={heroStyle}
         ></div>
-        <div className=" flex flex-col gap-6 justify-center   h-screen  z-10 relative px-4 lg:px-24 lg:w-[80%]">
+        <div className="text-white flex flex-col gap-6 justify-center   h-screen  z-10 relative px-4 lg:px-24 lg:w-[70%]">
           <h1 className="font-bold text-[2rem]  ">
-            Lorem ipsum dolor, sit amet consectetur
+            Developing Leaders for a Changing World
           </h1>
           <p className="text-[1.2rem] ">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-            dolore eius exercitationem, officiis animi sapiente nam asperiores
-            pariatur amet il
+            Launch yourself into the world of endless possibilities and exciting
+            opportunities, Get a platform to practice your craft and network
+            with other emerging leaders.
           </p>
           <JoinJCIButton />
         </div>
