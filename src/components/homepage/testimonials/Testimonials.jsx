@@ -2,69 +2,67 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="p-5 relative">
+    <div className="p-5 mt-24 relative">
       <h1 className="bg-white font-[Karla] text-center text-5xl font-medium">
         Our Stories and Testimonials
       </h1>
       <div className="bg-slate-700 p-10 mt-8">
-        <div className="flex flex-col  gap-32 justify-between lg:gap-8 lg:flex-row">
-          <div className="border flex flex-col justify-center p-2 items-center  rounded-md shadow-lg relative lg:p-6">
+        <div className="flex flex-col gap-32 justify-between lg:gap-8 lg:flex-row">
+          <div className="w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
-                labore accusamus doloremque praesentium laboriosam sint dolor
-                quis doloribus autem. Nobis hic iste exercitationem et,
-                molestiae possimus totam unde dolorum! Ipsam?
+                From day one I joined JCI Aso, I am filled with gratitude for
+                the enriching experiences and the incredible family there
+                offering me a warm welcome and comprehensive orientation.
               </p>
             </div>
             <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706370969019/c0fd8ef9-4c63-42f6-86d2-a69504f9d216.png"
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706444805830/2c42305e-c6c1-4af6-82f9-9daccad1498d.jpeg"
               alt="Profile"
               className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
             />
             <p className="text-white text-sm absolute bottom-[-40px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Name <br /> Position
+              Oladejo Ayomide <br /> Position
             </p>
           </div>
-          <div className="border flex flex-col justify-center p-2 items-center  rounded-md shadow-lg relative lg:p-6">
-            <div className="px-3 py-4 pb-16  lg:px-6">
+          <div className=" w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+            <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
-                labore accusamus doloremque praesentium laboriosam sint dolor
-                quis doloribus autem. Nobis hic iste exercitationem et,
-                molestiae possimus totam unde dolorum! Ipsam?
+                Since joining, I have learnt the culture of excellence,
+                partnership and collaboration, community impact, leadership,
+                accountability and I've had the chance to showcase my public
+                speaking skills.
               </p>
             </div>
             <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706370969019/c0fd8ef9-4c63-42f6-86d2-a69504f9d216.png"
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706444878598/999174b0-5108-48ba-9524-067c0d0534c9.jpeg"
               alt="Profile"
               className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
             />
             <p className="text-white text-sm absolute bottom-[-40px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Name <br /> Position
+              Joshua Aigbona Oghorialu <br /> Position
             </p>
           </div>
-          <div className="border flex flex-col justify-center p-2 items-center  rounded-md shadow-lg relative lg:p-6">
-            <div className="px-3 py-4 pb-16  lg:px-6">
+          <div className="w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+            <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex
-                labore accusamus doloremque praesentium laboriosam sint dolor
-                quis doloribus autem. Nobis hic iste exercitationem et,
-                molestiae possimus totam unde dolorum! Ipsam?
+                JCI Aso provided a platform for self-discovery and an avenue for
+                self-development. The leaders and members are amazing. I am
+                super grateful
               </p>
             </div>
             <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706370969019/c0fd8ef9-4c63-42f6-86d2-a69504f9d216.png"
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706444735532/21a414c9-7a09-47ce-ae8d-72deb58dc87f.jpeg"
               alt="Profile"
               className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
             />
             <p className="text-white text-sm absolute bottom-[-40px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Name <br /> Position
+              Shamsudeen Aderoju <br /> Position
             </p>
           </div>
         </div>
-        <div className="flex justify-end text-right  mt-20">
-          <button className=" text-white py-2 px-4 rounded-md border text-right">
+        <div className="flex justify-end text-right mt-20">
+          <button className="text-white py-2 px-4 rounded-md border text-right">
             See More
           </button>
         </div>

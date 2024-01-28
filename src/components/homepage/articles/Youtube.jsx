@@ -5,18 +5,22 @@ import "../../../App.css";
 const videos = [
   {
     id: 1,
-    vid: "https://www.youtube.com/watch?v=qH9EnpfwHKQ&t",
+    vid: "https://youtu.be/xaYl-YGRnl4",
   },
   {
     id: 2,
-    vid: "https://www.youtube.com/watch?v=Vn5sDGrl-QE",
+    vid: "https://www.youtube.com/watch?v=qH9EnpfwHKQ&t",
   },
   {
     id: 3,
-    vid: "https://www.youtube.com/watch?v=aoW0Hl6CR2M",
+    vid: "https://www.youtube.com/watch?v=Vn5sDGrl-QE",
   },
   {
     id: 4,
+    vid: "https://www.youtube.com/watch?v=aoW0Hl6CR2M",
+  },
+  {
+    id: 5,
     vid: "https://www.youtube.com/watch?v=jAc8QmkLPZU",
   },
 ];
