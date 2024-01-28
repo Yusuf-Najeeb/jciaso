@@ -8,7 +8,7 @@ const Sponsors = () => {
       </h1>
       <section className="flex flex-wrap justify-start items-start gap-6 lg:gap-16">
         <img
-          src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706352060049/0fda7174-a30d-4f05-9e02-cdcef33389a8.png"
+          src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706449144817/8fe7f413-59eb-459b-a4d1-baa5b95eb77c.jpeg"
           alt="quick teller"
           className="w-[20rem] h-[6rem]  object-contain"
         />
