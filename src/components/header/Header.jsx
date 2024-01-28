@@ -1,54 +1,67 @@
 import React from "react";
+import { FaPhone } from "react-icons/fa";
+import { HiLocationMarker } from "react-icons/hi";
 
 const Header = () => {
+
+    function toggleBtn() {
+            const mobileMenu = document.getElementById("mobile-menu-4");
+                mobileMenu.classList.toggle("hidden");
+        }
+
   return (
     <>
       {/* easy and fast contact */}
-      <div className="w-full p-4 flex justify-between bg-sky-500">
-        <div className=" text-white text-base font-medium font-['Karla'] leading-normal">
-          Abuja, Aso, Abuja
+      <div className="py-4 px-12 bg-sky-500 hidden sm:flex flex-row justify-between">
+        <div className=" text-white text-base font-medium font-['Karla'] ">
+          <HiLocationMarker className="inline text-white mr-2 animate-bounce" />
+          Aso, Abuja
         </div>
-        <div className=""> 
-          <span className="text-white text-base font-medium font-['Karla'] leading-normal">
+        <div className="">
+          <FaPhone className="inline text-white mr-2 animate-pulse" />
+          <span className="text-white text-base mr-2 font-['Karla'] leading-normal">
             +2347035551111,
           </span>
-          <span className="text-white text-base font-medium font-['Karla'] leading-normal">
+          <span className="text-white text-base font-['Karla'] leading-normal">
             +2347023333221
           </span>
         </div>
       </div>
 
-      <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white"></div>
+      <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white hidden sm:block"></div>
       {/* NavBar Section */}
-      <nav className="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+      <header className="sticky top-0 bg-white border-b border-gray-200 dark:bg-gray-900 z-50">
+      <nav className="bg-white border-gray-200 shadow-md py-2.5 dark:bg-gray-900">
         <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
           <a href="#" className="flex items-center">
             <img
-              src="https://www.figma.com/file/UyF0ohAtfL17vmDaduag8o/jci-aso?type=design&node-id=17-65&mode=dev"
-              className="h-6 mr-3 sm:h-9"
+              src="https://logonoid.com/images/thumbs/jci-logo.png"
+              className="h-20 sm:h-20"
               alt="JCI Logo"
             />
-            <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center pb-[-6px] text-[#ecbd37] text-sm font-bold whitespace-nowrap dark:text-[#ecbd37]">
               ASO
             </span>
           </a>
+
           <div className="flex items-center lg:order-2">
             <div className="hidden mt-2 mr-4 sm:inline-block">
               <span></span>
             </div>
 
             <a
-              href="https://themesberg.com/product/tailwind-css/landing-page"
-              className="text-white bg-sky-500 hover:bg-sky-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-sky-500 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800"
+              href="/"
+              className="text-white pr-8 bg-sky-500 hover:bg-sky-700 focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-sky-500 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800"
             >
-              Join JCI now !
+              Join JCI now!
             </a>
             <button
+              onClick={toggleBtn}
               data-collapse-toggle="mobile-menu-2"
               type="button"
               className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="mobile-menu-2"
-              aria-expanded="true"
+              aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -78,8 +91,8 @@ const Header = () => {
             </button>
           </div>
           <div
-            className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1"
-            id="mobile-menu-2"
+            className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 hidden"
+            id="mobile-menu-4"
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
@@ -94,7 +107,7 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Excos & Members
                 </a>
@@ -102,9 +115,9 @@ const Header = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-blue-200 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-blue-700"
                 >
-                 News & Articles
+                  News & Articles
                 </a>
               </li>
               <li>
@@ -123,18 +136,11 @@ const Header = () => {
                   About Us
                 </a>
               </li>
-              {/* <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
-                >
-                  Contact
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>
       </nav>
+      </header>
     </>
   );
 };
