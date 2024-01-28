@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 } */
+
+.tweets::-webkit-scrollbar,
+.youtube::-webkit-scrollbar {
+  width: 5px;
+}
+
+.tweets::-webkit-scrollbar-thumb,
+.youtube::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.tweets::-webkit-scrollbar-track,
+.youtube::-webkit-scrollbar-track {
+  background-color: rgb(222, 220, 220);
+}
