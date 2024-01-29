@@ -8,8 +8,11 @@ const Sponsors = () => {
       </h1>
       <section className="flex flex-wrap justify-start items-start gap-6 lg:gap-16">
         <img
+
+
           src="https://res.cloudinary.com/duw4jtxls/image/upload/v1706450578/IMG-20240128-WA0032_oztynh.jpg"
           alt="SEC"
+
           className="w-[20rem] h-[6rem]  object-contain"
         />
         <img
