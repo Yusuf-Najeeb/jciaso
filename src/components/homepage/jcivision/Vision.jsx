@@ -41,9 +41,9 @@ const Vision = () => {
             </a>
           </div>
         </section>
-        <section className="flex flex-col items-center gap-10 lg:w-[50%]">
-          <h1 className="font-bold text-[1.8rem] lg:text-[2.5rem] text-center">
-            our Core Objectives.
+        <section className=" flex flex-col items-center gap-10 lg:w-[50%]">
+          <h1 className="font-bold title text-[1.8rem] lg:text-[2.5rem] text-center">
+            Our Core Objectives.
           </h1>
           <section className="flex flex-col gap-16 ">
             <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
