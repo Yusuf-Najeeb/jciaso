@@ -28,7 +28,7 @@ const videos = [
 
 const Youtube = () => {
   return (
-    <div className="basis:full md:basis-1/2 border rounded-xl">
+    <div className="basis:full md:basis-1/2 w-full md:w-1/2 border rounded-xl">
       <div className="flex flex-row justify-between items-center p-2">
         <h4 className="font-semibold">Youtube Videos</h4>
         <button className="py-2 px-3 rounded-lg text-white bg-red-700 hover:bg-red-700/70 transition text-sm flex flex-row items-center justify-around gap-1">
@@ -36,7 +36,7 @@ const Youtube = () => {
           <BsYoutube size={20} />
         </button>
       </div>
-      <div className="mx-auto max-h-[70vh] overflow-y-scroll youtube py-2 pl-8">
+      <div className="mx-auto max-h-[70vh] overflow-y-scroll youtube py-2 lg:pl-8">
         {videos.map((item) => (
           <div className="w-full my-6" key={item.id}>
             <ReactPlayer url={item.vid} width={{ width: "80%" }} />
