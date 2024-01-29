@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { articleUpdates } from "../../../localdb/Article";
-import { Link } from "react-router-dom";
 
 const LatestArticle = () => {
   const [news] = useState(articleUpdates);
