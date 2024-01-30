@@ -5,7 +5,7 @@ import { CiLinkedin, CiYoutube, CiFacebook } from "react-icons/ci";
 
 const ContactInfo = () => {
   return (
-    <div className="flex flex-col justify-center gap-10 py-16 px-4 font-semibold lg:px-10">
+    <div className="flex flex-col justify-center gap-10 py-16 px-6 font-semibold lg:px-10">
       {" "}
       <div className="flex flex-col gap-4">
         <h1 className="font-bold text-[1.6rem]">Address</h1>

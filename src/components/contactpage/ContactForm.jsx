@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <form
       action=""
-      className="w-[100%] flex flex-col items-start lg:px-8 gap-6 py-20"
+      className="w-[100%] flex flex-col items-start px-6 lg:px-8 gap-6 py-20"
     >
       <div className="w-[100%] flex flex-col gap-6 lg:flex-row mb-6">
         <div className="lg:w-1/2 flex flex-col">
