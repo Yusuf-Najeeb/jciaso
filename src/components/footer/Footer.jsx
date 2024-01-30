@@ -14,7 +14,7 @@ const Footer = () => {
             <Link to="" className="hover:underline duration-300">
               About us
             </Link>
-            <Link to="" className="hover:underline duration-300">
+            <Link to="/contact" className="hover:underline duration-300">
               Contact us
             </Link>
             <Link to="" className="hover:underline duration-300">

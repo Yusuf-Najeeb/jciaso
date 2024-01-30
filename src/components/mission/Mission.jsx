@@ -3,7 +3,9 @@ import React from "react";
 const Mission = () => {
   return (
     <section className="flex flex-col justify-center items-center gap-10 px-6 mt-20 lg:px-16">
-      <h1 className="text-[#01A85A] font-bold text-[2rem]">Mission & Vision</h1>
+      <h1 className="text-[#01A85A] font-bold text-[2rem] title">
+        Mission & Vision
+      </h1>
       <section className="flex flex-wrap justify-center gap-10">
         <div className="border border-[#000] flex flex-col items-center text-center gap-4 p-4 rounded-lg lg:w-[30%]">
           <h3 className="text-[#328CB1] text-[1.4rem]">Vision</h3>

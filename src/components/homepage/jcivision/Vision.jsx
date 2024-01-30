@@ -41,9 +41,9 @@ const Vision = () => {
             </a>
           </div>
         </section>
-        <section className="flex flex-col items-center gap-10 lg:w-[50%]">
-          <h1 className="font-bold text-[1.8rem] lg:text-[2.5rem] text-center">
-            our Core Objectives.
+        <section className=" flex flex-col items-center gap-10 lg:w-[50%]">
+          <h1 className="font-bold title text-[1.8rem] lg:text-[2.5rem] text-center">
+            Our Core Objectives.
           </h1>
           <section className="flex flex-col gap-16 ">
             <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
@@ -54,7 +54,7 @@ const Vision = () => {
                 <h3 className="font-bold text-[1.2rem] ">
                   Member-Centric Approach
                 </h3>
-                <p className="font-medium">
+                <p className="font-medium text-slate-500">
                   Establish a member-centric approach by conducting regular
                   surveys to gather feedback and ideas, and implement incentive
                   programs to recognize and reward member engagement.
@@ -67,7 +67,7 @@ const Vision = () => {
               </p>
               <div className="flex flex-col gap-2">
                 <h3 className="font-bold text-[1.2rem] ">Engaging Projects</h3>
-                <p className="font-medium">
+                <p className="font-medium text-slate-500">
                   Organize health walks to promote physical well-being and
                   community bonding, and establish a mentorship program to
                   support personal and professional growth.
@@ -82,7 +82,7 @@ const Vision = () => {
                 <h3 className="font-bold text-[1.2rem]">
                   Strengthening Local Collaborations
                 </h3>
-                <p className="font-medium">
+                <p className="font-medium text-slate-500">
                   Forge partnerships with local businesses, NGOs, and government
                   agencies, and collaborate with other JCI chapters and similar
                   organizations to enhance community impact and collective
@@ -96,7 +96,7 @@ const Vision = () => {
               </p>
               <div className="flex flex-col gap-2">
                 <h3 className="font-bold text-[1.2rem]">Global Engagement</h3>
-                <p className="font-medium">
+                <p className="font-medium text-slate-500">
                   Promote international partnerships to exchange ideas and
                   implement cross-border initiatives.
                 </p>
@@ -107,8 +107,8 @@ const Vision = () => {
                 <MdOutline6FtApart size={30} color="#FFF" />
               </p>
               <div className="flex flex-col gap-2">
-                <h3 className="font-bold text-[1.2rem]">Partnership:</h3>
-                <p className="font-medium">
+                <h3 className="font-bold text-[1.2rem]">Partnership</h3>
+                <p className="font-medium text-slate-500">
                   Conducting regular financial audits ensures transparency,
                   while also facilitating knowledge sharing and capacity
                   building initiatives. Enhancing brand awareness and visibility
