@@ -6,9 +6,9 @@ const Testimonials = () => {
       <h1 className="title bg-white font-[Karla] text-center text-5xl font-medium">
         Our Stories and Testimonials
       </h1>
-      <div className="bg-slate-700 p-10 mt-12 lg:mt-12">
-        <div className="flex flex-col gap-8 lg:flex-row lg:justify-between">
-          <div className="w-full lg:w-[400px] border flex flex-col justify-center p-4 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+      <div className="bg-slate-700 p-10 mt-8">
+        <div className="flex flex-col gap-32 justify-between lg:gap-8 lg:flex-row">
+          <div className="lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 From day one I joined JCI Aso, I am filled with gratitude for
@@ -21,12 +21,11 @@ const Testimonials = () => {
               alt="Profile"
               className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
             />
-            <p className="text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Oladejo Ayomide <br /> Position
+            <p className="mt-3 text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
+              Oladejo Ayomide <br />
             </p>
           </div>
-
-          <div className="w-full lg:w-[400px] border flex flex-col justify-center p-4 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+          <div className=" lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 Since joining, I have learnt the culture of excellence,
@@ -40,12 +39,11 @@ const Testimonials = () => {
               alt="Profile"
               className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
             />
-            <p className="text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Joshua Aigbona Oghorialu <br /> Position
+            <p className="mt-3 text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
+              Joshua Aigbona Oghorialu <br />
             </p>
           </div>
-
-          <div className="w-full lg:w-[400px] border flex flex-col justify-center p-4 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+          <div className="lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 JCI Aso provided a platform for self-discovery and an avenue for
@@ -58,13 +56,13 @@ const Testimonials = () => {
               alt="Profile"
               className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
             />
-            <p className="text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
+            <p className="mt-3 text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
               Shamsudeen Aderoju <br /> JCI Aso Secretary
             </p>
           </div>
         </div>
-        <div className="flex justify-end text-right mt-8 lg:mt-12">
-          <button className="text-white py-2 px-4 rounded-md border hover:border-sky-500 hover:text-sky-500 text-right">
+        <div className="flex justify-end text-right mt-20">
+          <button className="mt-8 text-white py-2 px-4 rounded-md border hover:border-sky-500 hover:text-sky-500 text-right">
             See More
           </button>
         </div>
