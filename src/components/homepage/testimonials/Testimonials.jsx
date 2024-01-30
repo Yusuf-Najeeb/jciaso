@@ -48,7 +48,7 @@ const Testimonials = () => {
               <p className="text-white text-base">
                 JCI Aso provided a platform for self-discovery and an avenue for
                 self-development. The leaders and members are amazing. I am
-                super grateful
+                super grateful.
               </p>
             </div>
             <img
