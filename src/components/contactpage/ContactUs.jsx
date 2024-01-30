@@ -3,6 +3,7 @@ import Header from "../header/Header";
 import ContactForm from "./ContactForm";
 import ContactInfo from "./ContactInfo";
 import ContactHeroSection from "./ContactHeroSection";
+import Footer from "../footer/Footer";
 
 const ContactUs = () => {
   return (
@@ -20,6 +21,7 @@ const ContactUs = () => {
           <ContactInfo />
         </section>
       </div>
+      <Footer />
     </div>
   );
 };
