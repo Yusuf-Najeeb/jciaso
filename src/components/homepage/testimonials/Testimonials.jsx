@@ -8,7 +8,7 @@ const Testimonials = () => {
       </h1>
       <div className="bg-slate-700 p-10 mt-8">
         <div className="flex flex-col gap-32 justify-between lg:gap-8 lg:flex-row">
-          <div className="w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+          <div className="lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 From day one I joined JCI Aso, I am filled with gratitude for
@@ -25,7 +25,7 @@ const Testimonials = () => {
               Oladejo Ayomide <br /> Position
             </p>
           </div>
-          <div className=" w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+          <div className=" lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 Since joining, I have learnt the culture of excellence,
@@ -43,7 +43,7 @@ const Testimonials = () => {
               Joshua Aigbona Oghorialu <br /> Position
             </p>
           </div>
-          <div className="w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
+          <div className="lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
             <div className="px-3 py-4 pb-16 lg:px-6">
               <p className="text-white text-base">
                 JCI Aso provided a platform for self-discovery and an avenue for
