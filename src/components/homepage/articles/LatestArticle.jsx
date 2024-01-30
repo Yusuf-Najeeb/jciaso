@@ -29,7 +29,7 @@ const LatestArticle = () => {
                   </div>
                 </section>
                 <p className="">{updates.content}</p>
-                <a href={updates.site}>
+                <a href={updates.site} target="blank">
                   <button className="border border-[#2288A9] text-[#2288A9] font-medium px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-500 duration-300 mb-4">
                     {updates.read}
                   </button>

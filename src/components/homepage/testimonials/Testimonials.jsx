@@ -56,7 +56,7 @@ const Testimonials = () => {
               alt="Profile"
               className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
             />
-            <p className="mt-3 text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
+            <p className="mt-5 whitespace-nowrap text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
               Shamsudeen Aderoju <br /> JCI Aso Secretary
             </p>
           </div>
