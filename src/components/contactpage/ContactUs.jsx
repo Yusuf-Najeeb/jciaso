@@ -9,8 +9,8 @@ const ContactUs = () => {
     <div>
       <Header />
       <ContactHeroSection />
-      <div className="w-[100%] flex flex-col gap-6 lg:flex-row lg:px-12">
-        <section className="lg:w-[60%] flex flex-col gap-16 border-r-2">
+      <div className="w-[100%] flex flex-col gap-6 lg:flex-row lg:px-12 ">
+        <section className="lg:w-[60%] flex flex-col gap-16 border-r-2  px-6 lg:px-8">
           <ContactForm />
           <h1 className="text-[2rem] font-bold pb-16">
             <span className="text-[#20B4E3]"> Locate us</span> on the map

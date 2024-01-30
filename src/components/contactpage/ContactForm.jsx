@@ -2,10 +2,7 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <form
-      action=""
-      className="w-[100%] flex flex-col items-start px-6 lg:px-8 gap-6 py-20"
-    >
+    <form action="" className="w-[100%] flex flex-col items-start gap-6 py-20">
       <div className="w-[100%] flex flex-col gap-6 lg:flex-row mb-6">
         <div className="lg:w-1/2 flex flex-col">
           <label htmlFor="name" className="text-[#34313799] opacity-90">
