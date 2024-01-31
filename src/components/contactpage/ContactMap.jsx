@@ -3,7 +3,7 @@ import React from "react";
 const ContactMap = () => {
   return (
     <section>
-      <h1 className="flex text-[2rem] font-bold pt-16 px-6 lg:hidden">
+      <h1 className="flex font-bold pt-16 px-6 lg:hidden">
         <span className="text-[#20B4E3] px-2"> Locate us </span> on the map
       </h1>
       <div className="bg-black/60 relative overflow-hidden">
