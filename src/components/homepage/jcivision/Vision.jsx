@@ -25,7 +25,7 @@ const Vision = () => {
 
           <div className="flex flex-col items-start gap-2">
             <h1 className="font-bold text-[1.8rem] lg:text-[2.5rem] text-center">
-              Meet our President
+              Behold, the 24th President
             </h1>
             <p className="text-start">
               In my tenure as JCI ASO President, I will be committed to
@@ -43,7 +43,7 @@ const Vision = () => {
         </section>
         <section className=" flex flex-col items-center gap-10 lg:w-[50%]">
           <h1 className="font-bold title text-[1.8rem] lg:text-[2.5rem] text-center">
-            Our Core Objectives.
+            2024 Presidential theme
           </h1>
           <section className="flex flex-col gap-16 ">
             <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
