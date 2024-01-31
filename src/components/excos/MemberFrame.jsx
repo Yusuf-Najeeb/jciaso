@@ -4,7 +4,8 @@ const MemberFrame = ({ member }) => {
   return (
     <div className="flex flex-col items-center gap-1 font-semibold border border-[#adacaf] p-3 rounded-md">
       <img
-        className="w-[12rem] h-[12rem] object-cover rounded-md "
+        className="w-[12rem] h-[12rem] object-cover rounded-md"
+        loading="lazy"
         src={member.image}
         alt={member.name}
       />
