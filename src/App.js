@@ -4,7 +4,6 @@ import "./index.css";
 import ContactUs from "./components/contactpage/ContactUs";
 import About from "./components/about-page/About";
 import Excos from "./components/excos/Excos";
-import Manual from "./components/constitution/Manual";
 
 function App() {
   return (
