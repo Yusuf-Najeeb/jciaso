@@ -10,12 +10,13 @@ const LatestArticle = () => {
       <section className="flex flex-wrap justify-center gap-8">
         {news.map((updates) => {
           return (
-            <div className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%] ">
+            <div className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%]">
               <img
                 src={updates.Image}
-                className="w-full h-[50%]"
+                className="w-full h-[250px] object-cover object-top"
                 alt="article coverImage"
               />
+
               <section className="p-4 flex flex-col gap-6 items-start">
                 <section className="flex flex-col gap-2 font-semibold">
                   <div className="text-red-500 flex gap-4 items-center font-medium">
