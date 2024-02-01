@@ -36,7 +36,7 @@ const Tweets = () => {
           <FaXTwitter />
         </button>
       </div>
-      <div className="mx-auto max-h-[70vh] overflow-y-scroll tweets py-2 lg:pl-8">
+      <div className="mx-auto max-h-[70vh] overflow-y-auto tweets py-2 lg:pl-8">
         {tweets.map((tweets) => (
           <div className="light" key={tweets.id}>
             <Tweet id={tweets.tweet} />

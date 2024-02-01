@@ -36,7 +36,7 @@ const Youtube = () => {
           <BsYoutube size={20} />
         </button>
       </div>
-      <div className="mx-auto max-h-[70vh] overflow-y-scroll youtube py-2 lg:pl-8">
+      <div className="mx-auto max-h-[70vh] overflow-y-auto youtube py-2 lg:pl-8">
         {videos.map((item) => (
           <div className="w-full my-6" key={item.id}>
             <ReactPlayer url={item.vid} width={{ width: "80%" }} />
