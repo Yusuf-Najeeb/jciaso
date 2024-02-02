@@ -34,15 +34,12 @@ const Header = () => {
       <header className="sticky top-0 bg-white border-b border-gray-200  z-50 ">
         <nav className="bg-white border-gray-200 shadow-md py-2.5 ">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
-            <Link to="#" className="flex items-center">
+            <Link to="#" className="flex items-center w-20 h-12">
               <img
-                src="https://logonoid.com/images/thumbs/jci-logo.png"
-                className="h-20 sm:h-20"
-                alt="JCI Logo"
+                className="w-full"
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706795621833/d0382388-1cac-4440-8f72-7585d8f0bafd.png"
+                alt="JCI-Aso logo"
               />
-              <span className="self-center pb-[-6px] text-[#ecbd37] text-sm font-bold whitespace-nowrap dark:text-[#ecbd37]">
-                ASO
-              </span>
             </Link>
 
             <div className="flex items-center lg:order-2">
@@ -111,7 +108,7 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    to="#"
+                    to="/articles"
                     className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
                   >
                     News & Articles
