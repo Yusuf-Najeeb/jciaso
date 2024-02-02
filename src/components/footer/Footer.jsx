@@ -17,16 +17,16 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <h1 className="font-bold text-[1.5rem]">Quick Links</h1>
           <ul className="flex flex-col gap-2 ">
-            <Link to="" className="hover:underline duration-300">
+            <Link to="/about" className="hover:underline duration-300">
               About us
             </Link>
             <Link to="/contact" className="hover:underline duration-300">
               Contact us
             </Link>
-            <Link to="" className="hover:underline duration-300">
+            <Link to="#" className="hover:underline duration-300">
               Donate
             </Link>
-            <Link to="" className="hover:underline duration-300">
+            <Link to="/articles" className="hover:underline duration-300">
               News & Articles
             </Link>
           </ul>
