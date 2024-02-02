@@ -1,4 +1,5 @@
 import React from "react";
+import CountUp from "react-countup";
 
 const AboutNumber = () => {
   return (
@@ -8,22 +9,34 @@ const AboutNumber = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-14 text-white">
           <div className="p-6 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] py-12 rounded-md shadow-md">
-            <b className="text-5xl font-extrabold "> 4000+</b>
+            <b className="text-5xl font-extrabold ">
+              {" "}
+              <CountUp start={0} end={1300} duration={5} />+
+            </b>
             <h3 className="text-xl font-bold mb-2">Members</h3>
           </div>
 
           <div className="p-4 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] py-12 rounded-md shadow-md">
-            <b className="text-5xl font-extrabold "> 500+</b>
+            <b className="text-5xl font-extrabold ">
+              {" "}
+              <CountUp start={0} end={300} duration={4} />+
+            </b>
             <h3 className="text-xl font-bold mb-2">Excos</h3>
           </div>
 
           <div className="p-4 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] py-12  rounded-md shadow-md">
-            <b className="text-5xl font-extrabold "> 500+</b>
+            <b className="text-5xl font-extrabold ">
+              {" "}
+              <CountUp start={0} end={27} duration={7} />+
+            </b>
             <h3 className="text-xl font-bold mb-2">Years of Experience</h3>
           </div>
 
           <div className="p-4 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] py-12 bg-white rounded-md shadow-md">
-            <b className="text-5xl font-extrabold "> 100%</b>
+            <b className="text-5xl font-extrabold ">
+              {" "}
+              <CountUp start={0} end={100} duration={5} />%
+            </b>
             <h3 className="text-xl font-bold mb-2">Professionalism</h3>
           </div>
         </div>
