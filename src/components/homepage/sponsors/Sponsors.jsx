@@ -6,7 +6,7 @@ const Sponsors = () => {
       <h1 className=" title font-bold text-center text-[1.8rem] lg:text-[2.5rem]">
         Our Proud Sponsors
       </h1>
-      <section className="flex flex-wrap justify-start items-start gap-6 lg:gap-16">
+      <section className="flex flex-wrap justify-center items-start gap-6 lg:gap-16">
         <img
           src="https://res.cloudinary.com/duw4jtxls/image/upload/v1706450578/IMG-20240128-WA0032_oztynh.jpg"
           alt="SEC"

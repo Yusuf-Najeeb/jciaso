@@ -13,7 +13,7 @@ const LatestArticle = () => {
             <div className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%]">
               <img
                 src={updates.Image}
-                className="w-full h-[250px] object-cover object-top"
+                className="w-full h-[250px] object-cover object-top rounded-t-md"
                 alt="article coverImage"
               />
 
