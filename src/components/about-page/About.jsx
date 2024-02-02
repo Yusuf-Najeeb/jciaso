@@ -2,10 +2,11 @@ import React from "react";
 import "../../index.css";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
-import Mission from "../mission/Mission";
 import AboutHeroSection from "./AboutHeroSection";
+import AboutMission from "./AboutMission";
 import AboutContent from "./AboutContent";
-// import AboutNumbers from "./AboutNumbers";
+import AboutNumber from "./AboutNumber";
+import AboutPresident from "./AboutPresident";
 
 const About = () => {
   return (
@@ -13,9 +14,9 @@ const About = () => {
       <Header />
       <AboutHeroSection />
       <AboutContent />
-      {/* <AboutNumbers /> */}
-
-      <Mission />
+      <AboutMission />
+      <AboutNumber />
+      <AboutPresident />
       <Footer />
     </>
   );

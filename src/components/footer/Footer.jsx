@@ -8,6 +8,12 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] flex flex-col justify-center items-center text-[#FFFFFF]  h-screen">
       <section className="flex flex-wrap gap-10 px-6 lg:gap-40">
+        <div className="self-center">
+          <img
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706795621833/d0382388-1cac-4440-8f72-7585d8f0bafd.png"
+            alt="JCI-Aso logo"
+          />
+        </div>
         <div className="flex flex-col gap-6">
           <h1 className="font-bold text-[1.5rem]">Quick Links</h1>
           <ul className="flex flex-col gap-2 ">
