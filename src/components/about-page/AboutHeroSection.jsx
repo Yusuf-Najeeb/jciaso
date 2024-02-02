@@ -10,7 +10,7 @@ const AboutHeroSection = () => {
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">
         <h1 className=" relative  text-[3rem]">About Us</h1>
-        <p className="relative text-[1.5rem]">
+        <p className="relative text-[1.5rem] sm:text-[1rem]">
           Learn a little about us, our organisation, ours goals and values
         </p>
       </div>
