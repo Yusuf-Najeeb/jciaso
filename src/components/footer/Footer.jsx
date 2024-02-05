@@ -6,8 +6,8 @@ const Footer = () => {
   const today = new Date();
 
   return (
-    <footer className="bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] flex flex-col justify-center items-center text-[#FFFFFF]  h-screen">
-      <section className="flex flex-wrap gap-10 px-6 lg:gap-40">
+    <footer className="bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] flex flex-col justify-center items-center text-[#FFFFFF] pt-8">
+      <section className="flex flex-col-reverse md:flex-row flex-wrap gap-10 px-6 lg:gap-40">
         <div className="self-center">
           <img
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706795621833/d0382388-1cac-4440-8f72-7585d8f0bafd.png"
