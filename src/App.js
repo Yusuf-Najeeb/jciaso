@@ -5,6 +5,7 @@ import ContactUs from "./components/contactpage/ContactUs";
 import About from "./components/about-page/About";
 import Excos from "./components/excos/Excos";
 import Articles from "./components/article-page/Article";
+import Donate from "./components/donate/Donate";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/excos" element={<Excos />} />
         <Route path="/articles" element={<Articles />} />
+        <Route path="/donate" element={<Donate />} />
       </Routes>
     </div>
   );
