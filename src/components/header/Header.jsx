@@ -95,7 +95,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                     aria-current="page"
                   >
                     Home
@@ -104,7 +104,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/excos"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 "
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 "
                   >
                     Excos & Members
                   </Link>
@@ -112,7 +112,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/articles"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
                     News & Articles
                   </Link>
@@ -120,7 +120,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/donate"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
                     Donate
                   </Link>
@@ -128,7 +128,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/about"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0"
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
                   >
                     About Us
                   </Link>
