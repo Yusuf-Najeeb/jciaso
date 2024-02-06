@@ -32,14 +32,14 @@ const HeroSection = () => {
     <React.Fragment>
       <div className="bg-black/80 relative">
         <div
-          className="w-full h-screen  bg-cover bg-center mix-blend-overlay object-cover absolute "
+          className="w-full h-screen bg-cover bg-center mix-blend-overlay object-cover absolute transition-all duration-1000 delay-200 ease-in-out"
           style={heroStyle}
         ></div>
-        <div className="text-white flex flex-col gap-6 justify-center   h-screen  z-10 relative px-4 lg:px-24 lg:w-[70%]">
-          <h1 className="font-bold text-[2rem]  ">
+        <div className="text-white flex flex-col gap-6 justify-center h-screen z-10 relative px-4 lg:px-24 lg:w-[70%]">
+          <h1 className="font-bold text-[4rem] leading-tight">
             Developing Leaders for a Changing World
           </h1>
-          <p className="text-[1.2rem] ">
+          <p className="text-[1.4rem] w-[90%] leading-tight">
             Launch yourself into the world of endless possibilities and exciting
             opportunities, Get a platform to practice your craft and network
             with other emerging leaders.

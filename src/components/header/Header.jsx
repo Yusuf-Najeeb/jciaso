@@ -46,18 +46,18 @@ const Header = () => {
 
       <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white hidden sm:block"></div>
       {/* NavBar Section */}
-      <header className="sticky top-0 bg-white border-b border-gray-200  z-50 ">
+      <header className="sticky top-0 bg-white border-b border-gray-200 z-50 ">
         <nav className="bg-white border-gray-200 shadow-md py-2.5 ">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
-            <Link to="#" className="flex items-center">
+            <Link
+              to="#"
+              className="flex items-center w-20 h-12 md:w-28 md:h-16"
+            >
               <img
-                src="https://logonoid.com/images/thumbs/jci-logo.png"
-                className="h-20 sm:h-20"
-                alt="JCI Logo"
+                className="w-full"
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706795621833/d0382388-1cac-4440-8f72-7585d8f0bafd.png"
+                alt="JCI-Aso logo"
               />
-              <span className="self-center pb-[-6px] text-[#ecbd37] text-sm font-bold whitespace-nowrap dark:text-[#ecbd37]">
-                ASO
-              </span>
             </Link>
 
             <div className="flex items-center lg:order-2">
@@ -134,22 +134,16 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    to="#"
-                    onClick={() => handleLinkClick("news")}
-                    className={`block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  ${
-                      activeLink === "news" ? "border-b-2 border-sky-500" : ""
-                    } `}
+                    to="/articles"
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
                   >
                     News & Articles
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="#"
-                    onClick={() => handleLinkClick("donate")}
-                    className={`block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  ${
-                      activeLink === "donate" ? "border-b-2 border-sky-500" : ""
-                    }`}
+                    to="/donate"
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
                   >
                     Donate
                   </Link>
