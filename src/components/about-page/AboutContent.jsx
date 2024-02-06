@@ -27,7 +27,7 @@ const AboutContent = () => {
           alt="Brief about jci "
           className="w-full h-full object-cover mix-blend-overlay"
         />
-        <p className="absolute text-[#FFF] tracking-[1.3rem] font-extrabold text-[2rem] top-[50%] right-[20%]">
+        <p className="absolute text-[#FFF] tracking-[1.3rem] font-extrabold text-[2rem] top-[50%] right-[15%] lg:right-[20%]">
           JCI ASO
         </p>
       </div>
