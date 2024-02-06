@@ -7,22 +7,22 @@ const DonateBankDetails = () => {
         <h1 className="text-[1.5rem]">
           Kindly send your donations to the account details below:{" "}
         </h1>
-        <ul className="flex flex-col gap-2 lg:px-20">
-          <li className="flex gap-6 items-center">
-            Account Number :{" "}
-            <span className="bg-[#e5e5e5] p-1 px-4 rounded-md">1234567890</span>
-          </li>
-          <li className="flex gap-6 items-center">
-            Bank Name :{" "}
-            <span className="bg-[#e5e5e5] p-1 px-4 rounded-md">Union Bank</span>
-          </li>
-          <li className="flex gap-6 items-center">
-            Account Name :{" "}
-            <span className="bg-[#e5e5e5] p-1 px-4 rounded-md">
+        <div className="flex flex-col gap-4 px-6 lg:px-20">
+          <div className="flex flex-col items-start lg:gap-6 lg:flex-row ">
+            <p>Account Number : </p>
+            <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">1234567890</p>
+          </div>
+          <div className="flex flex-col items-start lg:gap-6 lg:flex-row ">
+            <p>Bank Name : </p>
+            <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">Union Bank</p>
+          </div>
+          <div className="flex flex-col items-start lg:gap-6 lg:flex-row ">
+            <p>Account Name : </p>
+            <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">
               Junior chamber international.
-            </span>
-          </li>
-        </ul>
+            </p>
+          </div>
+        </div>
       </section>
       <section className="flex flex-col justify-center items-center text-center font-medium gap-2">
         <img
