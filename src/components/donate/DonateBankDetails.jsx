@@ -7,7 +7,7 @@ const DonateBankDetails = () => {
         <h1 className="text-[1.5rem]">
           Kindly send your donations to the account details below:{" "}
         </h1>
-        <div className="flex flex-col gap-4 px-6 lg:px-20">
+        <div className="flex flex-col gap-4 lg:px-20">
           <div className="flex flex-col items-start lg:gap-6 lg:flex-row ">
             <p>Account Number : </p>
             <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">1234567890</p>
