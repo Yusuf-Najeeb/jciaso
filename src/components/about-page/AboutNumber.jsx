@@ -11,7 +11,7 @@ const AboutNumber = () => {
           <div className="p-6 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] py-12 rounded-md shadow-md">
             <b className="text-5xl font-extrabold ">
               {" "}
-              <CountUp start={0} end={1300} duration={5} />+
+              <CountUp start={0} end={1300} duration={6} />+
             </b>
             <h3 className="text-xl font-bold mb-2">Members</h3>
           </div>
@@ -19,7 +19,7 @@ const AboutNumber = () => {
           <div className="p-4 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] py-12 rounded-md shadow-md">
             <b className="text-5xl font-extrabold ">
               {" "}
-              <CountUp start={0} end={300} duration={4} />+
+              <CountUp start={0} end={300} duration={7} />+
             </b>
             <h3 className="text-xl font-bold mb-2">Excos</h3>
           </div>
