@@ -7,8 +7,8 @@ const Distinguished = () => {
   return (
     <div className="flex flex-col gap-12 justify-center items-center py-24 px-6 lg:px-16">
       <div className="flex flex-col items-center">
-        <h1 className="title">Meet the Executive Members</h1>
-        <p>
+        <h1 className="title text-center ">Meet the Executive Members</h1>
+        <p className="text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa
           mi.
         </p>

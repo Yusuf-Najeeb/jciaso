@@ -38,6 +38,7 @@ const HeroSection = () => {
           style={heroStyle}
         ></div>
         <div className="text-white flex flex-col gap-6 justify-center h-screen z-10 relative px-4 lg:px-24 lg:w-[70%]">
+
           <h1
             data-aos="fade-down"
             data-aos-duration="1000"
