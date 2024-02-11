@@ -16,7 +16,7 @@ const Vision = () => {
         <section className="flex flex-col items-center gap-6 lg:w-[50%]">
           <div
             data-aos="fade-up"
-            data-aos-duration="1000"
+            data-aos-duration="800"
             data-aos-easing="ease-in-out"
             className="flex flex-col items-center gap-2 "
           >
@@ -35,7 +35,7 @@ const Vision = () => {
 
           <div
             data-aos="fade-up"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-easing="linear"
             className="flex flex-col items-start gap-2"
           >
