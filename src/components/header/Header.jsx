@@ -1,25 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [activeLink, setActiveLnk] = useState("");
-  const location = useLocation();
-
-  const handleLinkClick = (link) => {
-    setActiveLnk(link);
-  };
-
-  useEffect(() => {
-    // console.log(location.pathname);
-    const pathnameParts = location.pathname.split("/");
-    const lastPathname = pathnameParts[pathnameParts.length - 1];
-    setActiveLnk(lastPathname);
-    console.log(lastPathname);
-  }, []);
-
   function toggleBtn() {
     const mobileMenu = document.getElementById("mobile-menu-4");
     mobileMenu.classList.toggle("hidden");
@@ -110,11 +95,8 @@ const Header = () => {
                 <li>
                   <Link
                     to="/"
-                    className={`block py-2 pl-3 pr-4 text-white bg-sky-500 rounded lg:bg-transparent lg:text-sky-500 lg:p-0 ${
-                      activeLink === "" ? "border-b-2 border-sky-500" : ""
-                    }`}
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                     aria-current="page"
-                    onClick={() => handleLinkClick("")}
                   >
                     Home
                   </Link>
@@ -122,12 +104,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/excos"
-                    onClick={() => handleLinkClick("excos")}
-                    className={`block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0 ${
-                      setActiveLnk === "excos"
-                        ? "border-b-2 border-sky-500"
-                        : ""
-                    } `}
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 "
                   >
                     Excos & Members
                   </Link>
@@ -135,7 +112,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/articles"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
                     News & Articles
                   </Link>
@@ -143,7 +120,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/donate"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0  "
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
                     Donate
                   </Link>
@@ -151,10 +128,7 @@ const Header = () => {
                 <li>
                   <Link
                     to="/about"
-                    onClick={() => handleLinkClick("/about")}
-                    className={`block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-sky-500 lg:p-0-2  ${
-                      activeLink === "about" ? "border-b-2 border-sky-500" : ""
-                    }`}
+                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
                   >
                     About Us
                   </Link>
