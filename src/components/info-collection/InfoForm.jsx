@@ -6,7 +6,7 @@ const InfoForm = () => {
       <div className="flex text-center justify-center items-center my-10">
         <div>
           <h1 className="text-sky-500 mb-4 text-4xl font-bold">Join JCI Aso</h1>
-          <div className="text-left space-y-2 mb-2">
+          <div className="text-left space-y-2 m-2">
             <h3>
               Kindly fill out the form below and submit, we'll get back to you
               via email
