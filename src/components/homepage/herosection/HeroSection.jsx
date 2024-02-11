@@ -39,7 +39,7 @@ const HeroSection = () => {
           <h1 className="font-bold text-[4rem] leading-tight">
             Developing Leaders for a Changing World
           </h1>
-          <p className="text-[1.4rem] w-[90%] leading-tight">
+          <p className="text-[1.2rem] w-[90%] leading-normal">
             Launch yourself into the world of endless possibilities and exciting
             opportunities, Get a platform to practice your craft and network
             with other emerging leaders.

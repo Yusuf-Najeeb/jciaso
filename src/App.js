@@ -5,6 +5,7 @@ import ContactUs from "./components/contactpage/ContactUs";
 import About from "./components/about-page/About";
 import Excos from "./components/excos/Excos";
 import Articles from "./components/article-page/Article";
+import Events from "./components/events-page/AllEvents";
 
 function App() {
   return (

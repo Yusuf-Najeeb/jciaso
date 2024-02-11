@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { MdCenterFocusStrong, MdOutline6FtApart } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { FaGlobe } from "react-icons/fa6";
 import { FaProjectDiagram } from "react-icons/fa";
 
 const Vision = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <React.Fragment>
       <div className="flex flex-col gap-16 w-[100%] px-6 lg:flex-row lg:px-16 lg:py-10 lg:mt-16">
         <section className="flex flex-col items-center gap-6 lg:w-[50%]">
-          <div className="flex flex-col items-center gap-2 ">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="flex flex-col items-center gap-2 "
+          >
             <img
               src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706434169210/6a30b8fa-0719-4c52-b001-9e1490aa2f08.png"
               alt="JCI_President"
@@ -23,7 +33,12 @@ const Vision = () => {
             </div>
           </div>
 
-          <div className="flex flex-col items-start gap-2">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-easing="linear"
+            className="flex flex-col items-start gap-2"
+          >
             <h1 className="font-bold text-[1.8rem] lg:text-[2.5rem] text-center">
               Behold, the 24th President
             </h1>
@@ -42,11 +57,21 @@ const Vision = () => {
           </div>
         </section>
         <section className=" flex flex-col items-center gap-10 lg:w-[50%]">
-          <h1 className="font-bold title text-[1.8rem] lg:text-[2.5rem] text-center">
+          <h1
+            data-aos="flip-right"
+            data-aos-duration="400"
+            data-aos-easing="ease-in-out"
+            className="font-bold title text-[1.8rem] lg:text-[2.5rem] text-center"
+          >
             2024 Presidential theme
           </h1>
           <section className="flex flex-col gap-16 ">
-            <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="300"
+              data-aos-easing="ease-in-out"
+              className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  "
+            >
               <p className="bg-[#20B4E3] p-10 rounded-full ">
                 <MdCenterFocusStrong size={30} color="#FFF" />
               </p>
@@ -61,7 +86,12 @@ const Vision = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-easing="ease-in-out"
+              className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  "
+            >
               <p className="bg-[#20B4E3] p-10 rounded-full ">
                 <FaProjectDiagram size={30} color="#FFF" />
               </p>
@@ -74,7 +104,12 @@ const Vision = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-easing="ease-in-out"
+              className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  "
+            >
               <p className="bg-[#20B4E3] p-10 rounded-full ">
                 <GiWeightLiftingUp size={30} color="#FFF" />
               </p>
@@ -90,7 +125,12 @@ const Vision = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-easing="ease-in-out"
+              className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  "
+            >
               <p className="bg-[#20B4E3] p-10 rounded-full ">
                 <FaGlobe size={30} color="#FFF" />
               </p>
@@ -102,7 +142,12 @@ const Vision = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  ">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="700"
+              data-aos-easing="ease-in-out"
+              className="flex flex-col items-center text-center gap-6 md:text-start md:flex-row  "
+            >
               <p className="bg-[#20B4E3] p-10 rounded-full ">
                 <MdOutline6FtApart size={30} color="#FFF" />
               </p>
