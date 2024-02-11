@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import JoinJCIButton from "./JoinJCIButton";
-
+import Aos, { init } from "aos";
+import "aos/dist/aos.css";
 const HeroSection = () => {
   const [backgroundIndex, setBackgroundIndex] = useState(0);
 
@@ -15,6 +16,7 @@ const HeroSection = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
+      Aos.init();
       setBackgroundIndex(
         (prevIndex) => (prevIndex + 1) % backgroundData.length
       );
@@ -36,10 +38,21 @@ const HeroSection = () => {
           style={heroStyle}
         ></div>
         <div className="text-white flex flex-col gap-6 justify-center h-screen z-10 relative px-4 lg:px-24 lg:w-[70%]">
-          <h1 className="font-bold text-[2rem] lg:text-[4rem] leading-tight">
+
+          <h1
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="font-bold text-[4rem] leading-tight"
+          >
             Developing Leaders for a Changing World
           </h1>
-          <p className="text-[1.4rem] lg:w-[90%] leading-tight">
+          <p
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            className="text-[1.2rem] w-[90%] leading-normal"
+          >
             Launch yourself into the world of endless possibilities and exciting
             opportunities, Get a platform to practice your craft and network
             with other emerging leaders.

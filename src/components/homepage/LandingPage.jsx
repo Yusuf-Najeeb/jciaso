@@ -4,7 +4,7 @@ import Vision from "./jcivision/Vision";
 import Sponsors from "./sponsors/Sponsors";
 import Footer from "../footer/Footer";
 import Testimonials from "./testimonials/Testimonials";
-import Articles from "./media/Media";
+import Media from "./media/Media";
 import Header from "../header/Header";
 import LatestArticle from "./media/LatestArticle";
 import Mission from "../mission/Mission";
@@ -17,7 +17,7 @@ const LandingPage = () => {
       <Vision />
       <Mission />
       <Testimonials />
-      <Articles />
+      <Media />
       <LatestArticle />
       <Sponsors />
       <Footer />
