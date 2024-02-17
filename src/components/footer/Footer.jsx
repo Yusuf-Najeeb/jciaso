@@ -29,6 +29,9 @@ const Footer = () => {
             <Link to="/articles" className="hover:underline duration-300">
               News & Articles
             </Link>
+            <Link to="/events" className="hover:underline duration-300">
+              Events
+            </Link>
           </ul>
         </div>
         <div className="flex flex-col gap-6">
