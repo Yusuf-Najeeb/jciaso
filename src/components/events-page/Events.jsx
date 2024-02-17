@@ -8,7 +8,7 @@ const Events = () => {
       <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
           <h4 className="text-4xl font-semibold leading-normal">
-            Public speaking champion
+            Southern Conference
           </h4>
           <p className="leading-relaxed">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
@@ -21,13 +21,16 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image1} alt="" />
+          <img className="max-h-[300px] w-full rounded" src={Image1} alt="" />
         </div>
       </div>
 
       <div className="flex flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="text-4xl font-semibold leading-normal">Save a Soul</h4>
+          <h4 className="text-4xl font-semibold leading-normal">
+            {" "}
+            Southern Conference
+          </h4>
           <p className="leading-relaxed">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
             quia quod quae, asperiores ad optio eum placeat perferendis
@@ -39,14 +42,14 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image1} alt="" />
+          <img className="max-h-[300px] w-full rounded" src={Image1} alt="" />
         </div>
       </div>
 
       <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
           <h4 className="text-4xl font-semibold leading-normal">
-            Global Digital Economy Summit
+            Collegiate Conference
           </h4>
           <p className="leading-relaxed">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
@@ -59,14 +62,14 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image1} alt="" />
+          <img className="max-h-[300px] w-full rounded" src={Image1} alt="" />
         </div>
       </div>
 
       <div className="flex flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
           <h4 className="text-4xl font-semibold leading-normal">
-            Creative Young Entrepreneurship Awards
+            National Convention
           </h4>
           <p className="leading-relaxed">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
@@ -79,7 +82,7 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image1} alt="" />
+          <img className="max-h-[300px] w-full rounded" src={Image1} alt="" />
         </div>
       </div>
     </main>
