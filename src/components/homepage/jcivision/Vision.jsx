@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Theme from "../../../assests/images/themePic.png";
 import { MdCenterFocusStrong, MdOutline6FtApart } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { FaGlobe } from "react-icons/fa6";
@@ -65,6 +66,8 @@ const Vision = () => {
           >
             2024 Presidential theme
           </h1>
+          <img className="w-[80%]" src={Theme} alt="" />
+
           <section className="flex flex-col gap-16 ">
             <div
               data-aos="fade-up"
