@@ -9,7 +9,6 @@ import Events from "./components/events-page/AllEvents";
 import Donate from "./components/donate/Donate";
 import InfoCollection from "./components/info-collection/InfoCollection";
 
-
 function App() {
   return (
     <div className="bg-[#FFFFFF] text-[#1F1D21] ">
@@ -21,6 +20,7 @@ function App() {
         <Route path="/articles" element={<Articles />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/join" element={<InfoCollection />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
     </div>
   );

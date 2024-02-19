@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+
 import Program from "./Programs";
 import Events from "./Events";
 import Projects from "./Projects";
@@ -13,11 +14,11 @@ const EventHeader = () => {
   return (
     <>
       <div className="mx-12 border-b my-4">
-        <ul className="flex flex-row flex-nowrap gap-4 font-semibold cursor-pointer">
+        <ul className="flex flex-row flex-nowrap gap-4 font-semibold text-[1.2rem] cursor-pointer">
           <li
             className={
               toggler === 0
-                ? "border-b-[3px] border-sky-500 text-sky-600 transition duration-300"
+                ? "border-b-[3px] pb-1 border-sky-500 text-sky-600 transition duration-300"
                 : "text-black"
             }
             onClick={() => handlePage(0)}
@@ -27,7 +28,7 @@ const EventHeader = () => {
           <li
             className={
               toggler === 1
-                ? "border-b-[3px] border-sky-500 text-sky-600 transition duration-300"
+                ? "border-b-[3px] pb-1 border-sky-500 text-sky-600 transition duration-300"
                 : "text-black"
             }
             onClick={() => handlePage(1)}
@@ -37,7 +38,7 @@ const EventHeader = () => {
           <li
             className={
               toggler === 2
-                ? "border-b-[3px] border-sky-500 text-sky-600 transition duration-300"
+                ? "border-b-[3px] pb-1 border-sky-500 text-sky-600 transition duration-300"
                 : "text-black"
             }
             onClick={() => handlePage(2)}
@@ -47,7 +48,7 @@ const EventHeader = () => {
           <li
             className={
               toggler === 3
-                ? "border-b-[3px] border-sky-500 text-sky-600 transition duration-300"
+                ? "border-b-[3px] pb-1 border-sky-500 text-sky-600 transition duration-300"
                 : "text-black"
             }
             onClick={() => handlePage(3)}

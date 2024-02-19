@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Theme from "../../../assests/images/themePic.png";
 import { MdCenterFocusStrong, MdOutline6FtApart } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { FaGlobe } from "react-icons/fa6";
@@ -10,6 +12,8 @@ const Vision = () => {
   useEffect(() => {
     Aos.init();
   }, []);
+
+  const now = new Date();
   return (
     <React.Fragment>
       <div className="flex flex-col gap-16 w-[100%] px-6 lg:flex-row lg:px-16 lg:py-10 lg:mt-16">
@@ -29,7 +33,9 @@ const Vision = () => {
               <h1 className="text-[1.5rem] font-bold">
                 JCIN Amb. Yetunde Adebisi
               </h1>
-              <p className="font-semibold">President of JCI Aso</p>
+              <p className="font-semibold">
+                24<sup>th</sup> President JCI Aso
+              </p>
             </div>
           </div>
 
@@ -40,7 +46,7 @@ const Vision = () => {
             className="flex flex-col items-start gap-2"
           >
             <h1 className="font-bold text-[1.8rem] lg:text-[2.5rem] text-center">
-              Behold, the 24th President
+              {now.getFullYear()} New Year Message
             </h1>
             <p className="text-start">
               In my tenure as JCI ASO President, I will be committed to
@@ -49,11 +55,11 @@ const Vision = () => {
               sustainability, Together, we will create lasting impact and
               inspire positive change in our region and beyond.
             </p>
-            <a href="">
+            <Link to="">
               <button className="border border-[#2288A9] text-[#2288A9] font-medium px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-500 duration-300 mb-4">
                 Read more..
               </button>
-            </a>
+            </Link>
           </div>
         </section>
         <section className=" flex flex-col items-center gap-10 lg:w-[50%]">
@@ -65,6 +71,8 @@ const Vision = () => {
           >
             2024 Presidential theme
           </h1>
+          <img className="w-[80%]" src={Theme} alt="" />
+
           <section className="flex flex-col gap-16 ">
             <div
               data-aos="fade-up"
