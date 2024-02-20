@@ -4,7 +4,7 @@ const Sponsors = () => {
   return (
     <div className=" flex flex-col  px-6 py-4 mt-6 lg:px-10 lg:py-32 lg:gap-16 ">
       <h1 className=" title font-bold text-center text-[1.8rem] lg:text-[2.5rem]">
-        Our Proud Sponsors
+        Our Partners
       </h1>
       <section className="flex flex-wrap justify-center items-start gap-6 lg:gap-16">
         <img

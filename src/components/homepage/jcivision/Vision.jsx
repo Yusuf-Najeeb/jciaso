@@ -30,10 +30,10 @@ const Vision = () => {
               className="w-full rounded-lg object-cover relative z-10"
             />
             <div className="flex flex-col items-center">
-              <h1 className="sm:text-[1.5rem] font-bold sm:font-semibold pb-2 pl-2  mt-4 mb-1">
+              <h1 className="sm:text-[1.5rem] font-bold sm:font-semibold px-2  mt-4">
                 JCIN Amb. Yetunde Adebisi
               </h1>
-              <p className="text-[.9rem] sm:text-[1.2rem] font-semibold">
+              <p className="text-[.8rem] sm:text-[1.2rem] font-semibold">
                 24<sup>th</sup> President JCI Aso
               </p>
             </div>
@@ -87,7 +87,7 @@ const Vision = () => {
                 <h3 className="font-semibold text-[1.2rem] ">
                   Member-Centric Approach
                 </h3>
-                <p className="font-medium text-slate-500">
+                <p className="text-[#333]">
                   Establish a member-centric approach by conducting regular
                   surveys to gather feedback and ideas, and implement incentive
                   programs to recognize and reward member engagement.
@@ -108,7 +108,7 @@ const Vision = () => {
                 <h3 className="font-semibold text-[1.2rem]">
                   Strengthening Local Collaborations
                 </h3>
-                <p className="font-medium text-slate-500">
+                <p className="text-[#333]">
                   Forge partnerships with local businesses, NGOs, and government
                   agencies, and collaborate with other JCI chapters and similar
                   organizations to enhance community impact and collective
@@ -128,7 +128,7 @@ const Vision = () => {
               </p>
               <div className="flex flex-col gap-2">
                 <h3 className="font-semibold text-[1.2rem]">Partnership</h3>
-                <p className="font-medium text-slate-500">
+                <p className="text-[#333]">
                   Conducting regular financial audits ensures transparency,
                   while also facilitating knowledge sharing and capacity
                   building initiatives. Enhancing brand awareness and visibility
@@ -151,7 +151,7 @@ const Vision = () => {
                 <h3 className="font-semibold text-[1.2rem] ">
                   Engaging Projects
                 </h3>
-                <p className="font-medium text-slate-500">
+                <p className="text-[#333]">
                   Organize health walks to promote physical well-being and
                   community bonding, and establish a mentorship program to
                   support personal and professional growth.
@@ -172,7 +172,7 @@ const Vision = () => {
                 <h3 className="font-semibold text-[1.2rem]">
                   Global Engagement
                 </h3>
-                <p className="font-medium text-slate-500">
+                <p className="text-[#333]">
                   Promote international partnerships to exchange ideas and
                   implement cross-border initiatives.
                 </p>
