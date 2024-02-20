@@ -37,13 +37,12 @@ const HeroSection = () => {
           className="w-full h-screen bg-cover bg-center mix-blend-overlay object-cover absolute transition-all duration-1000 delay-200 ease-in-out"
           style={heroStyle}
         ></div>
-        <div className="text-white flex flex-col gap-6 justify-center h-screen z-10 relative px-4 lg:px-24 lg:w-[70%]">
-
+        <div className="text-white flex flex-col gap-6 justify-center min-h-[400px] sm:h-screen z-10 relative px-4 lg:px-24 lg:w-[70%] text-center sm:text-left">
           <h1
             data-aos="fade-down"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="font-bold text-[4rem] leading-tight"
+            className="font-bold text-2xl sm:text-[4rem] leading-normal sm:leading-tight"
           >
             Developing Leaders for a Changing World
           </h1>
@@ -51,7 +50,7 @@ const HeroSection = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            className="text-[1.2rem] w-[90%] leading-normal"
+            className="text-[1.1rem] sm:text-[1.2rem] w-full sm:w-[90%] leading-tight sm:leading-normal"
           >
             Launch yourself into the world of endless possibilities and exciting
             opportunities, Get a platform to practice your craft and network
