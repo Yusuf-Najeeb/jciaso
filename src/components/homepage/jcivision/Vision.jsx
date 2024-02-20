@@ -17,7 +17,7 @@ const Vision = () => {
   return (
     <React.Fragment>
       <div className="flex flex-col gap-16 w-[100%] pb-2 lg:flex-row lg:px-16 lg:py-10 lg:mt-16">
-        <section className="flex flex-col items-center gap-4 lg:w-[50%] border">
+        <section className="flex flex-col items-center gap-x-4 lg:w-[50%]">
           <div
             data-aos="fade-up"
             data-aos-duration="800"
@@ -30,17 +30,10 @@ const Vision = () => {
               className="w-full rounded-lg object-cover relative z-10"
             />
             <div className="flex flex-col items-center">
-              <h1
-                className="relative sm:text-[1.5rem] font-bold sm:font-semibold pb-2 pl-2 border-l-2 border-b-2 mt-4 mb-1"
-                style={{
-                  borderBottomColor: "#EC4B14",
-                  borderLeftColor: "#333",
-                }}
-              >
-                <div className="absolute top-0 left-0 -translate-x-[7px] w-3 h-3 rounded-full bg-[#EC4B14]"></div>
+              <h1 className="sm:text-[1.5rem] font-bold sm:font-semibold pb-2 pl-2  mt-4 mb-1">
                 JCIN Amb. Yetunde Adebisi
               </h1>
-              <p className="text-[1rem] sm:text-2xl font-semibold">
+              <p className="text-[.9rem] sm:text-[1.2rem] font-semibold">
                 24<sup>th</sup> President JCI Aso
               </p>
             </div>
@@ -52,7 +45,7 @@ const Vision = () => {
             data-aos-easing="linear"
             className="flex flex-col items-start gap-2 p-2"
           >
-            <h1 className="font-semibold text-center sm:text-left sm:text-[1.5rem] lg:text-[1.8rem]">
+            <h1 className="font-semibold text-center sm:text-left sm:text-[1.5rem] lg:text-[1.5rem] mt-4">
               {now.getFullYear()} New Year Message
             </h1>
             <p className="text-start">
@@ -80,7 +73,7 @@ const Vision = () => {
           </h1>
           <img className="w-[60%]" src={Theme} alt="" />
 
-          <section className="flex flex-col gap-16 ">
+          <section className="flex flex-col gap-8 ">
             <div
               data-aos="fade-up"
               data-aos-duration="300"
