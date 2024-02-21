@@ -49,7 +49,7 @@ const Header = () => {
               <div className="hidden mt-2 mr-4 sm:inline-block">
                 <span></span>
               </div>
-              <div className="hidden md:block">
+              <div className="hidden lg:block">
                 <JoinJCIButton />
               </div>
 
@@ -134,7 +134,7 @@ const Header = () => {
                     About Us
                   </Link>
                 </li>
-                <li className="text-sm mt-2">
+                <li className="text-sm mt-2 sm:hidden">
                   <JoinJCIButton />
                 </li>
               </ul>

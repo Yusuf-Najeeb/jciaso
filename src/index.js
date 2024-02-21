@@ -1,15 +1,31 @@
 import React from "react";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+import Home from "./components/homepage/LandingPage";
+import Excos from "./components/excos/Excos";
+import Article from "./components/article-page/Article";
+import About from "./components/about-page/About";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    errorElement: <div>Page not found</div>,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "/excos", element: <Excos /> },
+      { path: "/articles", element: <Article /> },
+      { path: "/about", element: <About /> },
+    ],
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
