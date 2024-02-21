@@ -28,13 +28,13 @@ const HeroSection = () => {
   });
 
   const heroStyle = {
-    backgroundImage: `url(${backgroundData[backgroundIndex]})`,
+    backgroundImage: `url(${backgroundData[backgroundIndex]}`,
   };
   return (
     <React.Fragment>
       <div className="bg-black/70 relative">
         <div
-          className="w-full h-screen bg-cover bg-center mix-blend-overlay object-cover absolute transition-all duration-1000 delay-200 ease-in-out"
+          className="w-full h-[100%] md:h-screen bg-cover bg-center mix-blend-overlay object-cover absolute transition-all duration-1000 delay-200 ease-in-out"
           style={heroStyle}
         ></div>
         <div className="text-white flex flex-col gap-6 justify-center min-h-[400px] sm:h-screen z-10 relative px-4 lg:px-24 lg:w-[70%] text-center sm:text-left">

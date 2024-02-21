@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaPhone } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
@@ -9,6 +9,13 @@ const Header = () => {
     const mobileMenu = document.getElementById("mobile-menu-4");
     mobileMenu.classList.toggle("hidden");
   }
+
+  const toggleDropDownMenu = (e) => {
+    e.preventDefault();
+    const menu = e.target.querySelector(".dropper");
+    menu.classList.toggle("hidden");
+    console.log(menu.classList);
+  };
 
   return (
     <>
@@ -33,7 +40,7 @@ const Header = () => {
       {/* NavBar Section */}
       <header className="sticky top-0 bg-white border-b border-gray-200 z-50 ">
         <nav className="bg-white border-gray-200 shadow-md py-2.5 ">
-          <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
+          <div className="flex flex-wrap items-end justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
             <Link
               to="#"
               className="flex items-center w-20 h-12 md:w-28 md:h-16"
@@ -57,7 +64,7 @@ const Header = () => {
                 onClick={toggleBtn}
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
-                className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 ml-1 text-sm text-[#222] rounded-lg lg:hidden hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-[#333] dark:hover:bg-blue-300 dark:focus:ring-blue-400 z-40"
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
               >
@@ -89,17 +96,23 @@ const Header = () => {
               </button>
             </div>
             <div
-              className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 hidden"
+              className="absolute z-20 inset-x-0 top-16 bg-white items-center justify-between w-full h-fit lg:flex lg:w-auto lg:order-1 hidden px-2 py-3"
               id="mobile-menu-4"
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <Link
+                    onClick={toggleDropDownMenu}
                     to="/"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
+                    className="relative block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                     aria-current="page"
                   >
-                    Home
+                    Home{" "}
+                    <ul className="dropper hidden -translate-x-10 md:absolute top-6 bg-white text-black min-w-[100px] p-4">
+                      <li className="mt-4">Home&nbsp;main</li>
+                      <li className="mt-4">Home main</li>
+                      <li className="mt-4">Home main</li>
+                    </ul>
                   </Link>
                 </li>
                 <li>

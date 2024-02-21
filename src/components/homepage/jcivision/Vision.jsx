@@ -30,10 +30,10 @@ const Vision = () => {
               className="w-full rounded-lg object-cover relative z-10"
             />
             <div className="flex flex-col items-center">
-              <h1 className="sm:text-[1.5rem] font-bold sm:font-semibold px-2  mt-4">
+              <h1 className="text-[1.2rem] sm:text-[1.5rem] font-bold sm:font-semibold mt-4">
                 JCIN Amb. Yetunde Adebisi
               </h1>
-              <p className="text-[.8rem] sm:text-[1.2rem] font-semibold">
+              <p className="text-[.9rem] sm:text-[1.2rem] font-semibold">
                 24<sup>th</sup> President JCI Aso
               </p>
             </div>
@@ -43,9 +43,9 @@ const Vision = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
             data-aos-easing="linear"
-            className="flex flex-col items-start gap-2 p-2"
+            className="flex flex-col items-start gap-2 py-2 px-4"
           >
-            <h1 className="font-semibold text-center sm:text-left sm:text-[1.5rem] lg:text-[1.5rem] mt-4">
+            <h1 className="font-semibold text-center sm:text-left text-[1.2rem] sm:text-[1.5rem] lg:text-[1.5rem] mt-4">
               {now.getFullYear()} New Year Message
             </h1>
             <p className="text-start">
@@ -73,7 +73,7 @@ const Vision = () => {
           </h1>
           <img className="w-[60%]" src={Theme} alt="" />
 
-          <section className="flex flex-col gap-8 ">
+          <section className="flex flex-col gap-8 px-4">
             <div
               data-aos="fade-up"
               data-aos-duration="300"
