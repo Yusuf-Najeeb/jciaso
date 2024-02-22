@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaPhone } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
+import { BsChevronDown } from "react-icons/bs";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
 import { Link } from "react-router-dom";
 
@@ -9,13 +10,6 @@ const Header = () => {
     const mobileMenu = document.getElementById("mobile-menu-4");
     mobileMenu.classList.toggle("hidden");
   }
-
-  const toggleDropDownMenu = (e) => {
-    e.preventDefault();
-    const menu = e.target.querySelector(".dropper");
-    menu.classList.toggle("hidden");
-    console.log(menu.classList);
-  };
 
   return (
     <>
@@ -42,7 +36,7 @@ const Header = () => {
         <nav className="bg-white border-gray-200 shadow-md py-2.5 ">
           <div className="flex flex-wrap items-end justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
             <Link
-              to="#"
+              to="/"
               className="flex items-center w-20 h-12 md:w-28 md:h-16"
             >
               <img
@@ -96,31 +90,25 @@ const Header = () => {
               </button>
             </div>
             <div
-              className="absolute z-20 inset-x-0 top-16 bg-white items-center justify-between w-full h-fit lg:flex lg:w-auto lg:order-1 hidden px-2 py-3"
+              className="z-20 inset-x-0 top-16 bg-white items-center justify-between w-full h-fit lg:flex lg:w-auto lg:order-1 hidden px-2 py-3 mx-auto"
               id="mobile-menu-4"
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <Link
-                    onClick={toggleDropDownMenu}
                     to="/"
-                    className="relative block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
+                    className="relative block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
                     aria-current="page"
                   >
-                    Home{" "}
-                    <ul className="dropper hidden -translate-x-10 md:absolute top-6 bg-white text-black min-w-[100px] p-4">
-                      <li className="mt-4">Home&nbsp;main</li>
-                      <li className="mt-4">Home main</li>
-                      <li className="mt-4">Home main</li>
-                    </ul>
+                    Home
                   </Link>
                 </li>
                 <li>
                   <Link
                     to="/excos"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 "
+                    className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 transition-transform duration-1000 ease-out"
                   >
-                    Excos & Members
+                    Membership
                   </Link>
                 </li>
                 <li>
@@ -133,10 +121,10 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    to="/donate"
+                    to="/events"
                     className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
-                    Donate
+                    Get Involved
                   </Link>
                 </li>
                 <li>

@@ -56,7 +56,9 @@ const HeroSection = () => {
             opportunities, Get a platform to practice your craft and network
             with other emerging leaders.
           </p>
-          <JoinJCIButton />
+          <div className="w-fit mx-auto sm:mx-0">
+            <JoinJCIButton />
+          </div>
         </div>
       </div>
     </React.Fragment>
