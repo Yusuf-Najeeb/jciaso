@@ -37,9 +37,12 @@ const Footer = () => {
         <div className="flex flex-col gap-6">
           <h1 className="font-bold text-[1.5rem]">Contact Info</h1>
           <ul className="flex flex-col gap-2 ">
-            <Link to="">Junior Chamber International</Link>
-            <Link to="">Transcorp hilton , Maitama , Abuja.</Link>
+            <Link to="">Junior Chamber International Aso</Link>
+            <Link to="">
+              Suite B21, Abuja Shopping Mall, Zone 3, Wuse, Abuja
+            </Link>
             <Link to="">info@jciaso.ng</Link>
+            <Link to="">08177098608, 07037370003</Link>
             <SocialMedia />
           </ul>
         </div>

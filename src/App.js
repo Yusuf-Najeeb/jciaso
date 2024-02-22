@@ -17,18 +17,6 @@ function App() {
       <Outlet />
       <Footer />
     </>
-    // <div className="bg-[#FFFFFF] text-[#1F1D21] ">
-    //   <Routes>
-    //     <Route path="/" element={<LandingPage />} />
-    //     <Route path="/contact" element={<ContactUs />} />
-    //     <Route path="/about" element={<About />} />
-    //     <Route path="/excos" element={<Excos />} />
-    //     <Route path="/articles" element={<Articles />} />
-    //     <Route path="/donate" element={<Donate />} />
-    //     <Route path="/join" element={<InfoCollection />} />
-    //     <Route path="/events" element={<Events />} />
-    //   </Routes>
-    // </div>
   );
 }
 
