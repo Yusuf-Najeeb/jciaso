@@ -3,7 +3,6 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import ContactUs from "./components/contactpage/ContactUs";
-import Articles from "./components/article-page/Article";
 import InfoCollection from "./components/info-collection/InfoCollection";
 import Events from "./components/events-page/AllEvents";
 import Donate from "./components/donate/Donate";

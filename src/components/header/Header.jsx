@@ -108,7 +108,7 @@ const Header = () => {
                     to="/excos"
                     className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 transition-transform duration-1000 ease-out"
                   >
-                    Membership
+                    Executives
                   </Link>
                 </li>
                 <li>
