@@ -23,7 +23,7 @@ const Footer = () => {
             <Link to="/contact" className="hover:underline duration-300">
               Contact us
             </Link>
-            <Link to="#" className="hover:underline duration-300">
+            <Link to="/donate" className="hover:underline duration-300">
               Donate
             </Link>
             <Link to="/articles" className="hover:underline duration-300">
