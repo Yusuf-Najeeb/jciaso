@@ -2,6 +2,11 @@ import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+import ContactUs from "./components/contactpage/ContactUs";
+import Articles from "./components/article-page/Article";
+import InfoCollection from "./components/info-collection/InfoCollection";
+import Events from "./components/events-page/AllEvents";
+import Donate from "./components/donate/Donate";
 import App from "./App";
 import Home from "./components/homepage/LandingPage";
 import Excos from "./components/excos/Excos";
@@ -18,6 +23,10 @@ const router = createBrowserRouter([
       { path: "/excos", element: <Excos /> },
       { path: "/articles", element: <Article /> },
       { path: "/about", element: <About /> },
+      { path: "/events", element: <Events /> },
+      { path: "/contact", element: <ContactUs /> },
+      { path: "/donate", element: <Donate /> },
+      { path: "/join", element: <InfoCollection /> },
     ],
   },
 ]);

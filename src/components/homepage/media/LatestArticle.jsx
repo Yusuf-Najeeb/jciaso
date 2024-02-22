@@ -12,7 +12,7 @@ const LatestArticle = () => {
           return (
             <div
               data-aos="fade-up"
-              data-aos-duration="1000"
+              data-aos-duration="100"
               data-aos-easing="ease-in"
               className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%]"
             >
