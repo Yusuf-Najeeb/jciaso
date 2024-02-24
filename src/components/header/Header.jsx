@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaPhone } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
-import { BsChevronDown } from "react-icons/bs";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
 import { Link } from "react-router-dom";
 
