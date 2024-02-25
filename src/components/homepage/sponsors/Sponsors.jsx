@@ -7,7 +7,10 @@ const Sponsors = () => {
         Our Partners
       </h1>
       <section className="grid grid-cols-2 md:grid-cols-4 gap-4 place-content-center place-items-center justify-center items-center lg:gap-16">
-        <div className="flex items-center justify-center bg-white shadow rounded min-w-[300px] max-w-[300px] min-h-[200px] max-h-[250px] grayscale hover:grayscale-0 duration-300 ease-out hover:scale-110">
+        <div className="relative flex items-center justify-center bg-white shadow rounded min-w-[300px] max-w-[300px] min-h-[200px] max-h-[250px] grayscale hover:grayscale-0 duration-300 ease-out hover:scale-110">
+          <h3 className="absolute flex items-center justify-center inset-0 bg-blue-400/20">
+            Sponsor Name
+          </h3>
           <img
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708728628410/8b28aa1f-9214-4f69-a711-7ff593898847.png"
             alt="SEC"
