@@ -1,18 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SocialMedia from "../socialmedia/SocialMedia";
+import Logo from "../../assests/JCIAso.png";
 
 const Footer = () => {
   const today = new Date();
 
   return (
-    <footer className="bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] flex flex-col justify-center lg:items-center text-[#FFFFFF] pt-16">
-      <section className="flex flex-col-reverse md:flex-row flex-wrap gap-10 px-10 lg:gap-40">
-        <div className="self-center">
-          <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706795621833/d0382388-1cac-4440-8f72-7585d8f0bafd.png"
-            alt="JCI-Aso logo"
-          />
+    <footer className="h-full pt-16 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] flex flex-col justify-center items-center text-[#FFFFFF]">
+      <section className="flex flex-col-reverse justify-center items-center md:flex-row flex-wrap gap-10 px-10 lg:gap-40">
+        <div className=" w-1/4">
+          <img src={Logo} alt="JCI-Aso logo" />
         </div>
         <div className="flex flex-col gap-6">
           <h1 className="font-bold text-[1.5rem]">Quick Links</h1>
@@ -47,12 +45,12 @@ const Footer = () => {
           </ul>
         </div>
       </section>
-      <p className="border border-[#FAFAFA80] w-[75%] mt-24 lg:mt-40"></p>
+      <div className="border border-[#FAFAFA80] w-[75%] mt-16"></div>
       <p className="w-[100%] bg-[#20B4E3] text-[0.8rem]  p-7 text-center font-semibold mt-16">
         {" "}
         Copyright {today.getFullYear()} JCI ASO - All rights reserved
       </p>
-      <section></section>
+      {/* <section></section> */}
     </footer>
   );
 };

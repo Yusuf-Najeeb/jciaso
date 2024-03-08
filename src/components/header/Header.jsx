@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
 import { Link } from "react-router-dom";
-
+import Logo from "../../assests/JCIAso.png";
 const Header = () => {
   function toggleBtn() {
     const mobileMenu = document.getElementById("mobile-menu-4");
@@ -38,11 +38,7 @@ const Header = () => {
               to="/"
               className="flex items-center w-20 h-12 md:w-28 md:h-16"
             >
-              <img
-                className="w-full"
-                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706795621833/d0382388-1cac-4440-8f72-7585d8f0bafd.png"
-                alt="JCI-Aso logo"
-              />
+              <img className="w-full" src={Logo} alt="JCI-Aso logo" />
             </Link>
 
             <div className="flex items-center lg:order-2">
