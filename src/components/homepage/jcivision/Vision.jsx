@@ -5,8 +5,8 @@ import "aos/dist/aos.css";
 import Theme from "../../../assests/images/themePic.png";
 import { MdCenterFocusStrong, MdOutline6FtApart } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
-import { FaGlobe } from "react-icons/fa6";
-import { FaProjectDiagram } from "react-icons/fa";
+// import { FaGlobe } from "react-icons/fa6";
+// import { FaProjectDiagram } from "react-icons/fa";
 
 const Vision = () => {
   useEffect(() => {
