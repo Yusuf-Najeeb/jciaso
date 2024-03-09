@@ -50,29 +50,6 @@ const Mission = () => {
             size={50}
           />
         </div>
-        {/* <div className="border border-[#000] flex flex-col items-center gap-4 p-4 rounded-lg lg:w-[30%]">
-          <h3 className="text-[#328CB1] text-[1.4rem]">Values</h3>
-          <p>
-            <span className="py-2 font-bold text-[#01A85A] ">We Believe</span>
-            <br />
-            <ul className="flex flex-col items-start gap-2 list-disc px-2 ">
-              <li>
-                That Faith in God gives meaning and purpose to human lives
-              </li>
-              <li>
-                That the brotherhood of man transcends the sovereignty of
-                nations
-              </li>
-              <li>
-                That Economic Justice can best be won by free men through free
-                enterprise
-              </li>
-              <li>That Government should be of law, rather than of men</li>
-              <li>That Earth Great treasure lies in human personality and</li>
-              <li>That Service to humanity is the best work of life</li>
-            </ul>
-          </p>
-        </div> */}
       </section>
     </section>
   );
