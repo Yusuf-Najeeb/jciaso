@@ -39,7 +39,7 @@
 
 .tweets::-webkit-scrollbar,
 .youtube::-webkit-scrollbar {
-  width: 5px;
+  width: 3px;
   height: 200px;
   outline: none;
   border: none;

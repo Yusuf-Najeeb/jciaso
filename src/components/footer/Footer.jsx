@@ -8,31 +8,32 @@ const Footer = () => {
 
   return (
     <footer className="h-full pt-16 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] flex flex-col justify-center items-center text-[#FFFFFF]">
-      <section className="flex flex-col-reverse justify-center items-center md:flex-row flex-wrap gap-10 px-10 lg:gap-40">
-        <div className=" w-1/4">
+      <section className="flex flex-col md:justify-center sm:items-center md:flex-row flex-wrap p-4 sm:gap-10 sm:px-10 lg:gap-40 text-sm">
+        <div className="w-1/2 sm:w-1/4 my-4 p-2">
           <img src={Logo} alt="JCI-Aso logo" />
         </div>
-        <div className="flex flex-col gap-6">
+
+        <div className="flex flex-col gap-2 sm:gap-6 my-4 p-2">
           <h1 className="font-bold text-[1.5rem]">Quick Links</h1>
-          <ul className="flex flex-col gap-2 ">
+          <ul className="flex flex-row sm:flex-col gap-1 sm:gap-2 ">
             <Link to="/about" className="hover:underline duration-300">
-              About us
+              About&nbsp;us
             </Link>
             <Link to="/contact" className="hover:underline duration-300">
-              Contact us
+              Contact&nbsp;us
             </Link>
             <Link to="/donate" className="hover:underline duration-300">
               Donate
             </Link>
             <Link to="/articles" className="hover:underline duration-300">
-              News & Articles
+              Blog
             </Link>
             <Link to="/events" className="hover:underline duration-300">
               Events
             </Link>
           </ul>
         </div>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-2 sm:gap-6 my-4 p-2">
           <h1 className="font-bold text-[1.5rem]">Contact Info</h1>
           <ul className="flex flex-col gap-2 ">
             <Link to="">Junior Chamber International Aso</Link>
@@ -46,7 +47,7 @@ const Footer = () => {
         </div>
       </section>
       <div className="border border-[#FAFAFA80] w-[75%] mt-16"></div>
-      <p className="w-[100%] bg-[#20B4E3] text-[0.8rem]  p-7 text-center font-semibold mt-16">
+      <p className="w-[100%] bg-[#20B4E3] text-[0.8rem]  p-4 text-center font-semibold mt-16">
         {" "}
         Copyright {today.getFullYear()} JCI ASO - All rights reserved
       </p>
