@@ -10,7 +10,12 @@ const LatestArticle = () => {
       <section className="flex flex-wrap justify-center gap-8">
         {news.map((updates) => {
           return (
-            <div className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%]">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="100"
+              data-aos-easing="ease-in"
+              className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%]"
+            >
               <img
                 src={updates.Image}
                 className="w-full h-[250px] object-cover object-top rounded-t-md"

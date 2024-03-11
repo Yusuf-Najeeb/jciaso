@@ -1,14 +1,11 @@
 import React from "react";
-import Header from "../header/Header";
 import ExcosHero from "./ExcosHero";
 import Excecutive from "./Excecutive";
 import Distinguished from "./Distinguished";
-import Footer from "../footer/Footer";
 
 const Excos = () => {
   return (
     <div>
-      <Header />
       <ExcosHero />
       <section className="flex flex-col-reverse items-center justify-center gap-2 py-16 w-[100%] px-6 lg:flex-row lg:px-16">
         <div className="flex flex-col gap-8 lg:w-[50%] ">
@@ -45,7 +42,6 @@ const Excos = () => {
       </section>
       <Excecutive />
       <Distinguished />
-      <Footer />
     </div>
   );
 };

@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <div className="p-5 mt-24 relative">
       <h1 className="title bg-white font-[Karla] text-center text-5xl font-medium">
-        Our Stories and Testimonials
+        Testimonials
       </h1>
       <div className="bg-slate-700 p-10 mt-8">
         <div className="flex flex-col gap-32 justify-between lg:gap-8 lg:flex-row">

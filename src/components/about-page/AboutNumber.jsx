@@ -4,10 +4,10 @@ import CountUp from "react-countup";
 const AboutNumber = () => {
   return (
     <section className="flex justify-center">
-      <div className=" flex flex-col justify-center items-start gap-10 p-8 text-center">
+      <div className=" flex flex-col justify-center items-center lg:items-start gap-10 p-8 text-center">
         <h1 className="text-3xl title font-bold ">Some of our numbers</h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-14 text-white">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-14 text-white items-center text-center">
           <div className="p-6 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] py-12 rounded-md shadow-md">
             <b className="text-5xl font-extrabold ">
               {" "}

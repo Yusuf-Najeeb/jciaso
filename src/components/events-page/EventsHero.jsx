@@ -1,23 +1,21 @@
 import React from "react";
-
-const ContactHeroSection = () => {
+const EventsHero = () => {
   return (
     <section className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
       <img
         className="w-full h-full object-cover absolute mix-blend-overlay"
-        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706572981874/5f36b16e-634a-4221-9849-1f962583d8b3.jpeg"
+        src="https://res.cloudinary.com/duw4jtxls/image/upload/v1706621248/map_zqjsof.jpg"
         alt=""
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">
-        <h1 className=" relative text-4xl lg:text-6xl font-semibold">
-          Contact Us
-        </h1>
-        <p className="relative lg:w-[40%] my-2 text-[1.2rem]">
-          We would love to hear from you
+        <h1 className=" relative text-6xl font-semibold">Events & Programs</h1>
+        <p className="relative w-[40%] my-2 text-[1.2rem]">
+          Keep up with our upcoming, ongoing and past event to keep up with the
+          Jci community.
         </p>
       </div>
     </section>
   );
 };
 
-export default ContactHeroSection;
+export default EventsHero;

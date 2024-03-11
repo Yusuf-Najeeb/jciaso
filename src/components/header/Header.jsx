@@ -3,7 +3,7 @@ import { FaPhone } from "react-icons/fa";
 import { HiLocationMarker } from "react-icons/hi";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
 import { Link } from "react-router-dom";
-
+import Logo from "../../assests/JCIAso.png";
 const Header = () => {
   function toggleBtn() {
     const mobileMenu = document.getElementById("mobile-menu-4");
@@ -33,30 +33,27 @@ const Header = () => {
       {/* NavBar Section */}
       <header className="sticky top-0 bg-white border-b border-gray-200 z-50 ">
         <nav className="bg-white border-gray-200 shadow-md py-2.5 ">
-          <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
+          <div className="flex flex-wrap items-end justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
             <Link
-              to="#"
+              to="/"
               className="flex items-center w-20 h-12 md:w-28 md:h-16"
             >
-              <img
-                className="w-full"
-                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706795621833/d0382388-1cac-4440-8f72-7585d8f0bafd.png"
-                alt="JCI-Aso logo"
-              />
+              <img className="w-full" src={Logo} alt="JCI-Aso logo" />
             </Link>
 
             <div className="flex items-center lg:order-2">
               <div className="hidden mt-2 mr-4 sm:inline-block">
                 <span></span>
               </div>
-
-              <JoinJCIButton />
+              <div className="hidden lg:block">
+                <JoinJCIButton />
+              </div>
 
               <button
                 onClick={toggleBtn}
                 data-collapse-toggle="mobile-menu-2"
                 type="button"
-                className="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                className="inline-flex items-center p-2 ml-1 text-sm text-[#222] rounded-lg lg:hidden hover:bg-blue-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-[#333] dark:hover:bg-blue-300 dark:focus:ring-blue-400 z-40"
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
               >
@@ -88,14 +85,14 @@ const Header = () => {
               </button>
             </div>
             <div
-              className="items-center justify-between w-full lg:flex lg:w-auto lg:order-1 hidden"
+              className="z-20 inset-x-0 top-16 bg-white items-center justify-between w-full h-fit lg:flex lg:w-auto lg:order-1 hidden px-2 py-3 mx-auto"
               id="mobile-menu-4"
             >
               <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                 <li>
                   <Link
                     to="/"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
+                    className="relative block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
                     aria-current="page"
                   >
                     Home
@@ -104,9 +101,9 @@ const Header = () => {
                 <li>
                   <Link
                     to="/excos"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100  hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 "
+                    className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 transition-transform duration-1000 ease-out"
                   >
-                    Excos & Members
+                    Executives
                   </Link>
                 </li>
                 <li>
@@ -119,10 +116,10 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    to="/donate"
+                    to="/events"
                     className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
-                    Donate
+                    Get Involved
                   </Link>
                 </li>
                 <li>
@@ -132,6 +129,9 @@ const Header = () => {
                   >
                     About Us
                   </Link>
+                </li>
+                <li className="text-sm mt-2 sm:hidden">
+                  <JoinJCIButton />
                 </li>
               </ul>
             </div>

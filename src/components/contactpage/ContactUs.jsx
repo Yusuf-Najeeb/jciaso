@@ -1,15 +1,12 @@
 import React from "react";
-import Header from "../header/Header";
 import ContactForm from "./ContactForm";
 import ContactInfo from "./ContactInfo";
 import ContactHeroSection from "./ContactHeroSection";
-import Footer from "../footer/Footer";
 import ContactMap from "./ContactMap";
 
 const ContactUs = () => {
   return (
     <div>
-      <Header />
       <ContactHeroSection />
       <div className="w-[100%] flex flex-col gap-6 lg:flex-row lg:px-12 ">
         <section className="lg:w-[60%] flex flex-col lg:gap-16 border-r-2  px-6 lg:px-8">
@@ -23,7 +20,6 @@ const ContactUs = () => {
         </section>
       </div>
       <ContactMap />
-      <Footer />
     </div>
   );
 };
