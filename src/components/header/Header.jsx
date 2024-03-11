@@ -46,7 +46,7 @@ const Header = () => {
                 <span></span>
               </div>
               <div className="hidden lg:block">
-                <JoinJCIButton />
+                <JoinJCIButton title="Become a JCI Member"/>
               </div>
 
               <button
