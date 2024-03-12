@@ -1,16 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SocialMedia from "../socialmedia/SocialMedia";
-import Logo from "../../assests/JCIAso.png";
 
 const Footer = () => {
   const today = new Date();
 
   return (
-    <footer className="h-full pt-16 bg-gradient-to-r from-[#313C45] via-[#3E343C] to-[#432E34] flex flex-col justify-center items-center text-[#FFFFFF]">
+    <footer className="h-full pt-16 bg-gradient-to-br from-blue-50 via-cyan-50 to-white flex flex-col justify-center items-center text-[#000]">
       <section className="flex flex-col md:justify-center sm:items-center md:flex-row flex-wrap p-4 sm:gap-10 sm:px-10 lg:gap-40 text-sm">
         <div className="w-1/2 sm:w-1/4 my-4 p-2">
-          <img src={Logo} alt="JCI-Aso logo" />
+          <img
+            src="https://res.cloudinary.com/duw4jtxls/image/upload/v1710260599/About_JCI-removebg-preview_tc8ikh.png"
+            alt="JCI-Aso logo"
+          />
         </div>
 
         <div className="flex flex-col gap-2 sm:gap-6 my-4 p-2">
@@ -47,7 +49,7 @@ const Footer = () => {
         </div>
       </section>
       <div className="border border-[#FAFAFA80] w-[75%] mt-16"></div>
-      <p className="w-[100%] bg-[#20B4E3] text-[0.8rem]  p-4 text-center font-semibold mt-16">
+      <p className="w-[100%] bg-[#20B4E3] text-[0.8rem]  p-4 text-center text-white font-semibold mt-16">
         {" "}
         Copyright {today.getFullYear()} JCI ASO - All rights reserved
       </p>
