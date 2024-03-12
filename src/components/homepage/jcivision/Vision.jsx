@@ -23,11 +23,19 @@ const Vision = () => {
             data-aos-easing="ease-in-out"
             className="flex flex-col items-center gap-2 "
           >
-            <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706434169210/6a30b8fa-0719-4c52-b001-9e1490aa2f08.png"
-              alt="JCI_President"
-              className="w-full rounded-lg object-cover relative z-10"
-            />
+            <div className="flex flex-row px-2">
+              <img
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706434169210/6a30b8fa-0719-4c52-b001-9e1490aa2f08.png"
+                alt="JCI_President"
+                className="w-1/2 lg:w-full rounded-lg object-cover relative z-10"
+              />
+              <img
+                className="lg:hidden w-1/2"
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259400614/9059e1a4-ce8b-4a9d-9f74-23f165e4228c.png"
+                alt="2024 Presidential Theme: Partnership, Membership & Sustainability"
+              />
+            </div>
+
             <div className="flex flex-col items-center">
               <h1 className="text-[1.2rem] sm:text-[1.5rem] font-bold sm:font-semibold mt-4">
                 Engr. Yetunde Adebisi
@@ -71,7 +79,7 @@ const Vision = () => {
             Core Objectives
           </h1>
           <img
-            className="w-[60%]"
+            className="hidden lg:block w-[60%]"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259400614/9059e1a4-ce8b-4a9d-9f74-23f165e4228c.png"
             alt="2024 Presidential Theme: Partnership, Membership & Sustainability"
           />
