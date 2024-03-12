@@ -4,7 +4,7 @@ const EventsHero = () => {
     <section className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
       <img
         className="w-full h-full object-cover absolute mix-blend-overlay"
-        src="https://res.cloudinary.com/duw4jtxls/image/upload/v1706621248/map_zqjsof.jpg"
+        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710275231153/8fdddda5-2c7f-4b7d-879e-71032cf98c2e.jpeg"
         alt=""
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">

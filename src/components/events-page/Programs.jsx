@@ -1,9 +1,6 @@
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import Image1 from "../../assests/images/pic1.png";
-import Image2 from "../../assests/images/pic2.png";
-import Image3 from "../../assests/images/pic3.png";
-import Image4 from "../../assests/images/pic4.png";
+
 const Programs = () => {
   return (
     <main className="p-2 sm:px-12">
@@ -25,7 +22,11 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image1} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-top"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710277405685/ddf7a15d-b583-40e3-9b58-2024e5cd3464.jpeg"
+            alt="International women's day banner"
+          />
         </div>
       </div>
 
@@ -51,7 +52,11 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image2} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-top"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710277704985/4d9bb9a1-6dbb-487c-90aa-e2801d718ff3.jpeg"
+            alt="Membership development speakers series"
+          />
         </div>
       </div>
 
@@ -78,7 +83,11 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image3} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-top"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710277821578/ed8deb99-c512-423d-a6ea-aca1cf4407c6.png"
+            alt="Secondary school competition on debate"
+          />
         </div>
       </div>
 
@@ -102,7 +111,11 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image4} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-top"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710285786426/6448ca95-66ae-4ec0-9246-195835225133.jpeg"
+            alt="Baba N Yara Novelty games"
+          />
         </div>
       </div>
     </main>
