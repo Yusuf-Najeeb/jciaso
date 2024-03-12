@@ -3,11 +3,11 @@ import { BsCashStack, BsPeople, BsPerson } from "react-icons/bs";
 
 const Benefits = () => {
   return (
-    <main className="p-2 md:px-12 my-8">
+    <main className="p-2 md:px-12 my-12">
       <div className="flex flex-col lg:flex-row gap-8 sm:gap-6">
         <div className="relative border border-[#0199cc] rounded p-4">
           <BsPerson
-            className="absolute bg-[#0199cc] text-white rounded-full p-2 -top-5 left-[45%]"
+            className="absolute bg-[#0199cc] text-white rounded-full p-2 -top-6 left-[40%]"
             size={50}
           />
           <h3 className="text-sm sm:text-[1.2rem] font-bold text-[#333] mt-4 text-center">
@@ -26,7 +26,7 @@ const Benefits = () => {
         <div className="relative border border-[#0199cc] rounded p-4">
           <BsCashStack
             className="absolute bg-[#0199cc] text-white rounded-full p-2 -top-5
-          left-[45%]"
+          left-[40%]"
             size={50}
           />
           <h3 className="text-sm sm:text-[1.2rem] font-bold text-[#333] mt-4 text-center">
@@ -44,7 +44,7 @@ const Benefits = () => {
         </div>
         <div className="relative border border-[#0199cc] rounded p-4">
           <BsPeople
-            className="absolute bg-[#0199cc] text-white rounded-full p-2 -top-5 left-[45%]"
+            className="absolute bg-[#0199cc] text-white rounded-full p-2 -top-5 left-[40%]"
             size={50}
           />
           <h3 className="text-sm sm:text-[1.2rem] font-bold text-[#333] mt-4 text-center">

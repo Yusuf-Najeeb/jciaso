@@ -2,7 +2,7 @@ import React from "react";
 
 const Sponsors = () => {
   return (
-    <div className="flex flex-col px-6 py-4 mt-6 lg:px-10 lg:py-32 lg:gap-16">
+    <div className="flex flex-col px-2 py-4 mt-6 lg:px-10 lg:py-32 lg:gap-16">
       <h1 className="title font-bold text-center text-[1.8rem] lg:text-[2.5rem]">
         Our Partners
       </h1>

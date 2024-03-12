@@ -5,7 +5,7 @@ const LatestArticle = () => {
   const [news] = useState(articleUpdates);
 
   return (
-    <section className="flex flex-col gap-2 px-6 mt-16">
+    <section className="flex flex-col gap-2 px-2 mt-16">
       <h1 className="text-2xl px-10 ">Articles</h1>
       <section className="flex flex-wrap justify-center gap-8">
         {news.map((updates) => {
