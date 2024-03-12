@@ -1,5 +1,4 @@
 import React from "react";
-// import AboutFrame from "../../assests/images/AboutFrame.png";
 
 const AboutContent = () => {
   return (

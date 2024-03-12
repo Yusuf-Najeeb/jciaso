@@ -13,7 +13,7 @@ const AboutHeroSection = () => {
           About Us
         </h1>
         <p className="relative lg:w-[40%] my-2 text-[1.2rem]">
-          Learn a little about us, our organisation, ours goals and values
+          Learn a little about us, our organization, ours goals and values
         </p>
       </div>
     </section>

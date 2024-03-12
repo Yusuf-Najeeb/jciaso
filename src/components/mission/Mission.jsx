@@ -8,7 +8,7 @@ const Mission = () => {
         Mission & Vision
       </h1>
       <section className="flex flex-col md:flex-row justify-center lg:justify-between gap-4">
-        <div className="sm:w-1/2 flex flex-col gap-4">
+        <div className="md:w-1/2 flex flex-col gap-4">
           <div className="min-h-[100px] text-center p-2 rounded-lg shadow-lg shadow-[#ECBD37]/30 md:hover:scale-105 transition-all duration-700">
             <h3 className="text-[#328CB1] text-2xl title my-3">Vision</h3>
             <p>Creating value in our environment through focusing on people.</p>
@@ -22,7 +22,7 @@ const Mission = () => {
             </p>
           </div>
         </div>
-        <div className="sm:w-1/2 relative md:hover:scale-105 transition-all duration-700 rounded-lg shadow-md">
+        <div className="md:w-1/2 relative md:hover:scale-105 transition-all duration-700 rounded-lg shadow-md">
           <BsQuote
             className="hidden md:block text-[#ECBD37] absolute left-4 top-0 -ml-6 -mt-4"
             size={50}

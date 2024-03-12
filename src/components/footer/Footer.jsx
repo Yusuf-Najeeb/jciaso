@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SocialMedia from "../socialmedia/SocialMedia";
-import Logo from "../../assests/JCIAso.png";
 
 const Footer = () => {
   const today = new Date();
@@ -18,7 +17,7 @@ const Footer = () => {
 
         <div className="flex flex-col gap-2 sm:gap-6 my-4 p-2">
           <h1 className="font-bold text-[1.5rem]">Quick Links</h1>
-          <ul className="flex flex-row sm:flex-col gap-1 sm:gap-2 ">
+          <ul className="flex flex-col gap-1 sm:gap-2 ">
             <Link to="/about" className="hover:underline duration-300">
               About&nbsp;us
             </Link>
