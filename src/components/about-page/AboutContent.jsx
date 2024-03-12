@@ -49,15 +49,12 @@ const AboutContent = () => {
             organization.
           </p>
         </div>
-        <div className=" bg-gradient-to-t from-[#143c4d] via-[#034058] to-[#37758e]  lg:w-[50%] relative rounded-md">
+        <div className="sm:block hidden lg:w-[50%] rounded-md">
           <img
             src="https://res.cloudinary.com/duw4jtxls/image/upload/v1710168617/About_n9aagz.png"
             alt="jci aso"
             className="w-full h-full object-cover mix-blend-overlay "
           />
-          <p className="absolute text-[#FFF] tracking-[1.3rem] font-extrabold text-[2rem] top-[50%] right-[15%] lg:right-[20%]">
-            JCI ASO
-          </p>
         </div>
       </section>
     </React.Fragment>
