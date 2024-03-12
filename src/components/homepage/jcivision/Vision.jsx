@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import Theme from "../../../assests/images/themePic.png";
 import { MdCenterFocusStrong, MdOutline6FtApart } from "react-icons/md";
 import { GiWeightLiftingUp } from "react-icons/gi";
 // import { FaGlobe } from "react-icons/fa6";
@@ -31,7 +30,7 @@ const Vision = () => {
             />
             <div className="flex flex-col items-center">
               <h1 className="text-[1.2rem] sm:text-[1.5rem] font-bold sm:font-semibold mt-4">
-                JCIN Amb. Yetunde Adebisi
+                Engr. Yetunde Adebisi
               </h1>
               <p className="text-[.9rem] sm:text-[1.2rem] font-semibold">
                 24<sup>th</sup> President JCI Aso
@@ -71,7 +70,11 @@ const Vision = () => {
           >
             Core Objectives
           </h1>
-          <img className="w-[60%]" src={Theme} alt="" />
+          <img
+            className="w-[60%]"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259400614/9059e1a4-ce8b-4a9d-9f74-23f165e4228c.png"
+            alt="2024 Presidential Theme: Partnership, Membership & Sustainability"
+          />
 
           <section className="flex flex-col gap-8 px-4">
             <div
