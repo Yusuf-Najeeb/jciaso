@@ -72,6 +72,14 @@ const InfoForm = () => {
             </button>
           </form>
         </div>
+
+        <div className="sm:block hidden">
+          <img
+            src="https://res.cloudinary.com/duw4jtxls/image/upload/v1710168617/About_n9aagz.png"
+            alt="jci aso"
+            className="w-full h-full object-cover mix-blend-overlay "
+          />
+        </div>
       </div>
     </>
   );
