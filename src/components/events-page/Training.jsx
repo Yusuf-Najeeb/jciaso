@@ -1,6 +1,5 @@
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import Image7 from "../../assests/images/pic7.png";
 
 const Training = () => {
   return (
@@ -21,7 +20,11 @@ const Training = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image7} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-center"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710286260542/8d71eea3-f67c-43e8-ae21-f22a8bed7f9b.jpeg"
+            alt="In house General Assembly"
+          />
         </div>
       </div>
       <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
@@ -40,7 +43,11 @@ const Training = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image7} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-center"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710286231911/86f3718b-babb-4437-8c4b-7525b1201336.jpeg"
+            alt="Monthly development series"
+          />
         </div>
       </div>
       <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
@@ -59,7 +66,11 @@ const Training = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image7} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-center"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710286271239/2b132c09-3eb7-4be4-9825-e69f4c9513c2.jpeg"
+            alt="Skills development for intending members"
+          />
         </div>
       </div>
     </div>

@@ -1,9 +1,5 @@
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-// import { FaLeaf } from "react-icons/fa";
-
-import Image7 from "../../assests/images/pic7.png";
-import Image9 from "../../assests/images/pic9.png";
 
 const Projects = () => {
   return (
@@ -24,7 +20,11 @@ const Projects = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image7} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-center"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710285949652/ad24bf34-cdc2-4fcb-bb29-322e10050475.jpeg"
+            alt="Educate a child"
+          />
         </div>
       </div>
 
@@ -48,7 +48,11 @@ const Projects = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img src={Image9} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-center"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710278425986/005881fa-c174-4fcd-afa1-8a689e3004a8.jpeg"
+            alt="Save a soul project University of Abuja."
+          />
         </div>
       </div>
     </main>

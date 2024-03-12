@@ -1,6 +1,5 @@
 import React from "react";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import Image1 from "../../assests/images/pic8.png";
 
 const Events = () => {
   return (
@@ -24,7 +23,11 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img className="max-h-[300px] w-full rounded" src={Image1} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-top"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710276865201/40fd69d4-4f00-46d0-bc86-a088a45185a8.jpeg"
+            alt="Qualitative leadership breakout session"
+          />
         </div>
       </div>
 
@@ -48,7 +51,11 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
-          <img className="max-h-[300px] w-full rounded" src={Image1} alt="" />
+          <img
+            className="max-h-[300px] w-full rounded object-cover object-center"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710278867523/2ef96b16-a608-443c-ae60-a1acbfc8f8c4.jpeg"
+            alt="JCI Aso General Assembly"
+          />
         </div>
       </div>
     </main>

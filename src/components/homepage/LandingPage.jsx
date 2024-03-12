@@ -5,7 +5,7 @@ import Sponsors from "./sponsors/Sponsors";
 import Testimonials from "./testimonials/Testimonials";
 import Media from "./media/Media";
 import LatestArticle from "./media/LatestArticle";
-import Mission from "../mission/Mission";
+// import Mission from "../mission/Mission";
 import Benefits from "./benefits/Benefits";
 
 const LandingPage = () => {
