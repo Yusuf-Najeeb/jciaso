@@ -1,72 +1,90 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { BsQuote } from "react-icons/bs";
 
 const Testimonials = () => {
+  const testimonialsData = [
+    {
+      title: "Most Outstanding Performance award",
+      testimony:
+        "JCI Aso provided a platform for self-discovery and an avenue for self-development. The leaders and members are amazing. I am super grateful",
+      imageSrc:
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1710164700153/d9edb3ac-5887-4a52-962d-8af1b96d135e.png",
+      name: "Shamsudeen Aderoju",
+      position: "Incumbent Secretary",
+      jci: "JCI Aso",
+    },
+    {
+      testimony:
+        "JCI Aso provided a platform for self-discovery and an avenue for self-development. The leaders and members are amazing. I am super grateful",
+      imageSrc:
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1710164700153/d9edb3ac-5887-4a52-962d-8af1b96d135e.png",
+      name: "Shamsudeen Aderoju",
+      position: "Incumbent Secretary",
+      jci: "JCI Aso",
+    },
+    // Add more testimonials data here
+  ];
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    cssEase: "cubic-bezier(0.87, 0, 0.13, 1)",
+  };
+
   return (
-    <div className="p-5 mt-24 relative">
-      <h1 className="title bg-white font-[Karla] text-center text-5xl font-medium">
+    <div className="">
+      <h1 className="text-center text-zinc-900 text-5xl font-medium font-Roboto leading-10">
         Testimonials
       </h1>
-      <div className="bg-slate-700 p-10 mt-8">
-        <div className="flex flex-col gap-32 justify-between lg:gap-8 lg:flex-row">
-          <div className="lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
-            <div className="px-3 py-4 pb-16 lg:px-6">
-              <p className="text-white text-base">
-                From day one I joined JCI Aso, I am filled with gratitude for
-                the enriching experiences and the incredible family there
-                offering me a warm welcome and comprehensive orientation.
-              </p>
+      <Slider {...settings}>
+        {testimonialsData.map((testimonial, index) => (
+          <div>
+            <div
+              key={index}
+              className="flex items-center justify-center rounded-md shadow-lg mx-auto "
+            >
+              <div className="w-[1000px] h-[502px] m-5 p-4 bg-gray-200 rounded-lg flex justify-center gap-12 items-center ">
+                <img
+                  src={testimonial.imageSrc}
+                  className="w-[438px] h-[398px] rounded-md"
+                  alt={testimonial.title}
+                />
+                <div className="text-left p-6  relative my-12">
+                  <BsQuote
+                    className="hidden md:block text-[#222C2C] absolute left-4 top-0 -ml-6 -mt-4 mb-2"
+                    size={50}
+                  />
+                  <div className="w-96 text-black text-[25px] font-normal font-['Roboto']">
+                    {testimonial.testimony}
+                  </div>
+
+                  <BsQuote
+                    className="hidden md:block text-[#222C2C] absolute right-4 bottom-30 -mr-6 -mt-4 origin-center rotate-180"
+                    size={50}
+                  />
+                  <div className="text-zinc-800 text-[20px] font-semibold mt-14">
+                    {testimonial.name}
+                  </div>
+                  <div className="text-zinc-800 text-base font-normal">
+                    {testimonial.position}
+                  </div>
+                  <div className="text-zinc-800 text-[24px] font-normal">
+                    {testimonial.jci}
+                  </div>
+                </div>
+              </div>
             </div>
-            <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706444805830/2c42305e-c6c1-4af6-82f9-9daccad1498d.jpeg"
-              alt="Profile"
-              className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
-            />
-            <p className="mt-3 text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Oladejo Ayomide <br />
-            </p>
           </div>
-          <div className=" lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
-            <div className="px-3 py-4 pb-16 lg:px-6">
-              <p className="text-white text-base">
-                Since joining, I have learnt the culture of excellence,
-                partnership and collaboration, community impact, leadership,
-                accountability and I've had the chance to showcase my public
-                speaking skills.
-              </p>
-            </div>
-            <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706444878598/999174b0-5108-48ba-9524-067c0d0534c9.jpeg"
-              alt="Profile"
-              className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
-            />
-            <p className="mt-3 text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Joshua Aigbona Oghorialu <br />
-            </p>
-          </div>
-          <div className="lg:w-[400px] border flex flex-col justify-center p-2 items-center rounded-md shadow-lg relative lg:p-6 testimonial-card">
-            <div className="px-3 py-4 pb-16 lg:px-6">
-              <p className="text-white text-base">
-                JCI Aso provided a platform for self-discovery and an avenue for
-                self-development. The leaders and members are amazing. I am
-                super grateful.
-              </p>
-            </div>
-            <img
-              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706444735532/21a414c9-7a09-47ce-ae8d-72deb58dc87f.jpeg"
-              alt="Profile"
-              className="absolute bottom-[-30px] left-1/2 top-15 transform -translate-x-1/2 translate-y-2 w-20 h-20 rounded-full border"
-            />
-            <p className="mt-5 whitespace-nowrap text-white text-sm absolute bottom-[-50px] left-1/2 transform -translate-x-1/2 translate-y-8">
-              Shamsudeen Aderoju <br /> JCI Aso Secretary
-            </p>
-          </div>
-        </div>
-        <div className="flex justify-end text-right mt-20">
-          <button className="mt-8 text-white py-2 px-4 rounded-md border hover:border-sky-500 hover:text-sky-500 text-right">
-            See More
-          </button>
-        </div>
-      </div>
+        ))}
+      </Slider>
     </div>
   );
 };

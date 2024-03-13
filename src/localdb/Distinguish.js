@@ -1,50 +1,76 @@
 export const jciDistinguish = [
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710314535300/549de740-8bef-414e-94de-7b01e1504084.png",
+    sen: "JCI Sen.",
+    name: "Oluwarotimi Akinrinade A.",
+    position: "President-2006",
   },
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710314751685/0111326b-4891-4e15-a6b4-cdb3703967a1.png",
+    sen: "JCI Sen.",
+    name: "Gabriel Oladapo",
+    position: "President-2007",
   },
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316424857/7e24defe-6af6-4fed-a50b-590a03e56748.png",
+    name: "Adebayo Morakinyo",
+    position: "President-2008",
   },
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316427633/dc8d57b1-6989-4cca-93c3-2293e36dea0e.png",
+    name: "Muhammadu Mujtaba K.",
+    position: "President-2012",
   },
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316128948/43169746-84ef-4699-a61d-237fe1d87227.png",
+    name: "Odusole Oluwakayode",
+    position: "President-2014",
   },
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315746745/41b52ebc-5051-4b9a-b133-922c2b1e43b8.png",
+    name: "Oluwaseyi Orimoloye",
+    position: "President-2016",
   },
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315811189/56a85c68-7d8d-43be-82fa-7b7fe31fdb18.png",
+    name: "Oluwafemi Fadairo",
+    position: "President-2018",
   },
   {
     image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1706702950879/8d646a0a-7d4d-4dae-bfcc-65d54771efce.png",
-    name: "Idris Haruna Alih",
-    position: "Chief Executive Officer",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315806154/da689556-4ed3-4e6c-ab35-d87783e9ad8d.png",
+    name: "Attairu Abdullahi B.",
+    position: "President-2019",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315751964/13681fb9-eb54-43e6-bcc2-38cabb9a928e.png",
+    name: "Ayodeji Ojo",
+    position: "President-2020",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316123653/59dd344d-b0fd-4543-bb38-babf29926c95.png",
+    name: "Ajala Aminat A.",
+    position: "President-2021",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315754334/c56e8f11-1502-432c-8f0a-e6c2142126f2.png",
+    name: "Abayomi Oladipupo L.",
+    position: "President-2022",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315749823/6bd5d833-e8de-44ce-9d62-0df0dcdd8917.png",
+    name: "Olubunmi Ajayi",
+    position: "President-2023",
   },
 ];
