@@ -135,7 +135,9 @@ const Header = () => {
                   <Link
                     to="/about"
                     className={`${
-                      activeLink === "about" || location.pathname === "about" ? "border-b-2 border-blue-600" : ""
+                      activeLink === "about" || location.pathname === "about"
+                        ? "border-b-2 border-blue-600"
+                        : ""
                     } py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 transition-transform duration-1000 ease-out`}
                   >
                     About Us
@@ -157,15 +159,13 @@ const Header = () => {
                     Events
                   </Link>
                 </li>
-                <li className="relative">
-                  <Link
-                    onMouseEnter={handleDropdownOpen}
-                    onMouseLeave={handleDropdownClose}
-                    to=""
-                    className="flex justify-start items-center gap-2 py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
-                  >
-                    Get Involved <HiChevronDown />
-                  </Link>
+                <li
+                  onMouseEnter={handleDropdownOpen}
+                  onMouseLeave={handleDropdownClose}
+                  to=""
+                  className="relative flex justify-start items-center gap-2 py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
+                >
+                  Get Involved <HiChevronDown />
                   {isDropdownOpen && (
                     <div
                       className="absolute top-full left-0 bg-white p-4 shadow-lg "
