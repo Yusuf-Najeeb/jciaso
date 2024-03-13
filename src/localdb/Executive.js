@@ -61,6 +61,18 @@ export const jciExecutive = [
   },
   {
     image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710329995144/fb7638df-b634-4e4d-b0d7-0db24633490f.png",
+    name: "Ukeme Etim",
+    position: "Director of Awards & Documentation",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330000276/8430b386-39ad-428b-9e9a-504763c1316e.png",
+    name: "Wokoma, Tubonimi Briggs",
+    position: "Director of Business Opportunities",
+  },
+  {
+    image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320124309/8f4faaf3-a6d0-44e0-b55f-7ca40daf4c31.png",
     name: "Titilope Akinbode",
     position: "Editor in Chief",
@@ -83,10 +95,47 @@ export const jciExecutive = [
     name: "Ramatu Suleiman",
     position: "Chairperson-Membership Development Summit",
   },
+
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320133880/7b98d295-b251-470f-ab7c-dc9dc14079f1.png",
     name: "Prince Dunsin Kolade",
-    position: "Director of Business Opportunities",
+    position: "Chairperson Baba N Yara Games",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330085520/1e8abe61-69a4-4e02-965b-69c2bbc7da7b.png",
+    name: "Maryam Abubakar",
+    position: "Educate a Child",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330090279/17106dbd-715f-47e4-9ba2-8f89b8b87b1c.png",
+    name: "Oladejo Ayomide",
+    position: "Save a Soul Project",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330094097/1f7dffbd-b6df-40a2-add6-62ac5076c2ee.png",
+    name: "Patience Ezekiel",
+    position: "Chairperson International Women's Day",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330097343/e3ae9fbf-253e-43a0-a4d5-098b8e465a0e.png",
+    name: "Aina Micheals",
+    position: "Chairman Founders Day Program",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330101034/33ef48be-9cce-4be7-bbdc-51e7506c14e8.png",
+    name: "Toheeb Abdulraheem",
+    position: "Chairman, 100% Efficiency",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330138022/5413425d-57f4-4dcc-af2f-a87513006bd9.png",
+    name: "Ginikachi Tasieobi",
+    position: "Chairperson Secondary School Debate Competition",
   },
 ];
