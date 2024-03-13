@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaPhone } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
+import { HiLocationMarker, HiChevronDown } from "react-icons/hi";
 import JoinJCIButton from "../homepage/herosection/JoinJCIButton";
 import { Link } from "react-router-dom";
 const Header = () => {
@@ -8,6 +8,16 @@ const Header = () => {
     const mobileMenu = document.getElementById("mobile-menu-4");
     mobileMenu.classList.toggle("hidden");
   }
+
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleDropdownOpen = () => {
+    setIsDropdownOpen(true);
+  };
+
+  const handleDropdownClose = () => {
+    setIsDropdownOpen(false);
+  };
 
   return (
     <>
@@ -103,18 +113,18 @@ const Header = () => {
                 </li>
                 <li>
                   <Link
-                    to="/excos"
+                    to="/about"
                     className="py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0 transition-transform duration-1000 ease-out"
                   >
-                    Executives
+                    About Us
                   </Link>
                 </li>
                 <li>
                   <Link
-                    to="/articles"
+                    to="/excos"
                     className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
-                    News & Articles
+                    Our Team
                   </Link>
                 </li>
                 <li>
@@ -122,16 +132,52 @@ const Header = () => {
                     to="/events"
                     className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0  "
                   >
-                    Get Involved
+                    Events
                   </Link>
                 </li>
-                <li>
+                <li className="relative">
                   <Link
-                    to="/about"
-                    className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
+                    onMouseEnter={handleDropdownOpen}
+                    onMouseLeave={handleDropdownClose}
+                    to=""
+                    className="flex justify-center items-center gap-2 py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 hover:text-sky-500 lg:p-0"
                   >
-                    About Us
+                    Get Involved <HiChevronDown />
                   </Link>
+                  {isDropdownOpen && (
+                    <div
+                      className="absolute top-full left-0 bg-white p-4 shadow-lg "
+                      onMouseEnter={handleDropdownOpen}
+                      onMouseLeave={handleDropdownClose}
+                    >
+                      <ul className="min-w-[143px] space-y-2">
+                        <li>
+                          <Link
+                            to="/join"
+                            className="text-gray-800 hover:text-sky-500 p-2"
+                          >
+                            Membership
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/articles"
+                            className="text-gray-800 hover:text-sky-500 p-2"
+                          >
+                            News and Blogs
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            to="/events"
+                            className="text-gray-800 hover:text-sky-500 p-2"
+                          >
+                            Programs
+                          </Link>
+                        </li>
+                      </ul>
+                    </div>
+                  )}
                 </li>
                 <li className="text-sm mt-2 sm:hidden">
                   <JoinJCIButton title="Become a JCI Member" />
