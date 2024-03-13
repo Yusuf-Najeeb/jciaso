@@ -13,7 +13,7 @@ const AboutNumber = () => {
           <div className="p-6 bg-[#20b4e3] shadow-lg py-12 rounded-md w-full">
             <b className="text-5xl font-extrabold ">
               {" "}
-              <CountUp start={0} end={1300} duration={6} />+
+              <CountUp start={0} end={70} duration={6} />+
             </b>
             <h3 className="text-xl font-bold mb-2">Members</h3>
           </div>
@@ -21,7 +21,7 @@ const AboutNumber = () => {
           <div className="p-4 bg-[#20b4e3] shadow-lg py-12 rounded-md w-full">
             <b className="text-5xl font-extrabold ">
               {" "}
-              <CountUp start={0} end={300} duration={7} />+
+              <CountUp start={0} end={100} duration={7} />+
             </b>
             <h3 className="text-xl font-bold mb-2">Excos</h3>
           </div>
@@ -29,7 +29,7 @@ const AboutNumber = () => {
           <div className="p-4 bg-[#20b4e3] shadow-lg py-12  rounded-md w-full">
             <b className="text-5xl font-extrabold ">
               {" "}
-              <CountUp start={0} end={27} duration={7} />+
+              <CountUp start={0} end={20} duration={7} />+
             </b>
             <h3 className="text-xl font-bold mb-2">Years of Experience</h3>
           </div>
@@ -37,7 +37,7 @@ const AboutNumber = () => {
           <div className="p-4 bg-[#20b4e3] shadow-lg py-12 rounded-md w-full">
             <b className="text-5xl font-extrabold ">
               {" "}
-              <CountUp start={0} end={100} duration={5} />%
+              <CountUp start={0} end={10} duration={5} />%
             </b>
             <h3 className="text-xl font-bold mb-2">Professionalism</h3>
           </div>

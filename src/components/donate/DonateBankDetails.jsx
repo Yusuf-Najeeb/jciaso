@@ -7,19 +7,20 @@ const DonateBankDetails = () => {
         <h1 className="text-[1.5rem]">
           Kindly send your donations to the account details below:{" "}
         </h1>
-        <div className="flex flex-col gap-4 lg:px-20">
+        <h3 className="font-bold"> PROJECT & PROGRAMMES</h3>
+        <div className="flex flex-col gap-4 lg:px-16">
           <div className="flex flex-col items-start lg:gap-6 lg:flex-row ">
             <p>Account Number : </p>
-            <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">1234567890</p>
+            <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">7723913012 </p>
           </div>
           <div className="flex flex-col items-start lg:gap-6 lg:flex-row ">
             <p>Bank Name : </p>
-            <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">Union Bank</p>
+            <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">FCMB</p>
           </div>
           <div className="flex flex-col items-start lg:gap-6 lg:flex-row ">
             <p>Account Name : </p>
             <p className="bg-[#e5e5e5] p-1 px-4 rounded-md">
-              Junior chamber international.
+              JCI Aso - Projects Account
             </p>
           </div>
         </div>
