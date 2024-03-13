@@ -13,8 +13,8 @@ const EventHeader = () => {
   };
   return (
     <>
-      <div className="mx-12 border-b my-4">
-        <ul className="flex flex-row flex-nowrap gap-4 font-semibold text-[1.2rem] cursor-pointer">
+      <div className="px-2 sm:px-12 border-b my-4">
+        <ul className="flex flex-row flex-nowrap gap-4 font-semibold text-sm sm:text-[1.2rem] cursor-pointer">
           <li
             className={
               toggler === 0
