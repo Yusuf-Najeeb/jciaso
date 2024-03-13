@@ -80,21 +80,21 @@ export const jciDistinguish = [
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316123653/59dd344d-b0fd-4543-bb38-babf29926c95.png",
-    sen: "JCI Sen.",
+    sen: "JCIN Amb.",
     name: "Ajala Aminat A.",
     position: "President-2021",
   },
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315754334/c56e8f11-1502-432c-8f0a-e6c2142126f2.png",
-    sen: "JCI Sen.",
+    sen: "JCIN Amb.",
     name: "Abayomi Oladipupo L.",
     position: "President-2022",
   },
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710315749823/6bd5d833-e8de-44ce-9d62-0df0dcdd8917.png",
-    sen: "JCI Sen.",
+    sen: "JCIN Amb.",
     name: "Olubunmi Ajayi",
     position: "President-2023",
   },

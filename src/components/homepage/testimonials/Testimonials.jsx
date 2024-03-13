@@ -79,13 +79,16 @@ const Testimonials = () => {
   };
 
   return (
-    <div className=" p-5 lg:px-20 lg:py-16">
+    <div className=" p-5 lg:px-20 lg:py-6">
       <h2 className="text-4xl font-bold text-gray-800 dark:text-neutral-100 mb-8 text-center">
         Testimonials
       </h2>
       <Slider {...settings}>
         {testimonialsData.map((testimonial, index) => (
-          <div key={index} className="text-center bg-gray-200 rounded-lg ">
+          <div
+            key={index}
+            className="text-center bg-gray-200 rounded-lg lg:min-h-[400px]"
+          >
             <div className="flex flex-col gap-2 lg:flex-row lg:gap-12 items-center p-5">
               <img
                 src={testimonial.imageSrc}
