@@ -53,7 +53,7 @@ const Footer = () => {
         {" "}
         Copyright {today.getFullYear()} JCI ASO - All rights reserved
       </p>
-      {/* <section></section> */}
+      <section className="mt-5"></section>
     </footer>
   );
 };
