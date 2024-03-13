@@ -4,9 +4,9 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 const Projects = () => {
   return (
     <main className="p-2 sm:px-12">
-      <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="flex flex-row flex-nowrap gap-3 sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+          <h4 className="hidden sm:flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
             Educate a Child
           </h4>
           <p className="text-sm text-gray-400">February 2024</p>
@@ -20,6 +20,9 @@ const Projects = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+            Educate a Child
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710285949652/ad24bf34-cdc2-4fcb-bb29-322e10050475.jpeg"
@@ -28,9 +31,9 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="flex flex-row flex-nowrap gap-3 sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+          <h4 className="hidden sm:flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
             Save A Soul
           </h4>
           <p className="text-sm text-gray-400">April 2024</p>
@@ -48,6 +51,9 @@ const Projects = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+            Save A Soul
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710278425986/005881fa-c174-4fcd-afa1-8a689e3004a8.jpeg"

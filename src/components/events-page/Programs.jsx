@@ -4,9 +4,9 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 const Programs = () => {
   return (
     <main className="p-2 sm:px-12">
-      <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="text-2xl font-semibold leading-normal">
+          <h4 className="hidden sm:block text-2xl font-semibold leading-normal">
             2024 International Women’s Day
           </h4>
           <p className="text-sm text-gray-400">March 2024</p>
@@ -22,6 +22,9 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden text-2xl font-semibold leading-normal">
+            2024 International Women’s Day
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-top"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710277405685/ddf7a15d-b583-40e3-9b58-2024e5cd3464.jpeg"
@@ -30,9 +33,9 @@ const Programs = () => {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="text-2xl font-semibold leading-normal">
+          <h4 className="hidden sm:blcok text-2xl font-semibold leading-normal">
             Membership Development Summit
           </h4>
           <p className="text-sm text-gray-400">May 2024</p>
@@ -52,6 +55,9 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden text-2xl font-semibold leading-normal">
+            Membership Development Summit
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-top"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710277704985/4d9bb9a1-6dbb-487c-90aa-e2801d718ff3.jpeg"
@@ -60,9 +66,9 @@ const Programs = () => {
         </div>
       </div>
 
-      <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="text-2xl font-semibold leading-normal">
+          <h4 className="hidden sm:block text-2xl font-semibold leading-normal">
             Secondary School Debate and Speech Contest
           </h4>
           <p className="text-sm text-gray-400">June 2024</p>
@@ -83,6 +89,9 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden text-2xl font-semibold leading-normal">
+            Secondary School Debate and Speech Contest
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-top"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710277821578/ed8deb99-c512-423d-a6ea-aca1cf4407c6.png"
@@ -91,9 +100,9 @@ const Programs = () => {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="text-2xl font-semibold leading-normal">
+          <h4 className="hidden sm:block text-2xl font-semibold leading-normal">
             12th Baba N" Yara Novelty Games
           </h4>
           <p className="text-sm text-gray-400">May 2024</p>
@@ -111,6 +120,9 @@ const Programs = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden text-2xl font-semibold leading-normal">
+            12th Baba N" Yara Novelty Games
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-top"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710285786426/6448ca95-66ae-4ec0-9246-195835225133.jpeg"

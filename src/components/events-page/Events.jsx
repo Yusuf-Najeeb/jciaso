@@ -4,9 +4,9 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 const Events = () => {
   return (
     <main className="p-2 sm:px-12">
-      <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="text-4xl font-semibold leading-normal">
+          <h4 className="hidden sm:block text-2xl sm:text-4xl font-semibold leading-normal">
             Quality Leadership Value (QLV)
           </h4>
           <p className="text-sm text-gray-400">July 2024</p>
@@ -23,6 +23,9 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden text-2xl sm:text-4xl font-semibold leading-normal">
+            Quality Leadership Value (QLV)
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-top"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710276865201/40fd69d4-4f00-46d0-bc86-a088a45185a8.jpeg"
@@ -31,9 +34,9 @@ const Events = () => {
         </div>
       </div>
 
-      <div className="flex flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="text-4xl font-semibold leading-normal">
+          <h4 className="hidden sm:block text-2xl sm:text-4xl font-semibold leading-normal">
             2024 Northern Conference
           </h4>
           <p className="text-sm text-gray-400">August 2024</p>
@@ -51,6 +54,9 @@ const Events = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden text-2xl sm:text-4xl font-semibold leading-normal">
+            2024 Northern Conference
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710278867523/2ef96b16-a608-443c-ae60-a1acbfc8f8c4.jpeg"

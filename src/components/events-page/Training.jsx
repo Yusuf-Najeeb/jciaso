@@ -4,9 +4,9 @@ import { BsBoxArrowUpRight } from "react-icons/bs";
 const Training = () => {
   return (
     <div className="p-2 sm:px-12">
-      <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="flex flex-row flex-nowrap gap-3 sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+          <h4 className="hidden sm:flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
             In-House General Assembly Training Sessions
           </h4>
           <p className="text-sm text-gray-400">February 2024</p>
@@ -20,6 +20,9 @@ const Training = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+            In-House General Assembly Training Sessions
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710286260542/8d71eea3-f67c-43e8-ae21-f22a8bed7f9b.jpeg"
@@ -27,9 +30,9 @@ const Training = () => {
           />
         </div>
       </div>
-      <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="flex flex-row flex-nowrap gap-3 sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+          <h4 className="hidden sm:flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
             Monthly Skills Development Series
           </h4>
           <p className="text-sm text-gray-400">February 2024</p>
@@ -43,6 +46,9 @@ const Training = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+            Monthly Skills Development Series
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710286231911/86f3718b-babb-4437-8c4b-7525b1201336.jpeg"
@@ -50,9 +56,9 @@ const Training = () => {
           />
         </div>
       </div>
-      <div className="flex flex-row justify-between items-center gap-4 py-4 my-8 border-b">
+      <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="flex flex-row flex-nowrap gap-3 sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+          <h4 className="hidden sm:flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
             Skills Development sessions for Intending Members
           </h4>
           <p className="text-sm text-gray-400">February 2024</p>
@@ -66,6 +72,9 @@ const Training = () => {
           </button>
         </div>
         <div className="flex-1">
+          <h4 className="sm:hidden flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
+            Skills Development sessions for Intending Members
+          </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710286271239/2b132c09-3eb7-4be4-9825-e69f4c9513c2.jpeg"
