@@ -7,7 +7,7 @@ const Excecutive = () => {
   const [exco] = useState(jciExecutive);
   return (
     <div className="flex flex-col gap-12 justify-center items-center mt-16 px-6 lg:px-16">
-      <h1 className="title text-center">2024 Executive and Board Members</h1>
+      <h1 className="title text-center">2024 Executives and Board Members</h1>
       <div className="flex flex-col gap-20 items-center">
         <div className="flex flex-col items-center gap-1 font-semibold p-1">
           <img
@@ -17,7 +17,7 @@ const Excecutive = () => {
             alt="President"
           />
           <p className="opacity-80">JCIN Amb.</p>
-          <h3 className="text-center font-bold">Yetunde</h3>
+          <h3 className="text-center font-bold">Yetunde A. Adebisi</h3>
           <p className="text-center">Local Organization President</p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 justify-center items-center lg:gap-16 gap-4">
