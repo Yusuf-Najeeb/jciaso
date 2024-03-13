@@ -49,7 +49,7 @@ const Footer = () => {
         </div>
       </section>
       <div className="border border-[#FAFAFA80] w-[75%] mt-16"></div>
-      <p className="w-[100%] bg-[#20B4E3] text-[0.8rem]  p-4 text-center text-white font-semibold mt-16">
+      <p className="w-[100%] bg-[#20B4E3] text-[0.8rem]  p-4 text-center text-white font-semibold ">
         {" "}
         Copyright {today.getFullYear()} JCI ASO - All rights reserved
       </p>
