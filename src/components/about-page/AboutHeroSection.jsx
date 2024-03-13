@@ -5,8 +5,8 @@ const AboutHeroSection = () => {
     <section className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
       <img
         className="w-full h-full object-cover absolute mix-blend-overlay"
-        src="https://res.cloudinary.com/duw4jtxls/image/upload/v1710168643/AboutFrame_npz6xl.png"
-        alt=""
+        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259524145/6f17457b-5171-4f60-a119-fec84a0a16a8.jpeg"
+        alt="Group Photograph"
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">
         <h1 className=" relative text-4xl lg:text-6xl font-semibold">
