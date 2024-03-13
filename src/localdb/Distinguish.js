@@ -21,9 +21,22 @@ export const jciDistinguish = [
   },
   {
     image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710331552145/04130dd6-5625-46cc-a34f-3fb7c35c1928.png",
+    name: "Babajide Richard Ojo",
+    position: "President-2011",
+  },
+
+  {
+    image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316427633/dc8d57b1-6989-4cca-93c3-2293e36dea0e.png",
     name: "Muhammadu Mujtaba K.",
     position: "President-2012",
+  },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710331554546/b589eb2a-b9c6-4f30-b066-0da7922eb1ff.png",
+    name: "Aina Segun Aina",
+    position: "President-2013",
   },
   {
     image:

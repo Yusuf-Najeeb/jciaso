@@ -30,6 +30,7 @@ const AboutNumber = () => {
             <b className="text-5xl font-extrabold ">
               {" "}
               <CountUp start={0} end={20} duration={7} />+
+              <CountUp start={0} end={20} duration={7} />+
             </b>
             <h3 className="text-xl font-bold mb-2">Years of Experience</h3>
           </div>

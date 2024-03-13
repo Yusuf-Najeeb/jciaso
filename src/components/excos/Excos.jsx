@@ -7,7 +7,6 @@ const Excos = () => {
   return (
     <div>
       <ExcosHero />
-
       <Excecutive />
       <Distinguished />
     </div>
