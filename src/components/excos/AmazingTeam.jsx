@@ -43,7 +43,7 @@ const AmazingTeam = () => {
 
   return (
     <div className="mb-16">
-      <h2 className="text-4xl font-bold text-gray-800 dark:text-neutral-100 mb-8 text-center">
+      <h2 className="text-4xl font-bold text-gray-800  mb-8 text-center">
         Our Amazing Members
       </h2>
       <Slider {...settings}>
