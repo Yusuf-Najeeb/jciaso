@@ -80,7 +80,7 @@ const Testimonials = () => {
 
   return (
     <div className=" p-5 lg:px-20 lg:py-6">
-      <h2 className="text-4xl font-bold text-gray-800 dark:text-neutral-100 mb-8 text-center">
+      <h2 className="text-4xl font-bold text-gray-800  mb-8 text-center">
         Testimonials
       </h2>
       <Slider {...settings}>

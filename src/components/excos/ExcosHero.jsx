@@ -5,7 +5,7 @@ const ExcosHero = () => {
     <section className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
       <img
         className="w-full h-full object-cover absolute mix-blend-overlay"
-        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706698352739/e0e0e4a7-221b-4d2b-af6b-073a4d29be91.jpeg"
+        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710340592474/b4bac391-cd50-4137-b8a1-c25233f00593.jpeg"
         alt=""
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">
