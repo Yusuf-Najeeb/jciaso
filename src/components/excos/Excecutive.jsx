@@ -17,7 +17,7 @@ const Excecutive = () => {
             alt="President"
           />
           <p className="opacity-80">JCIN Amb.</p>
-          <h3 className="text-center font-bold">Yetunde</h3>
+          <h3 className="text-center font-bold">Yetunde A. Adebisi</h3>
           <p className="text-center">Local Organization President</p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 justify-center items-center lg:gap-16 gap-4">
