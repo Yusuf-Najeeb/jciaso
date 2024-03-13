@@ -7,7 +7,6 @@ import { BsQuote } from "react-icons/bs";
 const Testimonials = () => {
   const testimonialsData = [
     {
-      title: "Most Outstanding Performance award",
       testimony:
         "JCI Aso provided a platform for self-discovery and an avenue for self-development. The leaders and members are amazing. I am super grateful",
       imageSrc:
