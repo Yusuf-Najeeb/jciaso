@@ -38,7 +38,7 @@ const Vision = () => {
 
             <div className="flex flex-col items-center">
               <h1 className="text-[1.2rem] sm:text-[1.5rem] font-bold sm:font-semibold mt-4">
-                Engr. Yetunde Adebisi
+                JCIN Amb. Yetunde Adebisi
               </h1>
               <p className="text-[.9rem] sm:text-[1.2rem] font-semibold">
                 24<sup>th</sup> President JCI Aso
