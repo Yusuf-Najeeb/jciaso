@@ -8,21 +8,21 @@ const SocialMedia = () => {
       <a
         href="https://twitter.com/jci_aso"
         target="blank"
-        className="text-white text-[1.5rem] hover:text-neutral-300 duration-300"
+        className="text-black/70 text-[1.5rem] hover:text-black/100 duration-300"
       >
         <FaSquareXTwitter />
       </a>
       <a
         href="https://www.instagram.com/jci_aso/?hl=en"
         target="blank"
-        className="text-white text-[1.5rem] hover:text-neutral-300 duration-300"
+        className="text-black/70 text-[1.5rem] hover:text-black/100 duration-300"
       >
         <FaInstagramSquare />
       </a>
       <a
         href="https://www.linkedin.com/company/101489198/admin/feed/posts/"
         target="blank"
-        className="text-white text-[1.5rem] hover:text-neutral-300 duration-300"
+        className="text-black/70 text-[1.5rem] hover:text-black/100 duration-300"
       >
         <FaLinkedin />
       </a>
