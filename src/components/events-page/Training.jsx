@@ -38,7 +38,7 @@ const Training = () => {
           <h4 className="hidden sm:flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
             Monthly Skills Development Series
           </h4>
-          <p className="text-sm text-gray-400">February 2024</p>
+          <p className="text-sm text-gray-400">All Year Round</p>
           <p className="leading-relaxed">
             Providing opportunities for the children of the downtrodden has
             always been the core of our activities, hence the decade long
