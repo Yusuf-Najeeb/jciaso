@@ -3,6 +3,7 @@ import ExcosHero from "./ExcosHero";
 import Excecutive from "./Excecutive";
 import Distinguished from "./Distinguished";
 import AmazingTeam from "./AmazingTeam";
+import Founders from "./Founders";
 
 const Excos = () => {
   return (
@@ -10,6 +11,7 @@ const Excos = () => {
       <ExcosHero />
       <Excecutive />
       <Distinguished />
+      <Founders />
       <AmazingTeam />
     </div>
   );

@@ -47,15 +47,17 @@ const Sponsors = () => {
             className=""
           />
         </div>
-        <div className="relative group flex items-center justify-center min-w-[100px] min-h-[100px] bg-white shadow rounded sm:min-w-[300px] max-w-[300px] sm:min-h-[200px] max-h-[250px] grayscale hover:grayscale-0 duration-300 ease-out hover:scale-105">
-          <h3 className="hidden md:group-hover:flex absolute items-end justify-center inset-0 bg-[#ECBD37]/60 transition text-sm md:text[1.2rem] font-semibold title pb-4">
-            Virtusso
+        <div className="flex flex-col gap-2 items-center">
+          <div className="flex items-center justify-center min-w-[100px] min-h-[100px] bg-white shadow rounded sm:min-w-[300px] max-w-[300px] sm:min-h-[200px] max-h-[250px] grayscale hover:grayscale-0 duration-300 ease-out hover:scale-105">
+            <img
+              src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708730129102/2a211c3a-0cf1-4985-94fd-8dc32bd15697.jpeg"
+              alt="Virtusso"
+              className="w-[90%] "
+            />
+          </div>
+          <h3 className="font-bold text-16 text-center">
+            Virtusso Insurance Broker's Limited
           </h3>
-          <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1708730129102/2a211c3a-0cf1-4985-94fd-8dc32bd15697.jpeg"
-            alt="Virtusso"
-            className="w-[90%] "
-          />
         </div>
         <div className="relative group flex items-center justify-center min-w-[100px] min-h-[100px] bg-white shadow rounded sm:min-w-[300px] max-w-[300px] sm:min-h-[200px] max-h-[250px] grayscale hover:grayscale-0 duration-300 ease-out hover:scale-105">
           <h3 className="hidden md:group-hover:flex absolute items-end justify-center inset-0 bg-[#ECBD37]/60 transition text-sm md:text[1.2rem] font-semibold title pb-4">

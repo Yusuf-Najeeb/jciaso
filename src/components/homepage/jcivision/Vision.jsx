@@ -62,11 +62,14 @@ const Vision = () => {
               together we will create lasting impact and inspire positive change
               in our region and beyond...
             </p>
-            <Link to="">
+            <a
+              href="https://drive.google.com/file/d/1hM4G1iObehg8d6V231L7_lR9ELdheyqT/view?usp=sharing"
+              target="blank"
+            >
               <button className="border border-[#2288A9] text-[#2288A9] font-medium px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-500 duration-300 mb-4">
                 Read more..
               </button>
-            </Link>
+            </a>
           </div>
         </section>
         <section className=" flex flex-col items-center gap-10 lg:w-[50%]">

@@ -11,7 +11,7 @@ const Testimonials = () => {
       testimony:
         "JCI Aso provided a platform for self-discovery and an avenue for self-development. The leaders and members are amazing. I am super grateful",
       imageSrc:
-        "https://cdn.hashnode.com/res/hashnode/image/upload/v1710164700153/d9edb3ac-5887-4a52-962d-8af1b96d135e.png",
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320103431/d5d2abd1-51ad-4ac2-9094-961438d71677.png",
       name: "Shamsudeen Aderoju",
       position: "Incumbent Secretary",
       jci: "JCI Aso",

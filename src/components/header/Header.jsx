@@ -50,10 +50,10 @@ const Header = () => {
         <div className="">
           <FaPhone className="inline text-white mr-2 animate-pulse" />
           <span className="text-white text-base mr-2 font-['Karla'] leading-normal">
-            +2347035551111,
+            +2347037370003,
           </span>
           <span className="text-white text-base font-['Karla'] leading-normal">
-            +2347023333221
+            +2348135153620
           </span>
         </div>
       </div>

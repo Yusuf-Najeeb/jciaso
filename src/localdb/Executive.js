@@ -45,7 +45,7 @@ export const jciExecutive = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320108244/67eb0702-8832-48db-9cd5-7b32a532d47e.png",
     name: "Joshua A. Oghorialu",
-    position: "Director of Skills & Development",
+    position: "Director of Skills Development",
   },
   {
     image:
