@@ -2,14 +2,12 @@ export const jciDistinguish = [
   {
     image:
       "https://res.cloudinary.com/duw4jtxls/image/upload/v1710663558/IMG-20240317-WA0006_xrsui9.jpg",
-    sen: "JCI Sen.",
     name: "Dr Ronke Ade",
     position: "President-2001",
   },
   {
     image:
       "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667153/IMG-20240317-WA0013_ojvkfg.jpg",
-    sen: "JCI Sen.",
     name: "Dr Jumoke Kassim",
     position: "President-2002",
   },
