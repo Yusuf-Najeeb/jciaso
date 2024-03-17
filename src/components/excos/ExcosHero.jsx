@@ -13,8 +13,9 @@ const ExcosHero = () => {
           Our Team
         </h1>
         <p className="relative lg:w-[40%] my-2 text-[1.2rem]">
-          Meet our able management and the people who make our Institution feel
-          like home.
+          Meet Our Founding Leaders, the Executives, Board of Directors and our
+          amazing past presidents and members making the organization to wax
+          stronger year on year
         </p>
       </div>
     </section>
