@@ -31,10 +31,15 @@ const Youtube = () => {
     <div className="basis:full md:basis-1/2 w-full md:w-1/2 border rounded-xl">
       <div className="flex flex-row justify-between items-center p-2">
         <h4 className="font-semibold">Youtube Videos</h4>
-        <button className="py-2 px-3 rounded-lg text-white bg-red-700 hover:bg-red-700/70 transition text-sm flex flex-row items-center justify-around gap-1">
-          Subscribe&nbsp;
-          <BsYoutube size={20} />
-        </button>
+        <a
+          href="https://www.youtube.com/channel/UCgb1TT3KUS70l-HuYKHeFfw"
+          target="blank"
+        >
+          <button className="py-2 px-3 rounded-lg text-white bg-red-700 hover:bg-red-700/70 transition text-sm flex flex-row items-center justify-around gap-1">
+            Subscribe&nbsp;
+            <BsYoutube size={20} />
+          </button>
+        </a>
       </div>
       <div className="mx-auto max-h-[70vh] overflow-y-auto youtube py-2 lg:pl-8">
         {videos.map((item) => (

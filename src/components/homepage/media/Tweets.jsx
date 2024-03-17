@@ -31,10 +31,12 @@ const Tweets = () => {
     <div className="md:basis-1/2 w-full border rounded-xl">
       <div className="flex flex-row justify-between items-center p-1">
         <h4 className="font-semibold">Recent Tweets</h4>
-        <button className="py-2 px-3 rounded-lg text-white bg-black hover:bg-black/70 transition text-sm flex flex-row items-center justify-around gap-1">
-          Follow Us&nbsp;
-          <FaXTwitter />
-        </button>
+        <a href="https://twitter.com/jci_aso" target="blank">
+          <button className="py-2 px-3 rounded-lg text-white bg-black hover:bg-black/70 transition text-sm flex flex-row items-center justify-around gap-1">
+            Follow Us&nbsp;
+            <FaXTwitter />
+          </button>
+        </a>
       </div>
       <div className="mx-auto max-h-[70vh] overflow-y-auto tweets py-2 lg:pl-8">
         {tweets.map((tweets) => (

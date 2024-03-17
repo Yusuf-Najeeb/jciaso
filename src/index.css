@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url("https://fonts.googleapis.com/css?family=Helvetica");
 
+
+:root{
+  font-family: Helvetica, sans-serif;
+  
+}
 .title {
-  font-family: "Sofia", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bolder;
   font-size: 2rem;
 }

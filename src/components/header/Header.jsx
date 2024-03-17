@@ -50,10 +50,10 @@ const Header = () => {
         <div className="">
           <FaPhone className="inline text-white mr-2 animate-pulse" />
           <span className="text-white text-base mr-2 font-['Karla'] leading-normal">
-            +2347035551111,
+            +2347037370003,
           </span>
           <span className="text-white text-base font-['Karla'] leading-normal">
-            +2347023333221
+            +2348135153620
           </span>
         </div>
       </div>
@@ -61,7 +61,7 @@ const Header = () => {
       <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white hidden sm:block"></div>
       {/* NavBar Section */}
       <header className="sticky top-0 bg-white border-b border-gray-200 z-50 ">
-        <nav className="bg-white border-gray-200 shadow-md py-2.5 ">
+        <nav className="bg-white border-gray-200 shadow-md py-2.5  ">
           <div className="flex flex-wrap items-end justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
             <Link
               to="/"

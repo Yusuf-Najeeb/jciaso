@@ -1,30 +1,45 @@
 import React from "react";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
+import { BsTwitterX } from "react-icons/bs";
+import { CiLinkedin, CiYoutube, CiFacebook } from "react-icons/ci";
 
 const SocialMedia = () => {
   return (
-    <section className="flex items-center gap-6">
+    <section className="flex items-center gap-6 opacity-80">
       <a
-        href="https://twitter.com/jci_aso"
+        href="https://twitter.com/jciaso"
         target="blank"
-        className="text-black/70 text-[1.5rem] hover:text-black/100 duration-300"
+        className="text-sky-600 text-[1.5rem] "
       >
-        <FaSquareXTwitter />
+        <BsTwitterX />
       </a>
       <a
         href="https://www.instagram.com/jci_aso/?hl=en"
         target="blank"
-        className="text-black/70 text-[1.5rem] hover:text-black/100 duration-300"
+        className=" text-[1.5rem]  "
       >
-        <FaInstagramSquare />
+        <FaInstagram />
       </a>
       <a
         href="https://www.linkedin.com/company/101489198/admin/feed/posts/"
         target="blank"
-        className="text-black/70 text-[1.5rem] hover:text-black/100 duration-300"
+        className="text-sky-500 text-[1.5rem] "
       >
-        <FaLinkedin />
+        <CiLinkedin />
+      </a>
+      <a
+        href="https://www.youtube.com/channel/UCgb1TT3KUS70l-HuYKHeFfw"
+        target="blank"
+        className="text-red-700 text-[1.5rem] "
+      >
+        <CiYoutube />
+      </a>
+      <a
+        href="https://web.facebook.com/jciasoAbuja/"
+        target="blank"
+        className="text-sky-500 text-[1.5rem] "
+      >
+        <CiFacebook />
       </a>
     </section>
   );

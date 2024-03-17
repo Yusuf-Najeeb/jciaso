@@ -11,6 +11,7 @@ import Home from "./components/homepage/LandingPage";
 import Excos from "./components/excos/Excos";
 import Article from "./components/article-page/Article";
 import About from "./components/about-page/About";
+import Gallery from "./components/gallery/Gallery";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,7 @@ const router = createBrowserRouter([
       { path: "/contact", element: <ContactUs /> },
       { path: "/donate", element: <Donate /> },
       { path: "/join", element: <InfoCollection /> },
+      { path: "/gallery", element: <Gallery /> },
     ],
   },
 ]);

@@ -57,16 +57,19 @@ const Vision = () => {
             </h1>
             <p className="text-start">
               In my tenure as JCI ASO President, I will be committed to
-              fostering a vibrant and inclusive community. By putting our
-              members first, cultivating partnerships, and prioritizing
-              sustainability, Together, we will create lasting impact and
-              inspire positive change in our region and beyond...
+              fostering a vibrant and inclusive community by putting our members
+              first, cultivating partnerships, and prioritizing sustainability,
+              together we will create lasting impact and inspire positive change
+              in our region and beyond...
             </p>
-            <Link to="">
+            <a
+              href="https://drive.google.com/file/d/1hM4G1iObehg8d6V231L7_lR9ELdheyqT/view?usp=sharing"
+              target="blank"
+            >
               <button className="border border-[#2288A9] text-[#2288A9] font-medium px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-500 duration-300 mb-4">
                 Read more..
               </button>
-            </Link>
+            </a>
           </div>
         </section>
         <section className=" flex flex-col items-center gap-10 lg:w-[50%]">
@@ -76,7 +79,7 @@ const Vision = () => {
             data-aos-easing="ease-in-out"
             className="font-semibold title text-[1.8rem] lg:text-[2.5rem] text-center"
           >
-            Core Objectives
+            2024 Presidential Theme
           </h1>
           <img
             className="hidden lg:block w-[60%]"
