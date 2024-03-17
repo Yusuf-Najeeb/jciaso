@@ -7,9 +7,12 @@ const Training = () => {
       <div className="flex flex-col-reverse sm:flex-row justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
           <h4 className="hidden sm:flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
-            In-House General Assembly Training Sessions
+            In-House GA Training:
           </h4>
-          <p className="text-sm text-gray-400">February 2024</p>
+          <p className="text-sm text-gray-400">
+            {" "}
+            January || March || May || July || Sept 2024
+          </p>
           <p className="leading-relaxed">
             Providing opportunities for the children of the downtrodden has
             always been the core of our activities, hence the decade long
@@ -47,7 +50,7 @@ const Training = () => {
         </div>
         <div className="flex-1">
           <h4 className="sm:hidden flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
-            Monthly Skills Development Series
+            Monthly Skills Development series: All Year Round
           </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
@@ -73,7 +76,7 @@ const Training = () => {
         </div>
         <div className="flex-1">
           <h4 className="sm:hidden flex flex-row flex-nowrap gap-3 text-2xl sm:text-3xl font-semibold leading-normal text-[#333] mb-4">
-            Skills Development sessions for Intending Members
+            Intending Members Pre-Induction Training: Monthly
           </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
