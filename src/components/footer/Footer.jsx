@@ -33,6 +33,9 @@ const Footer = () => {
             <Link to="/events" className="hover:underline duration-300">
               Events
             </Link>
+            <Link to="/gallery" className="hover:underline duration-300">
+              Gallery
+            </Link>
           </ul>
         </div>
         <div className="flex flex-col gap-2 sm:gap-6 my-4 p-2">
@@ -43,7 +46,7 @@ const Footer = () => {
               Suite B21, Abuja Shopping Mall, Zone 3, Wuse, Abuja
             </Link>
             <Link to="">info@jciaso.ng</Link>
-            <Link to="">08177098608, 07037370003</Link>
+            <Link to=""> +2348135153620, +2347037370003</Link>
             <SocialMedia />
           </ul>
         </div>

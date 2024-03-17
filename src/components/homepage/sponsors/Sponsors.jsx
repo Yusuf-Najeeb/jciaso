@@ -6,7 +6,7 @@ const Sponsors = () => {
       <h1 className="title font-bold text-center text-[1.8rem] lg:text-[2.5rem]">
         Our Partners
       </h1>
-      <section className="flex flex-row flex-nowrap gap-4 overflow-x-scroll sm:overflow-hidden md:grid sm:grid-cols-2 lg:grid-cols-4 md:gap-4 md:place-content-center md:place-items-center justify-center items-center lg:gap-16 text-semibold text-[1.2rem] p-3 sm:px-8 sm:py-4">
+      <section className="flex flex-wrap gap-8 overflow-x-scroll sm:overflow-hidden md:grid sm:grid-cols-2 lg:grid-cols-4 md:gap-4 md:place-content-center md:place-items-center justify-center items-center lg:gap-16 text-semibold text-[1.2rem] p-3 sm:px-8 sm:py-4">
         <div className="flex flex-col gap-2 items-center">
           <div className="min-w-[100px] min-h-[100px] bg-white shadow rounded sm:sm:min-w-[300px] max-w-[300px] sm:sm:min-h-[200px] max-h-[250px] grayscale hover:grayscale-0 duration-300 ease-out hover:scale-105 group">
             <img

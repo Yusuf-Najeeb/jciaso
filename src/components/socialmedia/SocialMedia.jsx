@@ -7,7 +7,7 @@ const SocialMedia = () => {
   return (
     <section className="flex items-center gap-6 opacity-80">
       <a
-        href="https://twitter.com/jci_aso"
+        href="https://twitter.com/jciaso"
         target="blank"
         className="text-sky-600 text-[1.5rem] "
       >
