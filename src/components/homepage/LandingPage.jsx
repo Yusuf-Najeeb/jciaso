@@ -14,11 +14,11 @@ const LandingPage = () => {
       <Benefits />
       <Vision />
       {/* <Mission /> */}
-      <div>
+      <div className="mt-4">
         <h1 className="text-[1.2rem] sm:text-2xl lg:text-3xl font-bold text-center">
           JCI Creed
         </h1>
-        <div className="w-full h-full bg-[#4081B4] text-white text-center shadow-lg">
+        <div className="w-full h-full bg-[#4081B4] text-white text-center shadow-lg py-6">
           <p className="text-[1.2] sm:text-[1.3rem] py-6 sm:pb-4 sm:mt-4 px-2">
             We Believe <br /> That Faith in God gives meaning and purpose to
             human lives <br /> That the brotherhood of man transcends the

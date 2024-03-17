@@ -1,6 +1,43 @@
 export const jciDistinguish = [
   {
     image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710663558/IMG-20240317-WA0006_xrsui9.jpg",
+    sen: "JCI Sen.",
+    name: "Dr Ronke Ade",
+    position: "President-2001",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667153/IMG-20240317-WA0013_ojvkfg.jpg",
+    sen: "JCI Sen.",
+    name: "Dr Jumoke Kassim",
+    position: "President-2002",
+  },
+
+  {
+    image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667120/IMG-20240317-WA0015_wfd1ty.jpg",
+    sen: "JCI Sen.",
+    name: "Rotimi Sadiq",
+    position: "President-2003",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667147/IMG-20240317-WA0014_yjyzd9.jpg",
+    sen: "JCI Sen.",
+    name: "Tola Sogbesan",
+    position: "President-2004",
+  },
+
+  {
+    image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667119/IMG-20240317-WA0016_zn7fqx.jpg",
+    sen: "JCI Sen.",
+    name: "Collins Olaniyan",
+    position: "President-2005",
+  },
+  {
+    image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710314535300/549de740-8bef-414e-94de-7b01e1504084.png",
     sen: "JCI Sen.",
     name: "Oluwarotimi Akinrinade A.",
@@ -22,6 +59,21 @@ export const jciDistinguish = [
   },
   {
     image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667121/IMG-20240317-WA0017_ra2mze.jpg",
+    sen: "JCI Sen.",
+    name: "M.M Balogun",
+    position: "President-2009",
+  },
+
+  {
+    image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667120/IMG-20240317-WA0019_gvfjjy.jpg",
+    sen: "JCI Sen.",
+    name: "Dayo Daramola",
+    position: "President-2010",
+  },
+  {
+    image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710331552145/04130dd6-5625-46cc-a34f-3fb7c35c1928.png",
     sen: "JCI Sen.",
     name: "Babajide Richard Ojo",
@@ -34,6 +86,13 @@ export const jciDistinguish = [
     sen: "JCI Sen.",
     name: "Muhammadu Mujtaba K.",
     position: "President-2012",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667148/IMG-20240317-WA0018_wlctdf.jpg",
+    sen: "JCI Amb.",
+    name: "Taiwo Olayemi",
+    position: "President-2013",
   },
 
   {
@@ -56,6 +115,13 @@ export const jciDistinguish = [
     sen: "JCI Sen.",
     name: "Oluwaseyi Orimoloye",
     position: "President-2016",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667121/IMG-20240317-WA0020_zfblpx.jpg",
+    sen: "JCI Sen.",
+    name: " Aliu John Yaya",
+    position: "President-2017",
   },
   {
     image:
