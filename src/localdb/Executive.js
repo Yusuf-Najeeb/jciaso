@@ -63,13 +63,13 @@ export const jciExecutive = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710329995144/fb7638df-b634-4e4d-b0d7-0db24633490f.png",
     name: "Ukeme Etim",
-    position: "Director of Awards & Documentation",
+    position: "Director of Travels & Tours",
   },
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330000276/8430b386-39ad-428b-9e9a-504763c1316e.png",
     name: "Wokoma, Tubonimi Briggs",
-    position: "Director of Business Opportunities",
+    position: "Director of Awards & Documentation",
   },
   {
     image:
@@ -93,7 +93,7 @@ export const jciExecutive = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320130161/4551130e-a78d-4ecc-a463-599e49d07657.png",
     name: "Ramatu Suleiman",
-    position: "Chairperson-Membership Development Summit",
+    position: "Chairperson Membership Development Summit",
   },
 
   {
@@ -106,13 +106,13 @@ export const jciExecutive = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330085520/1e8abe61-69a4-4e02-965b-69c2bbc7da7b.png",
     name: "Maryam Abubakar",
-    position: "Educate a Child",
+    position: "Chairperson Educate a Child",
   },
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330090279/17106dbd-715f-47e4-9ba2-8f89b8b87b1c.png",
     name: "Oladejo Ayomide",
-    position: "Save a Soul Project",
+    position: "Chairperson Save a Soul Project",
   },
   {
     image:

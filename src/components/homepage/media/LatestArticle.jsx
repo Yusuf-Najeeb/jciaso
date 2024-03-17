@@ -1,9 +1,13 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { articleUpdates } from "../../../localdb/Article";
 
 const LatestArticle = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const [news] = useState(articleUpdates);
-
   return (
     <section className="flex flex-col gap-2 px-2 mt-16">
       <h1 className="text-2xl px-10 ">Articles</h1>

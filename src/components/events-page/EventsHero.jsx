@@ -8,8 +8,10 @@ const EventsHero = () => {
         alt=""
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">
-        <h1 className=" relative text-6xl font-semibold">Events & Programs</h1>
-        <p className="relative w-[40%] my-2 text-[1.2rem]">
+        <h1 className=" relative text-2xl sm:text-4xl font-semibold">
+          Events & Programs
+        </h1>
+        <p className="relative sm:w-[40%] my-2 text-sm sm:text-[1.2rem]">
           Keep up with our upcoming, ongoing and past event to keep up with the
           Jci community.
         </p>
