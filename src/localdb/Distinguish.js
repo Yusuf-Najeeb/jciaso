@@ -35,19 +35,20 @@ export const jciDistinguish = [
     name: "Muhammadu Mujtaba K.",
     position: "President-2012",
   },
+
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316128948/43169746-84ef-4699-a61d-237fe1d87227.png",
+    sen: "JCI Sen.",
+    name: "Odusote Oluwakayode",
+    position: "President-2014",
+  },
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710331554546/b589eb2a-b9c6-4f30-b066-0da7922eb1ff.png",
     sen: "JCI Sen.",
     name: "Aina Segun Aina",
-    position: "President-2013",
-  },
-  {
-    image:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1710316128948/43169746-84ef-4699-a61d-237fe1d87227.png",
-    sen: "JCI Sen.",
-    name: "Odusole Oluwakayode",
-    position: "President-2014",
+    position: "President-2015",
   },
   {
     image:

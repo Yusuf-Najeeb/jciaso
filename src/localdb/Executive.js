@@ -3,7 +3,7 @@ export const jciExecutive = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320100064/fe8aed8d-b9ba-4065-8515-daba8f613935.png",
     name: "Olubunmi Ajayi",
-    position: "Chairman of the Board",
+    position: "Chairperson of the Board",
   },
   {
     image:
@@ -39,7 +39,7 @@ export const jciExecutive = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320114385/5f39347f-3db4-4d88-a145-9c5624882b01.png",
     name: "Oluyemi Opeyemi O.",
-    position: "Chief Executive Officer",
+    position: "Director of Project and Program",
   },
   {
     image:
@@ -124,13 +124,13 @@ export const jciExecutive = [
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330097343/e3ae9fbf-253e-43a0-a4d5-098b8e465a0e.png",
     name: "Aina Micheals",
-    position: "Chairman Founders Day Program",
+    position: "Chairperson Founders Day Program",
   },
   {
     image:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330101034/33ef48be-9cce-4be7-bbdc-51e7506c14e8.png",
     name: "Toheeb Abdulraheem",
-    position: "Chairman, 100% Efficiency",
+    position: "Chairperson, 100% Efficiency",
   },
   {
     image:

@@ -18,6 +18,15 @@ const Testimonials = () => {
     },
     {
       testimony:
+        "JCI Aso holds a special place in my heart. Since joining in 2011, it's been instrumental in my personal and professional growth. But it wasn't until joining JCI Aso in 2018 that I found my second family in Abuja. The diverse connections and meaningful relationships formed here transcend borders. The warmth and camaraderie are unparalleled, whether collaborating on projects or sharing moments of laughter. I'm deeply grateful for JCI Aso's support, inspiration, and inclusivity. It embodies unity in diversity, and I'm honored to be part of its journey towards positive change.",
+      imageSrc:
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1706434169210/6a30b8fa-0719-4c52-b001-9e1490aa2f08.png",
+      name: "Yetunde A. Adebisi",
+      position: "2024 President",
+      jci: "JCI Aso",
+    },
+    {
+      testimony:
         "From day one I joined JCI Aso, I am filled with gratitude for the enriching experiences and the incredible family there offering me a warm welcome and comprehensive orientation. The way the family are always readily available to guide me through the intricacies of the organization operations, fostering a sense of belonging right from the start. JCI ASO Family ethos of collaboration, growth, and also put in me an indelible mark on my approach to work and life. The culture of recognition at JCI Aso is truly motivating. allowing me to navigate challenges and seize opportunities with confidence.  Thank you JCI ASO Family . I love you all.",
       imageSrc:
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1710330090279/17106dbd-715f-47e4-9ba2-8f89b8b87b1c.png",
@@ -40,6 +49,15 @@ const Testimonials = () => {
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1710332584383/73b97125-aaaa-4021-8483-89e1f10f0287.png",
       name: "Idris Omolaja",
       position: "Incumbent Secretary",
+      jci: "JCI Aso",
+    },
+    {
+      testimony:
+        "Since joining, I have learnt the culture of excellence, partnership and collaboration, community impact,  leadership, accountability and I've had the chance to showcase my public speaking skills",
+      imageSrc:
+        "https://cdn.hashnode.com/res/hashnode/image/upload/v1710320108244/67eb0702-8832-48db-9cd5-7b32a532d47e.png",
+      name: "Joshua Oghorialu ",
+      position: "Director of Skills & Development",
       jci: "JCI Aso",
     },
     // Add more testimonials data here
@@ -93,7 +111,7 @@ const Testimonials = () => {
               <img
                 src={testimonial.imageSrc}
                 alt={testimonial.title}
-                className="mx-auto rounded-md shadow-lg lg:w-[438px]"
+                className="mx-auto rounded-lg  lg:w-[250px] lg:h-[250px]"
                 style={{ maxWidth: "50%", height: "20%" }}
               />
               <div className="flex flex-col  items-center">
