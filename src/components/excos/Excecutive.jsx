@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { jciExecutive } from "../../localdb/Executive";
-import MemberFrame from "./MemberFrame";
 import ExecutiveFrame from "./ExecutiveFrame";
 
 const Excecutive = () => {
