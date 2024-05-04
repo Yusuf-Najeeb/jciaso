@@ -2,6 +2,7 @@ import React from "react";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";
 import "./index.css";
+
 import ContactUs from "./components/contactpage/ContactUs";
 import InfoCollection from "./components/info-collection/InfoCollection";
 import Events from "./components/events-page/AllEvents";
