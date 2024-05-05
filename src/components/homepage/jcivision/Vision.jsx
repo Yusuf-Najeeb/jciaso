@@ -77,7 +77,7 @@ const Vision = () => {
             data-aos="flip-right"
             data-aos-duration="400"
             data-aos-easing="ease-in-out"
-            className="font-semibold title text-[1.8rem] lg:text-[2.5rem] text-center"
+            className="font-semibold title text-2xl lg:text-[1.8rem] text-center"
           >
             2024 Presidential Theme
           </h1>
