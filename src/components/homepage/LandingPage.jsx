@@ -30,7 +30,7 @@ const LandingPage = () => {
           </p>
         </div>
       </div>
-      <Testimonials />
+      <Testimonials autoSlide={true} />
       <Media />
       <LatestArticle />
       <Sponsors />
