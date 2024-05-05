@@ -11,14 +11,14 @@ const LatestArticle = () => {
   return (
     <section className="flex flex-col gap-2 px-2 mt-16">
       <h1 className="text-2xl px-10 ">Articles</h1>
-      <section className="flex flex-wrap justify-center gap-8">
+      <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
         {news.map((updates) => {
           return (
             <div
               data-aos="fade-up"
               data-aos-duration="100"
               data-aos-easing="ease-in"
-              className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md lg:w-[30%]"
+              className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md sm:w-[45%] lg:w-[30%]"
             >
               <img
                 src={updates.Image}
@@ -26,8 +26,8 @@ const LatestArticle = () => {
                 alt="article coverImage"
               />
 
-              <section className="p-4 flex flex-col gap-6 items-start">
-                <section className="flex flex-col gap-2 font-semibold">
+              <div className="p-4 flex flex-col gap-6 items-start">
+                <div className="flex flex-col gap-2 font-semibold">
                   <div className="text-red-500 flex gap-4 items-center font-medium">
                     <p>{updates.post1}</p>
                     <p>{updates.post2}</p>
@@ -37,18 +37,18 @@ const LatestArticle = () => {
                     <p className="border-2 border-black w-4 h-4 bg-black"></p>
                     <p className="opacity-60">{updates.date}</p>
                   </div>
-                </section>
+                </div>
                 <p className="">{updates.content}</p>
                 <a href={updates.site} target="blank">
                   <button className="border border-[#2288A9] text-[#2288A9] font-medium px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-500 duration-300 mb-4">
                     {updates.read}
                   </button>
                 </a>
-              </section>
+              </div>
             </div>
           );
         })}
-      </section>
+      </div>
     </section>
   );
 };
