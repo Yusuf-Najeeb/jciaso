@@ -100,19 +100,19 @@ const Testimonials = function ({
   }, [currentIndex]);
 
   return (
-    <main className="relative w-full h-auto group py-8 px-4">
+    <main className="relative w-full h-auto group py-8 px-4 shadow-sm shadow-[#0199CC]">
       <h2 className="text-center font-semibold text-2xl">Testimonials</h2>
       <div className="w-full h-full min-h-[400px] duration-1000 flex flex-col md:flex-row gap-8 justify-center items-center py-4">
         <img
           src={testimonialsData[currentIndex].imageSrc}
           alt="/"
-          className="w-[250px] h-[250px]"
+          className="w-40 h-40 rounded-full md:rounded-none md:w-[250px] md:h-[250px]"
         />
-        <div className="w-full lg:w-[75%] flex flex-col gap-8 font-serif">
-          <p className="w-[80%] text-[1.2rem] text-center sm:text-justify ">
+        <div className="lg:w-[75%] flex flex-col gap-8 font-serif">
+          <p className="lg:w-[80%] md:text-[1.2rem] text-center sm:text-justify ">
             {testimonialsData[currentIndex].testimony}
           </p>
-          <div>
+          <div className="text-center md:text-left">
             <p>{testimonialsData[currentIndex].name}</p>
             <p className="text-sm text-gray-400">
               {testimonialsData[currentIndex].position}
@@ -122,7 +122,7 @@ const Testimonials = function ({
       </div>
 
       {/* Controls */}
-      <div>
+      <div className="hidden sm:block">
         <div
           onClick={prevSlide}
           className="hidden group-hover:block absolute bottom-0 translate-x-0 translate-y-[-50%] right-4 sm:right-[6rem] text-2xl rounded-full bg-[#ECBD37]/90 hover:bg-white/30 text-[#333] cursor-pointer p-2"
