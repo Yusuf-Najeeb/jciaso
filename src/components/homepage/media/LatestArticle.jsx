@@ -11,7 +11,7 @@ const LatestArticle = () => {
   return (
     <section className="flex flex-col gap-2 px-2 mt-16">
       <h1 className="text-2xl px-10 ">Articles</h1>
-      <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4">
+      <div className="flex flex-col sm:flex-row flex-wrap md:justify-evenly gap-4">
         {news.map((updates) => {
           return (
             <div
