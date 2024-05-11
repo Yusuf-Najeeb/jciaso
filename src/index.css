@@ -4,15 +4,13 @@
 
 @import url("https://fonts.googleapis.com/css?family=Helvetica");
 
-
-:root{
+:root {
   font-family: Helvetica, sans-serif;
-  
 }
 .title {
   font-family: "Helvetica", sans-serif;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .hero-section {

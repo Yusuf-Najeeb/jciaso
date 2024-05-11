@@ -3,11 +3,11 @@ import React from "react";
 const AboutContent = () => {
   return (
     <React.Fragment>
-      <h1 className="title pt-16 px-6  lg:px-16 ">
-        Brief <span className="text-sky-500">History</span>
+      <h1 className="title pt-16 px-6  lg:px-16">
+        Brief <span className="text-[#0199CC]">History</span>
       </h1>
-      <section className="flex flex-col-reverse items-center justify-center gap-4  w-[100%] py-4 px-6 lg:flex-row lg:items-start lg:px-16">
-        <div className="sm:text-[18px] text-base font-medium flex flex-col gap-8 sm:w-[50%] w-full">
+      <section className="flex flex-row items-center justify-between gap-4 w-[100%] py-4 px-6  lg:items-start lg:px-16">
+        <div className="sm:text-[1.2rem] text-base flex flex-col gap-8 w-full lg:w-[50%] ">
           <p className="text-justify">
             Junior Chamber International Aso, a leading affiliate of Junior
             Chamber International, was founded in the year 2000 with a vision
@@ -48,7 +48,7 @@ const AboutContent = () => {
             organization.
           </p>
         </div>
-        <div className="sm:block hidden lg:w-[50%] rounded-md">
+        <div className="hidden lg:block lg:w-[30%] rounded-md">
           <img
             src="https://res.cloudinary.com/duw4jtxls/image/upload/v1710168617/About_n9aagz.png"
             alt="jci aso"

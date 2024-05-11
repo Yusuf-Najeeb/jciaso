@@ -7,7 +7,7 @@ const Sponsors = () => {
     <div className="flex flex-col px-2 py-4 mt-6 lg:px-10 lg:py-32 lg:gap-16">
       <h1 className="title font-semibold text-center text-2xl">Our Partners</h1>
       <section className="">
-        <Marquee speed={100} pauseOnClick={true} pauseOnHover={true}>
+        <Marquee speed={100} pauseOnHover={true}>
           {sponsors?.map((sponsor) => {
             return (
               <div key={sponsor?.id}>
