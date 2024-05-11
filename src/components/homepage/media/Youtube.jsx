@@ -29,7 +29,7 @@ const videos = [
 const Youtube = () => {
   return (
     <div className="basis:full md:basis-1/2 w-full md:w-1/2 border rounded-xl">
-      <div className="flex flex-row justify-between items-center p-2">
+      <div className="flex flex-row justify-between items-center p-4">
         <h4 className="font-semibold">Youtube Videos</h4>
         <a
           href="https://www.youtube.com/channel/UCgb1TT3KUS70l-HuYKHeFfw"

@@ -29,7 +29,7 @@ const tweets = [
 const Tweets = () => {
   return (
     <div className="md:basis-1/2 w-full border rounded-xl">
-      <div className="flex flex-row justify-between items-center p-1">
+      <div className="flex flex-row justify-between items-center p-4">
         <h4 className="font-semibold">Recent Tweets</h4>
         <a href="https://twitter.com/jci_aso" target="blank">
           <button className="py-2 px-3 rounded-lg text-white bg-black hover:bg-black/70 transition text-sm flex flex-row items-center justify-around gap-1">

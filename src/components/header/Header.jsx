@@ -79,7 +79,7 @@ const Header = () => {
                 <span></span>
               </div>
               <div className="hidden lg:block">
-                <JoinJCIButton title="Become a JCI Member" />
+                <JoinJCIButton title="Become A Member" />
               </div>
 
               <button
@@ -202,7 +202,7 @@ const Header = () => {
                   )}
                 </li>
                 <li className="text-sm mt-2 sm:hidden">
-                  <JoinJCIButton title="Become a JCI Member" />
+                  <JoinJCIButton title="Become A Member" />
                 </li>
               </ul>
             </div>

@@ -9,16 +9,16 @@ const LatestArticle = () => {
   }, []);
   const [news] = useState(articleUpdates);
   return (
-    <section className="flex flex-col gap-2 px-2 mt-16">
-      <h1 className="text-2xl px-10 ">Articles</h1>
-      <div className="flex flex-col sm:flex-row flex-wrap md:justify-evenly gap-4">
+    <section className="flex flex-col gap-2 px-4 lg:px-8 mt-16">
+      <h1 className="text-2xl pl-4">Articles</h1>
+      <div className="flex flex-col sm:flex-row flex-wrap justify-start md:justify-evenly gap-4">
         {news.map((updates) => {
           return (
             <div
               data-aos="fade-up"
               data-aos-duration="100"
               data-aos-easing="ease-in"
-              className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md sm:w-[45%] lg:w-[30%]"
+              className="bg-[#FAFAFA] flex flex-col gap-4 rounded-md sm:w-[32%]"
             >
               <img
                 src={updates.Image}
@@ -28,7 +28,7 @@ const LatestArticle = () => {
 
               <div className="p-4 flex flex-col gap-6 items-start">
                 <div className="flex flex-col gap-2 font-semibold">
-                  <div className="text-red-500 flex gap-4 items-center font-medium">
+                  <div className="text-red-500 flex gap-4 items-center font-medium text-sm">
                     <p>{updates.post1}</p>
                     <p>{updates.post2}</p>
                   </div>
