@@ -13,6 +13,10 @@ import Excos from "./components/excos/Excos";
 import Article from "./components/article-page/Article";
 import About from "./components/about-page/About";
 import Gallery from "./components/gallery/Gallery";
+import Individual from "./components/services/Individual";
+import Business from "./components/services/Business";
+import Community from "./components/services/Community";
+import International from "./components/services/International";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +33,10 @@ const router = createBrowserRouter([
       { path: "/donate", element: <Donate /> },
       { path: "/join", element: <InfoCollection /> },
       { path: "/gallery", element: <Gallery /> },
+      { path: "/individual", element: <Individual /> },
+      { path: "/business", element: <Business /> },
+      { path: "/community", element: <Community /> },
+      { path: "/international", element: <International /> },
     ],
   },
 ]);

@@ -23,7 +23,7 @@ const OpportunityCards = () => {
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
                 Individual Opportunity
               </p>
-              <Link to="#">
+              <Link to="/individual">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
                   Read more
                 </button>
@@ -50,7 +50,7 @@ const OpportunityCards = () => {
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
                 Business Opportunity
               </p>
-              <Link to="#">
+              <Link to="/business">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
                   Read more
                 </button>
@@ -77,7 +77,7 @@ const OpportunityCards = () => {
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
                 Community Opportunity
               </p>
-              <Link to="#">
+              <Link to="/community">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
                   Read more
                 </button>
@@ -104,7 +104,7 @@ const OpportunityCards = () => {
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
                 International Opportunity
               </p>
-              <Link to="#">
+              <Link to="/international">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
                   Read more
                 </button>
