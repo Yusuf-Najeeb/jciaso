@@ -101,7 +101,9 @@ const Testimonials = function ({
 
   return (
     <main className="relative w-full h-auto group py-8 px-4 shadow-sm shadow-[#0199CC]">
-      <h2 className="text-center font-semibold text-2xl">Testimonials</h2>
+      <h2 className="text-center font-semibold sm:text-2xl lg:text-3xl mb-2">
+        Testimonials
+      </h2>
       <div className="w-full h-full min-h-[400px] duration-1000 flex flex-col md:flex-row gap-8 justify-center items-center py-4">
         <img
           src={testimonialsData[currentIndex].imageSrc}

@@ -5,17 +5,17 @@ import Sponsors from "./sponsors/Sponsors";
 import Testimonials from "./testimonials/Testimonials";
 import Media from "./media/Media";
 import LatestArticle from "./media/LatestArticle";
-import Benefits from "./benefits/Benefits";
+import Opportunity from "./opportunities/OpportunityCards";
 
 const LandingPage = () => {
   return (
     <React.Fragment>
       <HeroSection />
-      <Benefits />
+      <Opportunity />
       <Vision />
       {/* <Mission /> */}
       <div className="mt-4">
-        <h1 className="text-[1.2rem] sm:text-2xl lg:text-3xl font-bold text-center">
+        <h1 className="text-[1.2rem] sm:text-2xl lg:text-3xl font-bold text-center mb-2">
           JCI Creed
         </h1>
         <div className="w-full h-full bg-[#4081B4] text-white text-center shadow-lg py-6">
