@@ -9,7 +9,7 @@ const InfoHeroSection = () => {
         alt=""
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">
-        <h1 className=" relative text-6xl font-semibold"></h1>
+        {/* <h1 className=" relative text-6xl font-semibold"></h1> */}
       </div>
     </section>
   );
