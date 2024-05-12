@@ -3,7 +3,7 @@ import CountUp from "react-countup";
 
 const AboutNumber = () => {
   return (
-    <section className="flex justify-center">
+    <section className="flex justify-center my-8">
       <div className="flex flex-col justify-center items-center lg:items-start gap-4 sm:gap-10 p-2 sm:p-8 text-center">
         <h1 className="sm:text-3xl text-2xl title font-bold sm:text-left ">
           Our <span className="text-[#0199CC]">Accomplishments</span>
