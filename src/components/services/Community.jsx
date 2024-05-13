@@ -9,25 +9,25 @@ const Community = () => {
           src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259524145/6f17457b-5171-4f60-a119-fec84a0a16a8.jpeg"
           alt="Group Photograph"
         />
-        <div className="h-[50vh] flex flex-col justify-center items-center text-[#FFF] px-4 lg:px-16">
-          <h1 className="relative text-2xl lg:text-4xl font-semibold">
+        <div className="h-[50vh] flex flex-col text-center justify-center items-center text-[#FFF] px-4 lg:px-16">
+          <h1 className="relative sm:text-2xl lg:text-4xl font-semibold">
             Community Opportunity
           </h1>
-          <p className="relative my-2 text-[1.2rem]">
+          <p className="relative my-2 sm:text-[1.2rem]">
             We are committed and rooted in our Community goals and values...
           </p>
         </div>
       </div>
 
-      <div className="flex justify-between items-center my-8 px-12">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-4 my-8 p-4 md:px-12">
         <div>
           <div className="flex items-center gap-2">
-            <div className="w-10 h-1 bg-gradient-to-r from-[#0199CC] to-[#ECBD37] text-transparent"></div>
-            <h3 className="sm:text-3xl font-semibold">
+            <div className="hidden md:flex w-10 h-1 bg-gradient-to-r from-[#0199CC] to-[#ECBD37] text-transparent"></div>
+            <h3 className="text-2xl sm:text-3xl font-semibold">
               Our service to Humanity
             </h3>
           </div>
-          <p className="sm:text-[1rem]">
+          <p className="sm:text-[1rem] mb-4 sm:mb-0">
             Being part of the JCI Aso network is more than just membership; it's
             an opportunity to belong to a global community dedicated to creating
             positive change. JCI provides a collaborative platform where
@@ -40,7 +40,7 @@ const Community = () => {
         </div>
         <div className="">
           <img
-            className="w-full min-w-[600px] min-h-[300px] max-h-[400px] rounded-lg"
+            className="w-full lg:min-w-[600px] lg:min-h-[300px] lg:max-h-[400px] rounded-lg"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259524145/6f17457b-5171-4f60-a119-fec84a0a16a8.jpeg"
             alt="Group Photograph"
           />
