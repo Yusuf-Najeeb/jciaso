@@ -10,8 +10,8 @@ import { Link } from "react-router-dom";
 const OpportunityCards = () => {
   return (
     <main className="p-2 md:px-12 md:py-12 bg-gray-50">
-      <div className="flex flex-col lg:flex-row gap-8 sm:gap-6 bg-gray-50">
-        <figure className="group relative hover:bg-white">
+      <div className="w-fit mx-auto flex flex-col sm:flex-row flex-wrap justify-center md:justify-center gap-8 sm:gap-6">
+        <figure className="basis-[45%] md:basis-[22%] group relative hover:bg-white">
           <img
             src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
             alt="/"
@@ -38,7 +38,7 @@ const OpportunityCards = () => {
           </div>
         </figure>
 
-        <figure className="group relative hover:bg-white">
+        <figure className="basis-[45%] md:basis-[22%] group relative hover:bg-white">
           <img
             src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
             alt="/"
@@ -65,7 +65,7 @@ const OpportunityCards = () => {
           </div>
         </figure>
 
-        <figure className="group relative hover:bg-white">
+        <figure className="basis-[45%] md:basis-[22%] group relative hover:bg-white">
           <img
             src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
             alt="/"
@@ -92,7 +92,7 @@ const OpportunityCards = () => {
           </div>
         </figure>
 
-        <figure className="group relative hover:bg-white">
+        <figure className="basis-[45%] md:basis-[22%] group relative hover:bg-white">
           <img
             src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
             alt="/"
