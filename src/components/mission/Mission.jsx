@@ -29,7 +29,9 @@ const Mission = () => {
             className="hidden md:block text-[#ECBD37] absolute left-4 top-0 -ml-6 -mt-4"
             size={50}
           />
-          <h3 className="text-2xl title my-3 mt-6 px-4 text-center">Values</h3>
+          <h3 className="text-2xl title my-3 mt-6 px-4 text-center">
+            JCI Values Creed
+          </h3>
           <p className="py-2 px-4 text-left sm:text-[1.2rem]">
             <p>We Believe...</p>
             <p>That Faith in God gives meaning and purpose to human lives.</p>

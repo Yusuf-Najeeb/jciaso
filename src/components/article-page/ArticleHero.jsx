@@ -7,8 +7,8 @@ const ArticleHero = () => {
         <div className="bg-[rgba(42,82,96,0.32)] text-white backdrop-blur-0 h-[50vh] flex flex-col justify-center items-start px-8">
           <h1 className="text-4xl lg:text-6xl font-bold">News & Articles</h1>
           <p className="lg:w-[40%] my-2 text-[1.2rem]">
-            Meet our able management and the people who make our Institution
-            feel like home.
+            Don't Miss Out! Stay upto date with JCI Aso Activities, trends and
+            coverage.
           </p>
         </div>
       </div>

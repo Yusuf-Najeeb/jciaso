@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import ArticleHero from "./ArticleHero";
-import LatestArticle from "../homepage/media/LatestArticle";
+// import LatestArticle from "../homepage/media/LatestArticle";
+import { LatestArticle } from "../homepage/media/LatestArticle";
 
 const Article = () => {
   useEffect(() => {
