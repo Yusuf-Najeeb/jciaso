@@ -9,7 +9,7 @@ export const sponsors = [
     id: 2,
     src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1708729111677/49493e3c-ebf3-4702-a1b0-1f34d4cf7b30.jpeg",
     alt: "Samvic brokers logo",
-    name: "Samvic",
+    name: "Samvic Brokers Limited",
   },
   {
     id: 3,

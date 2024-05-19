@@ -20,7 +20,7 @@ const Sponsors = () => {
                     className="w-fit"
                   />
                 </div>
-                <h3 className="text-12 font-semibold text-center">
+                <h3 className="text-12 font-semibold text-center mt-3">
                   {sponsor?.name}
                 </h3>
               </div>

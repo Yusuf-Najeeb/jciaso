@@ -35,7 +35,7 @@ const Programs = () => {
 
       <div className="flex flex-col-reverse sm:flex-row-reverse justify-between items-center gap-4 py-4 my-8 border-b">
         <div className="flex-1">
-          <h4 className="hidden sm:blcok text-2xl font-semibold leading-normal">
+          <h4 className="hidden sm:block text-2xl font-semibold leading-normal">
             Membership Development Summit
           </h4>
           <p className="text-sm text-gray-400">May 2024</p>
@@ -94,7 +94,7 @@ const Programs = () => {
           </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-top"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710277821578/ed8deb99-c512-423d-a6ea-aca1cf4407c6.png"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716153094931/d6a7c345-c8b9-444f-8e1f-faaa0a5fd2eb.jpeg"
             alt="Secondary school competition on debate"
           />
         </div>
@@ -125,7 +125,7 @@ const Programs = () => {
           </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-top"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710285786426/6448ca95-66ae-4ec0-9246-195835225133.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716154559971/d1d94ba6-3cf9-453b-b994-14742ef8ef8b.jpeg"
             alt="Baba N Yara Novelty games"
           />
         </div>

@@ -56,7 +56,7 @@ const Projects = () => {
           </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710278425986/005881fa-c174-4fcd-afa1-8a689e3004a8.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716153953624/def5c0b2-7555-4edb-91c2-58726118f60b.jpeg"
             alt="Save a soul project University of Abuja."
           />
         </div>

@@ -59,8 +59,8 @@ const Events = () => {
           </h4>
           <img
             className="max-h-[300px] w-full rounded object-cover object-center"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710278867523/2ef96b16-a608-443c-ae60-a1acbfc8f8c4.jpeg"
-            alt="JCI Aso General Assembly"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716153061699/bed12283-e1e9-4848-bd7a-f60383ffca65.jpeg"
+            alt="Upcoming Northern conference flyer"
           />
         </div>
       </div>
