@@ -65,7 +65,7 @@ export const jciDistinguish = [
 
   {
     image:
-      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667120/IMG-20240317-WA0019_gvfjjy.jpg",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1716144064442/2e4f00d5-0726-4a93-acae-0f72b4b89d04.jpeg",
     sen: "JCI Sen.",
     name: "Dayo Daramola",
     position: "President-2010",
@@ -87,7 +87,7 @@ export const jciDistinguish = [
   },
   {
     image:
-      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667148/IMG-20240317-WA0018_wlctdf.jpg",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1716144027558/3395c2e4-83f9-4b96-aff6-cd866a8d54de.jpeg",
     sen: "JCI Amb.",
     name: "Taiwo Olayemi",
     position: "President-2013",
@@ -116,7 +116,7 @@ export const jciDistinguish = [
   },
   {
     image:
-      "https://res.cloudinary.com/duw4jtxls/image/upload/v1710667121/IMG-20240317-WA0020_zfblpx.jpg",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1716144049128/c219eaf0-63ed-4d93-af6b-b3d408864559.jpeg",
     sen: "JCI Sen.",
     name: " Aliu John Yaya",
     position: "President-2017",
