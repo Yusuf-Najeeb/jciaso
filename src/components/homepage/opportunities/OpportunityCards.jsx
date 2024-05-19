@@ -20,7 +20,7 @@ const OpportunityCards = () => {
             alt="An Individual dancing at an awareness campaign"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[11.2rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.83rem] bg-[#ECBD37]/60 transition duration-200">
             <BsPersonCheckFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -43,11 +43,11 @@ const OpportunityCards = () => {
 
         <figure className="group relative hover:bg-white">
           <img
-            src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
-            alt="/"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716120531388/9b584610-39c2-4f23-8979-dd82faab82f3.jpeg"
+            alt="Business meeting"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.5rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.83rem] bg-[#ECBD37]/60 transition duration-200">
             <MdBusinessCenter size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -70,11 +70,11 @@ const OpportunityCards = () => {
 
         <figure className="group relative hover:bg-white">
           <img
-            src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
-            alt="/"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716129979057/cc881a17-ae8f-4580-921a-f48599a266c7.jpeg"
+            alt="Friends making the peace gesture"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.5rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.83rem] bg-[#ECBD37]/60 transition duration-200">
             <BsPeopleFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -97,11 +97,11 @@ const OpportunityCards = () => {
 
         <figure className="group relative hover:bg-white">
           <img
-            src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
-            alt="/"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716130895474/43b4680b-c8f4-4412-90ef-bb3ed56e8585.jpeg"
+            alt="Business men and women from every part of the country"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.5rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.83rem] bg-[#ECBD37]/60 transition duration-200">
             <BsGlobeAsiaAustralia size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">

@@ -9,15 +9,16 @@ const International = () => {
       <div className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
         <img
           className="w-full h-full object-cover absolute mix-blend-overlay"
-          src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259524145/6f17457b-5171-4f60-a119-fec84a0a16a8.jpeg"
+          src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716130895474/43b4680b-c8f4-4412-90ef-bb3ed56e8585.jpeg"
           alt="Group Photograph"
         />
         <div className="h-[50vh] flex flex-col text-center justify-center items-center text-[#FFF] px-4 lg:px-16">
           <h1 className="relative sm:text-2xl lg:text-4xl font-semibold">
-            Community Opportunity
+            International Opportunity
           </h1>
           <p className="relative my-2 sm:text-[1.2rem]">
-            We are committed and rooted in our Community goals and values...
+            Break down barriers and connect individuals across borders,
+            fostering global collaboration and opportunity
           </p>
         </div>
       </div>
@@ -25,9 +26,9 @@ const International = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 my-8 p-4 md:px-12">
         <div>
           <div className="flex items-center gap-2">
-            <div className="hidden md:flex w-10 h-1 bg-gradient-to-r from-[#0199CC] to-[#ECBD37] text-transparent"></div>
+            <div className="hidden md:flex w-10 h-[2px] bg-gradient-to-r from-[#0199CC] to-[#ECBD37] text-transparent"></div>
             <h3 className="text-2xl sm:text-3xl font-semibold">
-              Our service to Humanity
+              Expanding horizons
             </h3>
           </div>
           <p className="sm:text-[1rem] mb-4 sm:mb-0">
@@ -44,7 +45,7 @@ const International = () => {
         <div className="">
           <img
             className="w-full lg:min-w-[600px] lg:min-h-[300px] lg:max-h-[400px] rounded-lg"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259524145/6f17457b-5171-4f60-a119-fec84a0a16a8.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716130895474/43b4680b-c8f4-4412-90ef-bb3ed56e8585.jpeg"
             alt="Group Photograph"
           />
         </div>

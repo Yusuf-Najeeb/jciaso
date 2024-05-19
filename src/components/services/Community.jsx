@@ -8,8 +8,8 @@ const Community = () => {
     <main>
       <div className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
         <img
-          className="w-full h-full object-cover absolute mix-blend-overlay"
-          src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259524145/6f17457b-5171-4f60-a119-fec84a0a16a8.jpeg"
+          className="w-full h-full object-cover object-center absolute mix-blend-overlay"
+          src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716129979057/cc881a17-ae8f-4580-921a-f48599a266c7.jpeg"
           alt="Group Photograph"
         />
         <div className="h-[50vh] flex flex-col text-center justify-center items-center text-[#FFF] px-4 lg:px-16">
@@ -17,7 +17,8 @@ const Community = () => {
             Community Opportunity
           </h1>
           <p className="relative my-2 sm:text-[1.2rem]">
-            We are committed and rooted in our Community goals and values...
+            At JCI Aso, we bridge the gap between potentials and possibility by
+            connecting people and resources.
           </p>
         </div>
       </div>
@@ -25,9 +26,9 @@ const Community = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-4 my-8 p-4 md:px-12">
         <div>
           <div className="flex items-center gap-2">
-            <div className="hidden md:flex w-10 h-1 bg-gradient-to-r from-[#0199CC] to-[#ECBD37] text-transparent"></div>
+            <div className="hidden md:flex w-10 h-[2px] bg-gradient-to-r from-[#0199CC] to-[#ECBD37] text-transparent"></div>
             <h3 className="text-2xl sm:text-3xl font-semibold">
-              Our service to Humanity
+              Together, We Rise
             </h3>
           </div>
           <p className="sm:text-[1rem] mb-4 sm:mb-0">
