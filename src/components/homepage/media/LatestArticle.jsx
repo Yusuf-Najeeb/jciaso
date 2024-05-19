@@ -5,6 +5,10 @@ import { articleUpdates } from "../../../localdb/Article";
 
 const LatestArticle = () => {
   useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     Aos.init();
   }, []);
   const [news] = useState(articleUpdates);

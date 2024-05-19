@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const ContactForm = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <form action="" className="w-[100%] flex flex-col items-start gap-6 py-20">
       <div className="w-[100%] flex flex-col gap-6 lg:flex-row mb-6">

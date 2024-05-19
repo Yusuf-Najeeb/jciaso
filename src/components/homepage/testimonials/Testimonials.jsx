@@ -110,7 +110,7 @@ const Testimonials = function ({
           alt="/"
           className="w-40 h-40 rounded-full md:rounded-none md:w-[250px] md:h-[250px]"
         />
-        <div className="lg:w-[75%] flex flex-col gap-8 font-serif">
+        <div className="lg:w-[75%] flex flex-col gap-8">
           <p className="lg:w-[80%] md:text-[1.2rem] text-center sm:text-justify ">
             {testimonialsData[currentIndex].testimony}
           </p>

@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const DonateBankDetails = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="flex flex-col gap-16 py-14 px-4 lg:px-16">
       <section className="flex flex-col gap-4 font-semibold">

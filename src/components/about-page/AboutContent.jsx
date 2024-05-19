@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const AboutContent = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <h1 className="title pt-16 px-6  lg:px-16">

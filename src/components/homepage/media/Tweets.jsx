@@ -38,9 +38,9 @@ const Tweets = () => {
           </button>
         </a>
       </div>
-      <div className="mx-auto max-h-[70vh] overflow-y-auto tweets py-2 lg:pl-1">
+      <div className="mx-auto w-full max-h-[70vh] overflow-y-auto tweets py-2 lg:pl-1">
         {tweets.map((tweets) => (
-          <div className="light" key={tweets.id}>
+          <div className="light w-full" key={tweets.id}>
             <Tweet id={tweets.tweet} />
           </div>
         ))}

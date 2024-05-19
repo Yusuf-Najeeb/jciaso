@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import GallerySlide from "./GallerySlide";
 import GalleryHero from "./GalleryHero";
 
 const Gallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <React.Fragment>
       <GalleryHero />
