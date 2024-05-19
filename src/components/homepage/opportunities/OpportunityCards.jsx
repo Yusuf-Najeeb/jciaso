@@ -16,11 +16,11 @@ const OpportunityCards = () => {
       <div className="w-fit mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         <figure className="group relative hover:bg-white">
           <img
-            src="https://freshnewsng.com/uploads/images/202312/image_870x_6576e6e1ac416.jpg"
-            alt="/"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716119368326/412541c3-d9c0-4658-ad37-dea36258997e.jpeg"
+            alt="An Individual dancing at an awareness campaign"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.5rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[11.2rem] bg-[#ECBD37]/60 transition duration-200">
             <BsPersonCheckFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
