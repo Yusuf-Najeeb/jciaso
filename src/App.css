@@ -38,7 +38,8 @@
 } */
 
 .tweets::-webkit-scrollbar,
-.youtube::-webkit-scrollbar {
+.youtube::-webkit-scrollbar,
+.modal::-webkit-scrollbar {
   width: 1px;
   height: 2px;
   outline: none;
@@ -46,12 +47,14 @@
 }
 
 .tweets::-webkit-scrollbar-thumb,
-.youtube::-webkit-scrollbar-thumb {
+.youtube::-webkit-scrollbar-thumb,
+.modal::-webkit-scrollbar-thumb {
   background-color: gray;
   border-radius: 10px;
 }
 
 .tweets::-webkit-scrollbar-track,
-.youtube::-webkit-scrollbar-track {
+.youtube::-webkit-scrollbar-track,
+.modal::-webkit-scrollbar-track {
   background-color: rgb(222, 220, 220);
 }

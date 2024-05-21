@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import HeroSection from "./herosection/HeroSection";
 import Vision from "./jcivision/Vision";
 import Sponsors from "./sponsors/Sponsors";
@@ -11,10 +11,8 @@ import Notification from "./Notification";
 
 const LandingPage = () => {
   return (
-    <main className="relative">
-      <div className="w-[60%] mx-auto absolute top-[1%] z-30 left-[20%]">
-        <Notification />
-      </div>
+    <Fragment>
+      <Notification />
       <HeroSection />
       <Opportunity />
       <Vision />
@@ -23,7 +21,7 @@ const LandingPage = () => {
       <Media />
       <HomePageNew />
       <Sponsors />
-    </main>
+    </Fragment>
   );
 };
 

@@ -60,7 +60,7 @@ const Header = () => {
 
       <div className="p-4 bg-gradient-to-r from-[#f3edd0fa] via-gray-100 to-white hidden sm:block"></div>
       {/* NavBar Section */}
-      <header className="sticky top-0 bg-white border-b border-gray-200 z-50 ">
+      <header className="sticky top-0 bg-white border-b border-gray-200 z-40 ">
         <nav className="bg-white border-gray-200 shadow-md py-2.5  ">
           <div className="flex flex-wrap items-end justify-between max-w-screen-xl px-4 mx-auto lg:px-10">
             <Link
