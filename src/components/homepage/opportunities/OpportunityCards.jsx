@@ -35,7 +35,7 @@ const OpportunityCards = () => {
           </figcaption>
           <div className="flex gap-4 mt-3">
             <BsPersonCheckFill size={40} className="text-[#ECBD37]" />
-            <p className="text-[1.2rem] sm:text-2xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
+            <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
               Individual Opportunity
             </p>
           </div>
@@ -62,7 +62,7 @@ const OpportunityCards = () => {
           </figcaption>
           <div className="flex gap-4 mt-3">
             <MdBusinessCenter size={40} className="text-[#ECBD37]" />
-            <p className="text-[1.2rem] sm:text-2xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
+            <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
               Business Opportunity
             </p>
           </div>
@@ -89,7 +89,7 @@ const OpportunityCards = () => {
           </figcaption>
           <div className="flex gap-4 mt-3">
             <BsPeopleFill size={40} className="text-[#ECBD37]" />
-            <p className="text-[1.2rem] sm:text-2xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
+            <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
               Community Opportunity
             </p>
           </div>
@@ -116,7 +116,7 @@ const OpportunityCards = () => {
           </figcaption>
           <div className="flex gap-4 mt-3">
             <BsGlobeAsiaAustralia size={40} className="text-[#ECBD37]" />
-            <p className="text-[1.2rem] sm:text-2xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
+            <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
               International Opportunity
             </p>
           </div>
