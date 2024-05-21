@@ -17,12 +17,13 @@ import Individual from "./components/services/Individual";
 import Business from "./components/services/Business";
 import Community from "./components/services/Community";
 import International from "./components/services/International";
+import Error from "./components/Error";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <div>Page not found</div>,
+    errorElement: <Error />,
     children: [
       { path: "/", element: <Home /> },
       { path: "/excos", element: <Excos /> },

@@ -58,3 +58,14 @@
 .modal::-webkit-scrollbar-track {
   background-color: rgb(222, 220, 220);
 }
+.oops {
+  display: inline-block;
+  margin: 0;
+  font-size: 18rem;
+  background-image: url("https://cdn.hashnode.com/res/hashnode/image/upload/v1716301215474/6323fa1c-5f4d-4a39-b9eb-5b25e0539162.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
