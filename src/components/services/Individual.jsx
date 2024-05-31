@@ -33,14 +33,17 @@ const Individual = () => {
             </h3>
           </div>
           <p className="sm:text-[1rem] mb-4 sm:mb-0">
-            Being part of the JCI Aso network is more than just membership; it's
-            an opportunity to belong to a global community dedicated to creating
-            positive change. JCI provides a collaborative platform where
-            individuals and organizations can unite, share ideas, and
-            collectively address societal challenges. Through JCI Aso events,
-            projects, and initiatives, the community actively contributes to
-            building a better world, fostering a spirit of interconnectedness
-            and shared responsibility.
+            Becoming part of the JCI Aso network opens doors to exceptional
+            personal and professional development opportunities. As a member,
+            you'll join a dynamic community dedicated to fostering positive
+            change and innovation. Engage with leaders and peers in various
+            initiatives and projects that not only address societal challenges
+            but also enhance your skills and broaden your horizons. JCI Aso
+            events and activities provide a platform for networking, learning,
+            and contributing to impactful causes. This journey offers you the
+            chance to grow, lead, and make a meaningful difference in the world.
+            Embrace this unique opportunity to elevate yourself and your
+            community with JCI Aso.
           </p>
         </div>
         <div className="">
