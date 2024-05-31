@@ -21,7 +21,7 @@ const OpportunityCards = () => {
             alt="An Individual dancing at an awareness campaign"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.9rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
             <BsPersonCheckFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -48,7 +48,7 @@ const OpportunityCards = () => {
             alt="Business meeting"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.9rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
             <MdBusinessCenter size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -75,7 +75,7 @@ const OpportunityCards = () => {
             alt="Friends making the peace gesture"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.9rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
             <BsPeopleFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -102,7 +102,7 @@ const OpportunityCards = () => {
             alt="Business men and women from every part of the country"
             className="w-full object-cover object-top"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.9rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
             <BsGlobeAsiaAustralia size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
