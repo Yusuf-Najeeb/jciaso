@@ -4,9 +4,13 @@ import { BsYoutube } from "react-icons/bs";
 import "../../../App.css";
 
 const videos = [
+  // {
+  //   id: 1,
+  //   vid: "https://www.youtube.com/live/zIiqYCLXoRc?si=53DDcwXY5227fqxK",
+  // },
   {
     id: 1,
-    vid: "https://www.youtube.com/live/zIiqYCLXoRc?si=53DDcwXY5227fqxK",
+    vid: "https://www.youtube.com/watch?v=_MN8K8POptc",
   },
   {
     id: 2,

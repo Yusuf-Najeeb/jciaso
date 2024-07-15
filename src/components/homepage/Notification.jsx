@@ -32,7 +32,7 @@ const Notification = () => {
         <button
           onClick={handleClose}
           type="button"
-          className="absolute top-3 right-2.5 px-2 py-1 text-sm font-medium text-white bg-[#0199cc] hover:bg-[#012dcc] rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0199cc] flex flex-row items-center justify-between"
+          className="absolute top-3 right-2.5 px-2 py-1 text-sm font-medium text-white bg-[#0199cc] hover:bg-[#1f6b9b] rounded focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#0199cc] flex flex-row items-center justify-between"
         >
           close
           <BsX size={20} />
@@ -40,8 +40,8 @@ const Notification = () => {
         <Link to={"/events"} onClick={handleClose}>
           <img
             className="max-h-[600px] h-full w-full rounded object-contain object-top"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716153094931/d6a7c345-c8b9-444f-8e1f-faaa0a5fd2eb.jpeg"
-            alt="Secondary school competition on debate"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1721084093923/3521ebc5-b27b-4657-aace-2406f256330f.jpeg"
+            alt="Northern Conference 2024"
           />
         </Link>
       </main>
