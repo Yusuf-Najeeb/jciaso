@@ -17,6 +17,7 @@ import Individual from "./components/services/Individual";
 import Business from "./components/services/Business";
 import Community from "./components/services/Community";
 import International from "./components/services/International";
+import QLV from "./components/QLV/index";
 import Error from "./components/Error";
 
 const router = createBrowserRouter([
@@ -38,8 +39,10 @@ const router = createBrowserRouter([
       { path: "/business", element: <Business /> },
       { path: "/community", element: <Community /> },
       { path: "/international", element: <International /> },
+      { path: "/QLV", element: <QLV /> },
     ],
   },
+  { path: "/QLV", element: <QLV /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
