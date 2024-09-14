@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <main className="bg-[#001926] text-[#FCFCFC] overflow-hidden">
       <div className="relative w-full h-dvh max-w-[1400px] mx-auto flex justify-center items-center">
-        <div className="flex flex-col items-center justify-center gap-3 mt-[5rem] mb-4 absolute z-50">
+        <div className="flex flex-col items-center justify-center gap-3 mt-[5rem] mb-4 absolute z-40">
           <h1 className="text-6xl w-full max-w-[75%] text-center">
             JCI Aso Quality Leadership Value (QLV){" "}
             <span className={`url(${star}) inline-block w-30 h-30`}></span>
@@ -51,11 +51,6 @@ const Hero = () => {
           className="absolute rounded-md -right-[2%] bottom-[10%] w-[18%]"
         />
       </div>
-      <h1 className="relative bottom-0">
-        JCI Aso QLV 2024 JCI Aso QLV 2024 JCI Aso QLV 2024 JCI Aso QLV 2024 JCI
-        Aso QLV 2024 JCI Aso QLV 2024 JCI Aso QLV 2024 JCI Aso QLV 2024 Aso QLV
-        2024 JCI Aso QLV 2024
-      </h1>
     </main>
   );
 };
