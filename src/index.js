@@ -21,6 +21,8 @@ import QLV from "./components/QLV/index";
 import Error from "./components/Error";
 
 const router = createBrowserRouter([
+  { path: "/qlv", element: <QLV /> },
+
   {
     path: "/",
     element: <App />,
@@ -42,7 +44,6 @@ const router = createBrowserRouter([
       { path: "/QLV", element: <QLV /> },
     ],
   },
-  { path: "/QLV", element: <QLV /> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
