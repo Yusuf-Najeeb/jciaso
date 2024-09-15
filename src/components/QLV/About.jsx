@@ -48,10 +48,10 @@ const Schedule = () => {
       <div className="flex items-start gap-8 mb-8">
         <h3 className="text-2xl font-bold">Day&nbsp;1</h3>
         <ul className="text-xl list-disc ml-4">
-          <li className="my-4 leading-7">
+          <li className="mb-4 ">
             Transformational Leadership in the Digital Age
           </li>
-          <li className="my-4 leading-7">
+          <li className="mb-4 ">
             Building Resilient Organizations: Strategies for Sustainable Success
           </li>
         </ul>
@@ -60,7 +60,7 @@ const Schedule = () => {
       <div className="flex items-start gap-8 mb-8">
         <h3 className="text-2xl font-bold">Day&nbsp;2</h3>
         <ul className="text-xl list-disc ml-4">
-          <li className="my-4 leading-7">
+          <li className="mb-4 ">
             Ethical Leadership: Leading with integrity and trust
           </li>
         </ul>
@@ -69,10 +69,10 @@ const Schedule = () => {
       <div className="flex items-start gap-8 mb-8">
         <h3 className="text-2xl font-bold">Day&nbsp;3</h3>
         <ul className="text-xl list-disc ml-4">
-          <li className="my-4 leading-7">Keynote Speech</li>
-          <li className="my-4 leading-7">High Impact Panel Sessions</li>
-          <li className="my-4 leading-7">Team Building Activities</li>
-          <li className="my-4 leading-7">Networking</li>
+          <li className="mb-4 ">Keynote Speech</li>
+          <li className="mb-4 ">High Impact Panel Sessions</li>
+          <li className="mb-4 ">Team Building Activities</li>
+          <li className="mb-4 ">Networking</li>
         </ul>
       </div>
     </div>
@@ -130,8 +130,13 @@ const About = () => {
             ref={heightRef}
             className="p-4 transition-all duration-300 ease-in-out overflow-hidden scroll-hidden"
             style={{
-              height: toggler === 0 && height ? "65%" : "40%",
-              overflowY: height ? "scroll" : "hidden",
+              height:
+                height && toggler === 0
+                  ? "65%"
+                  : toggler === 1
+                  ? "100%"
+                  : "40%",
+              overflowY: height && toggler === 0 ? "scroll" : "hidden",
             }}
           >
             {toggler === 0 && <Overview />}
