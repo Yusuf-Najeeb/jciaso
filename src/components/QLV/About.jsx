@@ -46,7 +46,7 @@ const Schedule = () => {
   return (
     <div className="mt-2">
       <div className="flex items-start gap-8 mb-8">
-        <h3 className="text-2xl font-bold">Day&nbsp;1</h3>
+        <h3 className="text-[1.3rem] font-bold">Day&nbsp;1</h3>
         <ul className="text-xl list-disc ml-4">
           <li className="mb-4 ">
             Transformational Leadership in the Digital Age
@@ -58,7 +58,7 @@ const Schedule = () => {
       </div>
 
       <div className="flex items-start gap-8 mb-8">
-        <h3 className="text-2xl font-bold">Day&nbsp;2</h3>
+        <h3 className="text-[1.3rem] font-bold">Day&nbsp;2</h3>
         <ul className="text-xl list-disc ml-4">
           <li className="mb-4 ">
             Ethical Leadership: Leading with integrity and trust
@@ -67,7 +67,7 @@ const Schedule = () => {
       </div>
 
       <div className="flex items-start gap-8 mb-8">
-        <h3 className="text-2xl font-bold">Day&nbsp;3</h3>
+        <h3 className="text-[1.3rem] font-bold">Day&nbsp;3</h3>
         <ul className="text-xl list-disc ml-4">
           <li className="mb-4 ">Keynote Speech</li>
           <li className="mb-4 ">High Impact Panel Sessions</li>
@@ -97,7 +97,7 @@ const About = () => {
   };
 
   return (
-    <main className="bg-[#FCFCFC] text-[#001926] pt-[6rem] pb-8 px-[5rem]">
+    <main className="bg-[#FCFCFC] text-[#001926] pt-[6rem] px-[5rem] mb-8 mx-auto">
       <h2 className="text-5xl font-bold text-center">About Event</h2>
 
       <div className="flex flex-col md:flex-row gap-8">
@@ -162,7 +162,7 @@ const About = () => {
           <img
             src={speaker}
             alt="A prominent business leader speaking at the 2023 JCI Aso QLV event"
-            className="mt-8"
+            className="mt-8 rounded"
           />
         </section>
       </div>
