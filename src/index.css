@@ -31,3 +31,12 @@ body {
   text-align: center;
   color: #fff;
 }
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit-based browsers (Chrome, Safari) */
+}
+
+.scroll-hidden {
+  -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
