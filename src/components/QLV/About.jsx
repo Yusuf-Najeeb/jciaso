@@ -97,7 +97,7 @@ const About = () => {
   };
 
   return (
-    <main className="bg-[#FCFCFC] text-[#001926] pt-[6rem] px-[5rem] mb-8 mx-auto">
+    <main className="bg-[#FCFCFC] text-[#001926] pt-[6rem] px-[5rem] mx-auto">
       <h2 className="text-5xl font-bold text-center">About Event</h2>
 
       <div className="flex flex-col md:flex-row gap-8">

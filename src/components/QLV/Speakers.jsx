@@ -63,43 +63,41 @@ const data = [
 
 const SpeakerCard = ({ speaker }) => {
   return (
-    <div className="w-[30%] my-8">
-      <figure>
-        <div className="relative">
-          <p className="absolute right-1 top-3 px-2 rounded-full bg-[#FCFCFC] text-[#001926] text-sm w-10 hover:w-fit overflow-hidden transition-all duration-500 ease-in-out flex items-center gap-2">
-            <span className="">About Speaker</span>
-            <BsInfoCircle />
-          </p>
-          <img src={speaker.avatar} alt={speaker.name} />
-        </div>
-        <figcaption>
-          <p className="font-bold text-2xl">{speaker.name}</p>
-          <p className="text-xl">{speaker.position}</p>
-          <p className="flex items-center gap-4 mt-2">
-            <Link to={speaker.linkedin}>
-              <RiLinkedinLine
-                className="transition border border-[#001926] p-1 rounded hover:bg-[#001926] hover:text-[#FCFCFC] cursor-pointer"
-                size={25}
-              />
-            </Link>
-            <Link to={speaker.twitter}>
-              <BsTwitterX
-                className="transition border border-[#001926] p-1 rounded hover:bg-[#001926] hover:text-[#FCFCFC] cursor-pointer"
-                size={25}
-              />
-            </Link>
-          </p>
-        </figcaption>
-      </figure>
-    </div>
+    <figure className="w-[30%] my-8 rounded-md p-2">
+      <div className="relative">
+        <p className="absolute right-1 top-3 px-2 rounded-full bg-[#FCFCFC] text-[#001926] text-sm w-10 hover:w-fit overflow-hidden transition-all duration-500 ease-in-out flex items-center gap-2">
+          <span className="">About Speaker</span>
+          <BsInfoCircle />
+        </p>
+        <img src={speaker.avatar} alt={speaker.name} className="rounded-t-md" />
+      </div>
+      <figcaption>
+        <p className="font-bold text-2xl">{speaker.name}</p>
+        <p className="text-xl">{speaker.position}</p>
+        <p className="flex items-center gap-4 mt-2">
+          <Link to={speaker.linkedin}>
+            <RiLinkedinLine
+              className="transition border border-[#001926] p-1 rounded hover:bg-[#001926] hover:text-[#FCFCFC] cursor-pointer"
+              size={25}
+            />
+          </Link>
+          <Link to={speaker.twitter}>
+            <BsTwitterX
+              className="transition border border-[#001926] p-1 rounded hover:bg-[#001926] hover:text-[#FCFCFC] cursor-pointer"
+              size={25}
+            />
+          </Link>
+        </p>
+      </figcaption>
+    </figure>
   );
 };
 
 const Speakers = () => {
   return (
-    <main className="bg-[#FCFCFC] text-[#001926] pt-[6rem] pb-8 px-[5rem]">
-      <h2 className="text-5xl font-bold text-center">Meet The Speakers</h2>
-      <div className="flex items-center justify-between flex-wrap my-4">
+    <main className="bg-[#FCFCFC] text-[#001926] pt-1 pb-8 px-[5rem]">
+      <h2 className="text-5xl font-bold text-center mb-8">Meet The Speakers</h2>
+      <div className="flex items-center justify-between flex-wrap">
         {data.map((item, i) => {
           return <SpeakerCard speaker={item} key={i} />;
         })}
