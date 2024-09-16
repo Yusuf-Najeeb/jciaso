@@ -20,7 +20,7 @@ const Hero = () => {
             to Shape the Future
           </h4>
 
-          <button className="bg-[#009FF5] border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent rounded-md px-8 py-3 mt-2">
+          <button className="bg-[#009FF5] border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent rounded-md px-8 py-3 mt-2 text-xl">
             Book a seat
           </button>
         </div>

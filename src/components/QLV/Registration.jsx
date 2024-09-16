@@ -128,6 +128,20 @@ const Registration = () => {
             <span className="text-xl">Other</span>
           </label>
         </div>
+
+        <div className="flex flex-col items-center justify-center gap-4">
+          <button className="bg-[#009FF5] border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent rounded-md px-10 py-4 text-xl mb-2">
+            Register for Event
+          </button>
+
+          <p className="w-[40%] text-sm text-center">
+            Please ensure all fields are filled correctly. For any registration
+            issues, contact us at{" "}
+            <a href="mailto:jciaso@jci.ng" className="text-[#009FF5] underline">
+              jciaso@jci.ng
+            </a>
+          </p>
+        </div>
       </form>
     </main>
   );
