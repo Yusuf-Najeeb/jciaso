@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import QLVLogo from "../QLV/assets/QLV1.png";
+// import QLVLogo from "../QLV/assets/QLV1.png";
 import QLVLogo1 from "../QLV/assets/QLV2.png";
 
 const LandingPage = () => {
