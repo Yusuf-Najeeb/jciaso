@@ -82,18 +82,18 @@
 .striped {
   background-image: linear-gradient(
     45deg,
-    #f7f7f7 25%,
-    #00bfff 25%,
-    #00bfff 50%,
-    #f7f7f7 50%,
-    #f7f7f7 75%,
-    #00bfff 75%,
-    #00bfff 100%
+    #fff 25%,
+    #fff 25%,
+    #fff 50%,
+    #fff 50%,
+    #fff 75%,
+    #fff 75%,
+    #fff 100%
   );
   background-size: 40px 40px;
   animation: stripe 2s linear infinite;
 }
 
 .progress-bar {
-  transition: width 5s ease-in-out;
+  transition: width 10s ease-in-out;
 }
