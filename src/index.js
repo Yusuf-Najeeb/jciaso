@@ -21,7 +21,7 @@ import QLV from "./components/QLV/index";
 import Error from "./components/Error";
 
 const router = createBrowserRouter([
-  { path: "/qlv", element: <QLV /> },
+  { path: "/qlv2024", element: <QLV /> },
 
   {
     path: "/",

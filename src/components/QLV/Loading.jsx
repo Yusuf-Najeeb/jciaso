@@ -21,10 +21,6 @@ const LandingPage = () => {
       }}
     >
       <div className="w-full max-w-md p-6 rounded-lg mt-[24rem]">
-        {/* <h1 className="text-3xl font-bold text-center mb-6">
-          JCI Aso QLV 24 is Coming...
-        </h1> */}
-
         <div className="w-full bg-gray-300 rounded-full h-4">
           <div
             className="h-4 rounded-full striped progress-bar"
@@ -32,7 +28,7 @@ const LandingPage = () => {
           ></div>
         </div>
 
-        <p className="text-center text-3xl font-bold mb-6 mt-4">
+        <p className="text-center text-3xl font-bold mb-6 mt-4 text-[#333]">
           QLV 24 is Coming... {progress}%
         </p>
       </div>

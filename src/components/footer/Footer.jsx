@@ -36,6 +36,9 @@ const Footer = () => {
             <Link to="/gallery" className="hover:underline duration-300">
               Gallery
             </Link>
+            <Link to="/qlv2024" className="hover:underline duration-300">
+              QLV 24
+            </Link>
           </ul>
         </div>
         <div className="flex flex-col gap-2 sm:gap-6 my-4 p-2">

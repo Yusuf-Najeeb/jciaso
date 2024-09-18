@@ -10,12 +10,12 @@ import Loading from "./Loading";
 const index = () => {
   return (
     <div>
-      <Nav />
+      {/* <Nav />
       <Hero />
       <CountDown />
       <About />
       <Speakers />
-      <Register />
+      <Register /> */}
       <Loading />
     </div>
   );
