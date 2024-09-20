@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const QlvNav = () => {
+const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
   return (
     <main className="bg-[#001926] text-[#FCFCFC] pt-4 sticky top-0 z-50">
       <div className="w-full max-w-[1200px] flex justify-between items-center mx-auto">
@@ -14,17 +14,26 @@ const QlvNav = () => {
         </Link>
 
         <nav className="min-w-[550px] flex justify-between">
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">About event</a>
+          <button
+            className="hover:text-[#009FF5] transition"
+            onClick={aboutRef}
+          >
+            About event
           </button>
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">Speakers</a>
+          <button
+            className="hover:text-[#009FF5] transition"
+            onClick={speakersRef}
+          >
+            Speakers
           </button>
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">FAQ</a>
+          <button className="hover:text-[#009FF5] transition" onClick={faqRef}>
+            FAQ
           </button>
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">Partners</a>
+          <button
+            className="hover:text-[#009FF5] transition"
+            onClick={partnerRef}
+          >
+            Partners
           </button>
         </nav>
 

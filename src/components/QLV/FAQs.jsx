@@ -87,9 +87,12 @@ const data = [
   },
 ];
 
-const FAQs = () => {
+const FAQs = ({ sectionRef }) => {
   return (
-    <main className="bg-[#FCFCFC] text-[#001926] pt-[6rem] px-[5rem] mx-auto mb-8">
+    <main
+      ref={sectionRef}
+      className="bg-[#FCFCFC] text-[#001926] pt-[6rem] px-[5rem] mx-auto mb-8"
+    >
       <h2 className="text-5xl font-bold text-center mb-4">FAQs</h2>
       <div>
         {data.map((item, i) => {

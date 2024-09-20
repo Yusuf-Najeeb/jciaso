@@ -1,4 +1,4 @@
-import React from "react";
+import { useRef } from "react";
 import Nav from "./Header";
 import Hero from "./Hero";
 import CountDown from "./CountDown";
@@ -10,21 +10,35 @@ import FAQs from "./FAQs";
 import Partners from "../homepage/sponsors/Sponsors";
 import Footer from "./Footer";
 
-const index = () => {
+const Index = () => {
+  const aboutRef = useRef(null);
+  const speakerRef = useRef(null);
+  const faqRef = useRef(null);
+  const partnerRef = useRef(null);
+
+  const scrollToSection = (sectionRef) => {
+    sectionRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
-      <Nav />
+      <Nav
+        aboutRef={() => scrollToSection(aboutRef)}
+        partnerRef={() => scrollToSection(partnerRef)}
+        faqRef={() => scrollToSection(faqRef)}
+        speakersRef={() => scrollToSection(speakerRef)}
+      />
       <Hero />
       <CountDown />
-      <About />
-      <Speakers />
+      <About sectionRef={aboutRef} />
+      <Speakers sectionRef={speakerRef} />
       <Register />
       {/* <Loading /> */}
-      <FAQs />
-      <Partners />
+      <FAQs sectionRef={faqRef} />
+      <Partners sectionRef={partnerRef} />
       <Footer />
     </div>
   );
 };
 
-export default index;
+export default Index;

@@ -93,9 +93,12 @@ const SpeakerCard = ({ speaker }) => {
   );
 };
 
-const Speakers = () => {
+const Speakers = ({ sectionRef }) => {
   return (
-    <main className="bg-[#FCFCFC] text-[#001926] pt-1 pb-8 px-[5rem]">
+    <main
+      ref={sectionRef}
+      className="bg-[#FCFCFC] text-[#001926] pt-1 pb-8 px-[5rem]"
+    >
       <h2 className="text-5xl font-bold text-center mb-8">Meet The Speakers</h2>
       <div className="flex items-center justify-between flex-wrap">
         {data.map((item, i) => {
