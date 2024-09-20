@@ -7,6 +7,7 @@ import Speakers from "./Speakers";
 import Register from "./Registration";
 // import Loading from "./Loading";
 import FAQs from "./FAQs";
+import Partners from "../homepage/sponsors/Sponsors";
 
 const index = () => {
   return (
@@ -19,6 +20,7 @@ const index = () => {
       <Register />
       {/* <Loading /> */}
       <FAQs />
+      <Partners />
     </div>
   );
 };

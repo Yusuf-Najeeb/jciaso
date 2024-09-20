@@ -93,7 +93,7 @@ const FAQs = () => {
       <h2 className="text-5xl font-bold text-center mb-4">FAQs</h2>
       <div>
         {data.map((item, i) => {
-          return <Accordion key={i} content={item} />;
+          return <Accordion key={i} data={item} />;
         })}
       </div>
     </main>

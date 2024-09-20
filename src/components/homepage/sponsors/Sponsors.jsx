@@ -5,7 +5,7 @@ import { sponsors } from "../../../localdb/sponsors";
 const Sponsors = () => {
   return (
     <div className="flex flex-col px-2 py-4 mt-6 lg:px-10 lg:py-32 lg:gap-16">
-      <h1 className="title font-semibold text-center sm:text-2xl lg:text-3xl">
+      <h1 className="title font-semibold text-center sm:text-2xl lg:text-5xl">
         Our Partners
       </h1>
       <section className="">
