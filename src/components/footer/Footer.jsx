@@ -37,7 +37,7 @@ const Footer = () => {
               Gallery
             </Link>
             <Link to="/qlv2024" className="hover:underline duration-300">
-              QLV 24
+              QLV 2024
             </Link>
           </ul>
         </div>
