@@ -8,6 +8,7 @@ import Register from "./Registration";
 // import Loading from "./Loading";
 import FAQs from "./FAQs";
 import Partners from "../homepage/sponsors/Sponsors";
+import Footer from "./Footer";
 
 const index = () => {
   return (
@@ -21,6 +22,7 @@ const index = () => {
       {/* <Loading /> */}
       <FAQs />
       <Partners />
+      <Footer />
     </div>
   );
 };

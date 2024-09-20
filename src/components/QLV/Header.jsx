@@ -12,6 +12,7 @@ const QlvNav = () => {
             alt="JCI-Aso logo"
           />
         </Link>
+
         <nav className="min-w-[550px] flex justify-between">
           <button className="hover:text-[#009FF5] transition">
             <a href="#event">About event</a>
