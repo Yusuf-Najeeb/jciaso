@@ -36,7 +36,12 @@ const Index = () => {
       {/* <Loading /> */}
       <FAQs sectionRef={faqRef} />
       <Partners sectionRef={partnerRef} />
-      <Footer />
+      <Footer
+        aboutRef={() => scrollToSection(aboutRef)}
+        partnerRef={() => scrollToSection(partnerRef)}
+        faqRef={() => scrollToSection(faqRef)}
+        speakersRef={() => scrollToSection(speakerRef)}
+      />
     </div>
   );
 };

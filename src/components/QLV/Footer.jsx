@@ -6,11 +6,11 @@ import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { RiLinkedinLine } from "react-icons/ri";
 
-const Footer = () => {
+const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
   return (
     <main className="bg-[#111] text-[#FCFCFC] pt-4 text-sm">
       <div className="w-full max-w-[1200px] flex justify-between items-center mx-auto">
-        <Link to="#" className="flex items-center w-14 h-12 md:w-28 md:h-16">
+        <Link to="#" className="flex items-center w-14 h-12 md:w-20 md:h-14">
           <img
             className="w-full"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259811890/d8c5b502-3a13-43b2-829a-ea95fadbc9bc.png"
@@ -18,26 +18,35 @@ const Footer = () => {
           />
         </Link>
         <nav className="min-w-[550px] flex justify-between">
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">About event</a>
+          <button
+            className="hover:text-[#009FF5] transition"
+            onClick={aboutRef}
+          >
+            About event
           </button>
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">Speakers</a>
+          <button
+            className="hover:text-[#009FF5] transition"
+            onClick={speakersRef}
+          >
+            Speakers
           </button>
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">FAQ</a>
+          <button className="hover:text-[#009FF5] transition" onClick={faqRef}>
+            FAQ
           </button>
-          <button className="hover:text-[#009FF5] transition">
-            <a href="#event">Partners</a>
+          <button
+            className="hover:text-[#009FF5] transition"
+            onClick={partnerRef}
+          >
+            Partners
           </button>
         </nav>
 
         <div>
-          <p className="flex items-center gap-2 my-2">
+          <p className="flex items-center gap-2 my-2 hover:text-[#009FF5] transition">
             <CiMail size={25} />
             <a href="mailto=jciaso@jci.ng">Email: jciaso@jci.ng</a>
           </p>
-          <p className="flex items-center gap-2 my-2">
+          <p className="flex items-center gap-2 my-2 hover:text-[#009FF5] transition">
             <MdOutlinePhoneEnabled size={25} />
             <a href="tel:+2348112326974">Contact: +234 8112 326 974</a>
           </p>
@@ -50,38 +59,53 @@ const Footer = () => {
         <div className="flex items-center gap-4">
           <p>Follow us:</p>
           <div className="flex items-center gap-4">
-            <Link to="facebook">
+            <a href="#nowhere" target="_blank">
               <LiaFacebookSquare
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={35}
               />
-            </Link>
+            </a>
 
-            <Link to="instagram">
+            <a href="#nowhere" target="_blank">
               <FaInstagram
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={30}
               />
-            </Link>
+            </a>
 
-            <Link to="linkedIn">
+            <a href="#nowhere" target="_blank">
               <RiLinkedinLine
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={30}
               />
-            </Link>
-            <Link to="X">
+            </a>
+
+            <a href="#nowhere" target="_blank">
               <BsTwitterX
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={25}
               />
-            </Link>
+            </a>
           </div>
         </div>
-        <div className="">
-          <p>
-            &copy; 2024 QLV Boot Camp | All Rights Reserved | Privacy Policy |
-            Terms of Service
+
+        <div>
+          <p className="flex items-center gap-2">
+            <span className="hover:text-[#009FF5] transition cursor-pointer">
+              &copy; 2024 QLV Boot Camp
+            </span>
+            |{" "}
+            <span className="hover:text-[#009FF5] transition cursor-pointer">
+              All Rights Reserved
+            </span>{" "}
+            |{" "}
+            <span className="hover:text-[#009FF5] transition cursor-pointer">
+              Privacy Policy
+            </span>{" "}
+            |{" "}
+            <span className="hover:text-[#009FF5] transition cursor-pointer">
+              Terms of Service
+            </span>
           </p>
         </div>
       </div>
