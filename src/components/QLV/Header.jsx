@@ -1,13 +1,23 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { LuMenu } from "react-icons/lu";
+import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
 import useWindowSize from "../../hooks/useWindowSize";
 
 const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
   const [openMobileNav, setMobileNav] = useState(false);
+  const [menuHeight, setMenuHeight] = useState(0);
   const { width } = useWindowSize();
+  const navRef = useRef(null);
 
   const toggleMobileNav = () => setMobileNav(!openMobileNav);
+
+  useEffect(() => {
+    if (navRef.current) {
+      // Calculate the height of the nav content for smooth transition
+      setMenuHeight(navRef.current.scrollHeight);
+    }
+  }, [openMobileNav]);
 
   return (
     <main className="bg-[#001926] text-[#FCFCFC] pt-4 sticky top-0 z-50 px-8  ">
@@ -55,37 +65,64 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
         ) : (
           <>
             <div>
-              <button
-                onClick={toggleMobileNav}
-                className="md:hidden border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition"
-              >
-                <LuMenu />
-              </button>
+              {!openMobileNav ? (
+                <button
+                  onClick={toggleMobileNav}
+                  className="md:hidden text-[#009FF5] transition"
+                >
+                  <LuMenu size={30} />
+                </button>
+              ) : (
+                <button
+                  onClick={toggleMobileNav}
+                  className="md:hidden text-[#009FF5] transition"
+                >
+                  <MdClose size={30} />
+                </button>
+              )}
             </div>
             {openMobileNav && (
-              <div className="absolute top-[100%] right-0 p-4 bg-[#fff] w-full transition duration-1000">
+              <div
+                className="absolute top-[100%] right-0 w-full bg-white transition-all duration-700 ease-in-out p-4"
+                style={{
+                  height: openMobileNav ? `${menuHeight}px` : "0px",
+                  opacity: openMobileNav ? 1 : 0,
+                }}
+              >
                 <nav className="flex flex-col md:hidden items-start justify-start gap-10 text-[#001926] ml-3">
                   <button
                     className="hover:text-[#009FF5] transition text-xl font-bold"
-                    onClick={aboutRef}
+                    onClick={() => {
+                      aboutRef();
+                      toggleMobileNav();
+                    }}
                   >
-                    About event
+                    About Event
                   </button>
                   <button
                     className="hover:text-[#009FF5] transition text-xl font-bold"
-                    onClick={speakersRef}
+                    onClick={() => {
+                      speakersRef();
+                      toggleMobileNav();
+                    }}
                   >
                     Speakers
                   </button>
                   <button
                     className="hover:text-[#009FF5] transition text-xl font-bold"
-                    onClick={faqRef}
+                    onClick={() => {
+                      faqRef();
+                      toggleMobileNav();
+                    }}
                   >
                     FAQ
                   </button>
                   <button
                     className="hover:text-[#009FF5] transition text-xl font-bold"
-                    onClick={partnerRef}
+                    onClick={() => {
+                      partnerRef();
+                      toggleMobileNav();
+                    }}
                   >
                     Partners
                   </button>
