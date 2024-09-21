@@ -1,9 +1,13 @@
-import React from "react";
+import { useState, useEffect } from "react";
+import { LuMenu } from "react-icons/lu";
 import { Link } from "react-router-dom";
 import useWindowSize from "../../hooks/useWindowSize";
 
 const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
+  const [openMobileNav, setMobileNav] = useState(false);
   const { width } = useWindowSize();
+
+  const toggleMobileNav = () => setMobileNav(!openMobileNav);
 
   return (
     <main className="bg-[#001926] text-[#FCFCFC] pt-4 sticky top-0 z-50 px-8  ">
@@ -15,9 +19,9 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
             alt="JCI-Aso logo"
           />
         </Link>
-        {width > 850 && (
+        {width > 750 ? (
           <>
-            <nav className="hidden md:flex min-w-[550px] justify-between">
+            <nav className="hidden md:flex min-w-[400px] lg:min-w-[550px] md:justify-between justify-end">
               <button
                 className="hover:text-[#009FF5] transition"
                 onClick={aboutRef}
@@ -44,16 +48,55 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
               </button>
             </nav>
 
-            <button className="hidden md:flex border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition">
+            <button className="hidden lg:flex border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition">
               Book a seat
             </button>
           </>
-        )}
+        ) : (
+          <>
+            <div>
+              <button
+                onClick={toggleMobileNav}
+                className="md:hidden border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition"
+              >
+                <LuMenu />
+              </button>
+            </div>
+            {openMobileNav && (
+              <div className="absolute top-[100%] right-0 p-4 bg-[#fff] w-full transition duration-1000">
+                <nav className="flex flex-col md:hidden items-start justify-start gap-10 text-[#001926] ml-3">
+                  <button
+                    className="hover:text-[#009FF5] transition text-xl font-bold"
+                    onClick={aboutRef}
+                  >
+                    About event
+                  </button>
+                  <button
+                    className="hover:text-[#009FF5] transition text-xl font-bold"
+                    onClick={speakersRef}
+                  >
+                    Speakers
+                  </button>
+                  <button
+                    className="hover:text-[#009FF5] transition text-xl font-bold"
+                    onClick={faqRef}
+                  >
+                    FAQ
+                  </button>
+                  <button
+                    className="hover:text-[#009FF5] transition text-xl font-bold"
+                    onClick={partnerRef}
+                  >
+                    Partners
+                  </button>
 
-        {width < 850 && (
-          <button className="md:hidden border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition">
-            Tale a leap
-          </button>
+                  <button className="border bg-[#009FF5] rounded-md px-4 py-2 hover:border-[#009FF5] text-[#fff] font-bold transition">
+                    Book a seat
+                  </button>
+                </nav>
+              </div>
+            )}
+          </>
         )}
       </div>
     </main>
