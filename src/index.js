@@ -17,7 +17,7 @@ import Individual from "./components/services/Individual";
 import Business from "./components/services/Business";
 import Community from "./components/services/Community";
 import International from "./components/services/International";
-import QLV from "./components/QLV/index";
+import QLV from "./components/QLV/Index";
 import Error from "./components/Error";
 
 const router = createBrowserRouter([

@@ -1,10 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import useWindowSize from "../../hooks/useWindowSize";
 
 const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
+  const { width } = useWindowSize();
+
   return (
-    <main className="bg-[#001926] text-[#FCFCFC] pt-4 sticky top-0 z-50">
-      <div className="w-full max-w-[1200px] flex justify-between items-center mx-auto">
+    <main className="bg-[#001926] text-[#FCFCFC] pt-4 sticky top-0 z-50 px-8  ">
+      <div className="w-full sm:max-w-[800] lg:max-w-[1200px] flex justify-between items-center mx-auto">
         <Link to="#" className="flex items-center w-20 h-12 md:w-28 md:h-16">
           <img
             className="w-full"
@@ -12,34 +15,46 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
             alt="JCI-Aso logo"
           />
         </Link>
+        {width > 850 && (
+          <>
+            <nav className="hidden md:flex min-w-[550px] justify-between">
+              <button
+                className="hover:text-[#009FF5] transition"
+                onClick={aboutRef}
+              >
+                About event
+              </button>
+              <button
+                className="hover:text-[#009FF5] transition"
+                onClick={speakersRef}
+              >
+                Speakers
+              </button>
+              <button
+                className="hover:text-[#009FF5] transition"
+                onClick={faqRef}
+              >
+                FAQ
+              </button>
+              <button
+                className="hover:text-[#009FF5] transition"
+                onClick={partnerRef}
+              >
+                Partners
+              </button>
+            </nav>
 
-        <nav className="min-w-[550px] flex justify-between">
-          <button
-            className="hover:text-[#009FF5] transition"
-            onClick={aboutRef}
-          >
-            About event
-          </button>
-          <button
-            className="hover:text-[#009FF5] transition"
-            onClick={speakersRef}
-          >
-            Speakers
-          </button>
-          <button className="hover:text-[#009FF5] transition" onClick={faqRef}>
-            FAQ
-          </button>
-          <button
-            className="hover:text-[#009FF5] transition"
-            onClick={partnerRef}
-          >
-            Partners
-          </button>
-        </nav>
+            <button className="hidden md:flex border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition">
+              Book a seat
+            </button>
+          </>
+        )}
 
-        <button className="border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition">
-          Book a seat
-        </button>
+        {width < 850 && (
+          <button className="md:hidden border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition">
+            Tale a leap
+          </button>
+        )}
       </div>
     </main>
   );

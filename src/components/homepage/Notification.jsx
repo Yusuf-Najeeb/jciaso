@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { BsX } from "react-icons/bs";
 import { Link } from "react-router-dom";
+import Qlv from "../QLV/assets/QLV2.png";
 
 const Notification = () => {
   const [openModal, setModal] = useState(true);
@@ -17,7 +18,7 @@ const Notification = () => {
   return (
     <div
       id="my-modal"
-      className={`modal fixed inset-0 z-50 overflow-y-auto px-4 py-6 sm:px-0 bg-gray-900 bg-opacity-50 transition-opacity duration-300 ease-in-out backdrop-blur-sm ${
+      className={`modal fixed inset-0 z-50 overflow-y-auto px-4 pb-6 sm:px-0 bg-gray-900 bg-opacity-50 transition-opacity duration-300 ease-in-out backdrop-blur-sm ${
         openModal ? "" : "hidden"
       }`}
     >
@@ -37,11 +38,11 @@ const Notification = () => {
           close
           <BsX size={20} />
         </button>
-        <Link to={"/events"} onClick={handleClose}>
+        <Link to={"/qlv2024"} onClick={handleClose}>
           <img
-            className="max-h-[600px] h-full w-full rounded object-contain object-top"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1721084093923/3521ebc5-b27b-4657-aace-2406f256330f.jpeg"
-            alt="Northern Conference 2024"
+            src={Qlv}
+            alt="QLV 2024 banner"
+            className="w-[100%] mx-auto max-h-screen object-cover"
           />
         </Link>
       </main>
