@@ -15,7 +15,7 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
   useEffect(() => {
     if (navRef.current) {
       // Calculate the height of the nav content for smooth transition
-      setMenuHeight(navRef.current.scrollHeight);
+      setMenuHeight((navRef.current.scrollHeight = "400px"));
     }
   }, [openMobileNav]);
 
@@ -83,13 +83,13 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
             </div>
             {openMobileNav && (
               <div
-                className="absolute top-[100%] right-0 w-full bg-white transition-all duration-700 ease-in-out p-4"
+                className="absolute top-[100%] inset-x-0 w-full transition-all duration-700 ease-in-out"
                 style={{
                   height: openMobileNav ? `${menuHeight}px` : "0px",
                   opacity: openMobileNav ? 1 : 0,
                 }}
               >
-                <nav className="flex flex-col md:hidden items-start justify-start gap-10 text-[#001926] ml-3">
+                <nav className="flex flex-col md:hidden items-start justify-start gap-10 bg-[#fff] text-[#001926] w-full p-4">
                   <button
                     className="hover:text-[#009FF5] transition text-xl font-bold"
                     onClick={() => {
