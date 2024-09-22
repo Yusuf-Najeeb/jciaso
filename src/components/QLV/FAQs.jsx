@@ -21,7 +21,7 @@ const Accordion = ({ data }) => {
   }, [isOpen]);
 
   return (
-    <div className="w-full mx-auto">
+    <div className="w-full h-full mx-auto">
       <div className="bg-white p-4 md:p-8">
         <button
           onClick={toggleAccordion}
