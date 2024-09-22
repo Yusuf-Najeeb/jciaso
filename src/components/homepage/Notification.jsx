@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { BsX } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Qlv from "../QLV/assets/QLV2.png";
+import Loading from "../QLV/Loading";
 
 const Notification = () => {
   const [openModal, setModal] = useState(true);
@@ -39,11 +40,12 @@ const Notification = () => {
           <BsX size={20} />
         </button>
         <Link to={"/qlv2024"} onClick={handleClose}>
-          <img
+          {/* <img
             src={Qlv}
             alt="QLV 2024 banner"
             className="w-[100%] mx-auto max-h-screen object-cover"
-          />
+          /> */}
+          <Loading />
         </Link>
       </main>
     </div>
