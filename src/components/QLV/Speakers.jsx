@@ -104,7 +104,7 @@ const Speakers = ({ sectionRef }) => {
       className="bg-[#FCFCFC] text-[#001926] pt-1
        md:pb-8 px-2 md:px-[5rem]"
     >
-      <h2 className="text-2xl md:text-5xl font-bold text-center md:mb-8">
+      <h2 className="text-3xl md:text-5xl font-bold text-center md:mb-8">
         Meet The Speakers
       </h2>
       <div className="flex items-center justify-center md:justify-between flex-wrap">

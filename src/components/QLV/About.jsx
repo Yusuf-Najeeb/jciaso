@@ -103,7 +103,7 @@ const About = ({ sectionRef }) => {
       ref={sectionRef}
       className="bg-[#FCFCFC] text-[#001926] pt-4 md:pt-[6rem] px-4 md:px-[5rem] mx-auto"
     >
-      <h2 className="text-2xl md:text-5xl font-bold text-center">
+      <h2 className="text-3xl md:text-5xl font-bold text-center">
         About Event
       </h2>
 
@@ -150,7 +150,7 @@ const About = ({ sectionRef }) => {
             {toggler === 1 && <Schedule />}
           </div>
 
-          {width > 550 && toggler === 0 && (
+          {width > 870 && toggler === 0 && (
             <button
               className="mt-4 font-bold text-sky-600 flex items-center"
               onClick={toggleHeight}

@@ -3,7 +3,7 @@ import React from "react";
 const CountDown = () => {
   return (
     <main className="bg-[#FCFCFC] text-[#001926] pt-4 md:pt-[6rem] pb-8">
-      <h2 className="text-2xl md:text-5xl font-bold text-center">
+      <h2 className="text-3xl md:text-5xl font-bold text-center">
         Hurray! Events holds in
       </h2>
 
