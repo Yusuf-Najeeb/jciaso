@@ -22,22 +22,18 @@ const Accordion = ({ data }) => {
 
   return (
     <div className="w-full mx-auto">
-      <div className="bg-white p-8">
+      <div className="bg-white p-4 md:p-8">
         <button
           onClick={toggleAccordion}
           className="w-full flex justify-between items-center text-left transition-all duration-200"
         >
-          <span className="font-medium text-2xl">{data.title}</span>
+          <span className="font-medium text-2xl w-[70%] sm:w-full">
+            {data.title}
+          </span>
           {isOpen ? (
-            <PiCaretUpBold
-              className="p-1 text-xl bg-sky-600 hover:bg-white hover:drop-shadow text-white hover:text-sky-600 rounded-full transition ease-in-out "
-              size={40}
-            />
+            <PiCaretUpBold className="p-1 text-3xl md:text-5xl bg-sky-600 hover:bg-white hover:drop-shadow text-white hover:text-sky-600 rounded-full transition ease-in-out " />
           ) : (
-            <PiCaretDownBold
-              className="p-1 text-xl bg-sky-600 hover:bg-white hover:drop-shadow text-white hover:text-sky-600 rounded-full transition ease-in-out "
-              size={40}
-            />
+            <PiCaretDownBold className="p-1 text-3xl md:text-5xl bg-sky-600 hover:bg-white hover:drop-shadow text-white hover:text-sky-600 rounded-full transition ease-in-out " />
           )}
         </button>
         {isOpen && (
@@ -46,7 +42,9 @@ const Accordion = ({ data }) => {
             style={{ height }}
             className="overflow-hidden transition-all duration-500 ease-in-out"
           >
-            <p className="text-xl text-[#333] w-[60%] my-3">{data.content}</p>
+            <p className="text-xl text-[#333] w-full sm:w-[60%] my-3">
+              {data.content}
+            </p>
           </div>
         )}
       </div>
@@ -91,9 +89,9 @@ const FAQs = ({ sectionRef }) => {
   return (
     <main
       ref={sectionRef}
-      className="bg-[#FCFCFC] text-[#001926] pt-[6rem] px-[5rem] mx-auto mb-8"
+      className="bg-[#FCFCFC] text-[#001926] pt-[6rem] px-4 md:px-[5rem] mx-auto mb-8"
     >
-      <h2 className="text-5xl font-bold text-center mb-4">FAQs</h2>
+      <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">FAQs</h2>
       <div>
         {data.map((item, i) => {
           return <Accordion key={i} data={item} />;
