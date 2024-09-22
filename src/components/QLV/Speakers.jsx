@@ -63,13 +63,17 @@ const data = [
 
 const SpeakerCard = ({ speaker }) => {
   return (
-    <figure className="w-[30%] my-8 rounded-md p-2">
+    <figure className="w-[100%] sm:w-[48%] md:w-[32%] my-4 md:my-8 rounded-md p-2">
       <div className="relative">
         <p className="absolute right-1 top-3 px-2 rounded-full bg-[#FCFCFC] text-[#001926] text-sm w-10 hover:w-fit overflow-hidden transition-all duration-500 ease-in-out flex items-center gap-2">
           <span className="">About Speaker</span>
           <BsInfoCircle />
         </p>
-        <img src={speaker.avatar} alt={speaker.name} className="rounded-t-md" />
+        <img
+          src={speaker.avatar}
+          alt={speaker.name}
+          className="rounded-t-md w-full object-cover object-center"
+        />
       </div>
       <figcaption>
         <p className="font-bold text-2xl">{speaker.name}</p>
@@ -97,10 +101,13 @@ const Speakers = ({ sectionRef }) => {
   return (
     <main
       ref={sectionRef}
-      className="bg-[#FCFCFC] text-[#001926] pt-1 pb-8 px-[5rem]"
+      className="bg-[#FCFCFC] text-[#001926] pt-1
+       md:pb-8 px-2 md:px-[5rem]"
     >
-      <h2 className="text-5xl font-bold text-center mb-8">Meet The Speakers</h2>
-      <div className="flex items-center justify-between flex-wrap">
+      <h2 className="text-2xl md:text-5xl font-bold text-center md:mb-8">
+        Meet The Speakers
+      </h2>
+      <div className="flex items-center justify-center md:justify-between flex-wrap">
         {data.map((item, i) => {
           return <SpeakerCard speaker={item} key={i} />;
         })}
