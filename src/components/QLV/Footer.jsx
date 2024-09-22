@@ -10,7 +10,7 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
   return (
     <main className="bg-[#111] text-[#FCFCFC] pt-4 text-sm px-4 md:px-0">
       <div className="w-full lg:max-w-[1200px] flex justify-between md:items-center mx-auto">
-        <Link to="#" className="flex md:items-center w-14 h-12 md:w-20 md:h-14">
+        <Link to="#" className="flex md:items-center w-10 h-12 md:w-20 md:h-14">
           <img
             className="w-full"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259811890/d8c5b502-3a13-43b2-829a-ea95fadbc9bc.png"
@@ -106,19 +106,19 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
 
         <div>
           <p className="flex items-center gap-2">
-            <span className="hover:text-[#009FF5] transition cursor-pointer">
+            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
               &copy; 2024 QLV Boot Camp
             </span>
             |{" "}
-            <span className="hover:text-[#009FF5] transition cursor-pointer">
+            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
               All Rights Reserved
             </span>{" "}
             |{" "}
-            <span className="hover:text-[#009FF5] transition cursor-pointer">
+            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
               Privacy Policy
             </span>{" "}
             |{" "}
-            <span className="hover:text-[#009FF5] transition cursor-pointer">
+            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
               Terms of Service
             </span>
           </p>

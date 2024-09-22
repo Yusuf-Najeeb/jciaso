@@ -1,5 +1,3 @@
-import React from "react";
-
 import { useState, useEffect, useRef } from "react";
 import { PiCaretUpBold, PiCaretDownBold } from "react-icons/pi";
 
@@ -27,7 +25,7 @@ const Accordion = ({ data }) => {
           onClick={toggleAccordion}
           className="w-full flex justify-between items-center text-left transition-all duration-200"
         >
-          <span className="font-medium text-2xl w-[70%] sm:w-full">
+          <span className="font-medium text-xl w-[90%] sm:w-full">
             {data.title}
           </span>
           {isOpen ? (
