@@ -107,9 +107,9 @@ const About = ({ sectionRef }) => {
         About Event
       </h2>
 
-      <div className="flex flex-col md:flex-row gap-8 mt-8">
-        <section className="relative w-full md:w-[60%]">
-          <div className="border-b w-[90%]">
+      <div className="flex flex-col lg:flex-row gap-8 mt-8">
+        <section className="relative w-full lg:w-[60%]">
+          <div className="border-b w-[90%] flex justify-evenly md:justify-start items-center">
             <ul className="flex flex-row flex-nowrap gap-4 sm:gap-8 font-semibold text-sm sm:text-[1.2rem] cursor-pointer">
               <li
                 className={
@@ -165,7 +165,7 @@ const About = ({ sectionRef }) => {
           )}
         </section>
 
-        <section className="hidden md:flex w-[40%] h-full max-h-full">
+        <section className="hidden lg:flex w-[40%] h-full max-h-fit">
           <img
             src={speaker}
             alt="A prominent business expert speaking at the 2023 JCI Aso QLV event"

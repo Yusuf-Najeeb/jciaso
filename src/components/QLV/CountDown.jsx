@@ -47,7 +47,7 @@ function CountDown() {
           className="min-w-[70px] lg:min-w-[200px] bg-[#001926] text-[#FCFCFC] p-2 
         md:py-4 md:px-8 flex justify-center items-center flex-col-reverse"
         >
-          <h4 className="text-sm sm:text-3xl sm:uppercase mt-2">Days</h4>
+          <h4 className="text-sm sm:text-3xl md:uppercase mt-2">Days</h4>
           <p className="text-xl md:text-8xl">{counter.days}</p>
         </div>
         <span className="md:text-7xl font-bold">:</span>
@@ -56,7 +56,7 @@ function CountDown() {
           className="min-w-[70px] lg:min-w-[200px] bg-[#001926] text-[#FCFCFC] p-2 
         md:py-4 md:px-8 flex justify-center items-center flex-col-reverse"
         >
-          <h4 className="text-sm sm:text-3xl sm:uppercase mt-2">Hours</h4>
+          <h4 className="text-sm sm:text-3xl md:uppercase mt-2">Hours</h4>
           <p className="text-xl md:text-8xl">{counter.hours}</p>
         </div>
         <span className="md:text-7xl font-bold">:</span>
@@ -65,7 +65,7 @@ function CountDown() {
           className="min-w-[70px] lg:min-w-[200px] bg-[#001926] text-[#FCFCFC] p-2 
         md:py-4 md:px-8 flex justify-center items-center flex-col-reverse"
         >
-          <h4 className="text-sm sm:text-3xl sm:uppercase mt-2">Minutes</h4>
+          <h4 className="text-sm sm:text-3xl md:uppercase mt-2">Minutes</h4>
           <p className="text-xl md:text-8xl">{counter.mins}</p>
         </div>
         <span className="md:text-7xl font-bold">:</span>
@@ -74,7 +74,7 @@ function CountDown() {
           className="min-w-[70px] lg:min-w-[200px] bg-[#001926] text-[#FCFCFC] p-2 
         md:py-4 md:px-8 flex justify-center items-center flex-col-reverse"
         >
-          <h4 className="text-sm sm:text-3xl sm:uppercase mt-2">Seconds</h4>
+          <h4 className="text-sm sm:text-3xl md:uppercase mt-2">Seconds</h4>
           <p className="text-xl md:text-8xl">{counter.secs}</p>
         </div>
       </div>
