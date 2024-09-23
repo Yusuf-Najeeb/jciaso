@@ -5,60 +5,60 @@ import { RiLinkedinLine } from "react-icons/ri";
 import Avatar from "./assets/avatar.png";
 
 const data = [
-  {
-    name: "Shamsudeen Aderoju",
-    avatar: Avatar,
-    position: "General Secretary",
-    linkedin: "https://www.linkedin.com/",
-    twitter: "https://twitter.com/",
-    profile:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
-  },
-  {
-    name: "Shamsudeen Aderoju",
-    avatar: Avatar,
-    position: "General Secretary",
-    linkedin: "https://www.linkedin.com/",
-    twitter: "https://twitter.com/",
-    profile:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
-  },
-  {
-    name: "Shamsudeen Aderoju",
-    avatar: Avatar,
-    position: "General Secretary",
-    linkedin: "https://www.linkedin.com/",
-    twitter: "https://twitter.com/",
-    profile:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
-  },
-  {
-    name: "Shamsudeen Aderoju",
-    avatar: Avatar,
-    position: "General Secretary",
-    linkedin: "https://www.linkedin.com/",
-    twitter: "https://twitter.com/",
-    profile:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
-  },
-  {
-    name: "Shamsudeen Aderoju",
-    avatar: Avatar,
-    position: "General Secretary",
-    linkedin: "https://www.linkedin.com/",
-    twitter: "https://twitter.com/",
-    profile:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
-  },
-  {
-    name: "Shamsudeen Aderoju",
-    avatar: Avatar,
-    position: "General Secretary",
-    linkedin: "https://www.linkedin.com/",
-    twitter: "https://twitter.com/",
-    profile:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
-  },
+  // {
+  //   name: "Shamsudeen Aderoju",
+  //   avatar: Avatar,
+  //   position: "General Secretary",
+  //   linkedin: "https://www.linkedin.com/",
+  //   twitter: "https://twitter.com/",
+  //   profile:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
+  // },
+  // {
+  //   name: "Shamsudeen Aderoju",
+  //   avatar: Avatar,
+  //   position: "General Secretary",
+  //   linkedin: "https://www.linkedin.com/",
+  //   twitter: "https://twitter.com/",
+  //   profile:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
+  // },
+  // {
+  //   name: "Shamsudeen Aderoju",
+  //   avatar: Avatar,
+  //   position: "General Secretary",
+  //   linkedin: "https://www.linkedin.com/",
+  //   twitter: "https://twitter.com/",
+  //   profile:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
+  // },
+  // {
+  //   name: "Shamsudeen Aderoju",
+  //   avatar: Avatar,
+  //   position: "General Secretary",
+  //   linkedin: "https://www.linkedin.com/",
+  //   twitter: "https://twitter.com/",
+  //   profile:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
+  // },
+  // {
+  //   name: "Shamsudeen Aderoju",
+  //   avatar: Avatar,
+  //   position: "General Secretary",
+  //   linkedin: "https://www.linkedin.com/",
+  //   twitter: "https://twitter.com/",
+  //   profile:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
+  // },
+  // {
+  //   name: "Shamsudeen Aderoju",
+  //   avatar: Avatar,
+  //   position: "General Secretary",
+  //   linkedin: "https://www.linkedin.com/",
+  //   twitter: "https://twitter.com/",
+  //   profile:
+  //     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto facere ea minus, perferendis, debitis neque iste excepturi nihil cupiditate, eveniet autem sapiente dolorem consequuntur necessitatibus laborum maiores. Animi, est. Alias.",
+  // },
 ];
 
 const SpeakerCard = ({ speaker }) => {
@@ -107,11 +107,21 @@ const Speakers = ({ sectionRef }) => {
       <h2 className="text-3xl md:text-5xl font-bold text-center md:mb-8">
         Meet The Speakers
       </h2>
-      <div className="flex items-center justify-center md:justify-between flex-wrap">
-        {data.map((item, i) => {
-          return <SpeakerCard speaker={item} key={i} />;
-        })}
-      </div>
+      {data.length > 0 ? (
+        <div className="flex items-center justify-center md:justify-between flex-wrap">
+          {data.map((item, i) => {
+            return <SpeakerCard speaker={item} key={i} />;
+          })}
+        </div>
+      ) : (
+        <div className="relative flex flex-col items-center justify-center">
+          <img src={Avatar} alt="Coming Soon Avatar" className="rounded-lg" />
+          <h4 className="font-bold text-7xl md:text-[15rem] absolute top-12 animate-pulse">
+            ?
+          </h4>
+          <p className="font-bold text-3xl md:text-5xl">Coming Soon!</p>
+        </div>
+      )}
     </main>
   );
 };
