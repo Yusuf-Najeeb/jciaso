@@ -3,7 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { BsX } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Qlv from "../QLV/assets/QLV2.png";
+// import Qlv from "../QLV/assets/QLV2.png";
 import Loading from "../QLV/Loading";
 
 const Notification = () => {
@@ -19,7 +19,7 @@ const Notification = () => {
   return (
     <div
       id="my-modal"
-      className={`modal fixed inset-0 z-50 overflow-y-auto px-4 pb-6 sm:px-0 bg-gray-900 bg-opacity-50 transition-opacity duration-300 ease-in-out backdrop-blur-sm ${
+      className={`modal fixed inset-0 z-50 overflow-y-auto pb-6 bg-gray-900 bg-opacity-50 transition-opacity duration-300 ease-in-out backdrop-blur-sm ${
         openModal ? "" : "hidden"
       }`}
     >
