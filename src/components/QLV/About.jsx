@@ -21,17 +21,23 @@ const Overview = () => {
       </h4>
 
       <ul className="sm:text-xl list-disc ml-4">
-        <li className="my-4">Dates: September 28, 29, and October 1, 2024.</li>
-        <li className="my-4">Format: Hybrid (Online and In-person).</li>
         <li className="my-4">
-          Keynote Speakers: Renowned leaders and experts from various fields.
+          <strong>Dates</strong>: November 6th, 7th, and 8th, 2024.
         </li>
         <li className="my-4">
-          Workshops: Interactive sessions focusing on leadership, ethics, and
-          personal development.
+          <strong>Format</strong>: Hybrid (Online and In-person).
         </li>
         <li className="my-4">
-          Networking: Opportunities to connect with peers and industry leaders.
+          <strong>Keynote Speakers</strong>: Renowned leaders and experts from
+          various fields.
+        </li>
+        <li className="my-4">
+          <strong>Workshops</strong>: Interactive sessions focusing on
+          leadership, ethics, and personal development.
+        </li>
+        <li className="my-4">
+          <strong>Networking</strong>: Opportunities to connect with peers and
+          industry leaders.
         </li>
       </ul>
 
@@ -137,12 +143,10 @@ const About = ({ sectionRef }) => {
             ref={heightRef}
             className="p-4 transition-all duration-300 ease-in-out overflow-hidden scroll-hidden"
             style={{
+              minHeight: toggler === 0 ? "550px" : "500px",
+              maxHeight: "600px",
               height:
-                height && toggler === 0
-                  ? "65%"
-                  : toggler === 1
-                  ? "100%"
-                  : "40%",
+                height && toggler === 0 ? "50%" : toggler === 1 ? "60%" : "40%",
               overflowY: height && toggler === 0 ? "scroll" : "hidden",
             }}
           >

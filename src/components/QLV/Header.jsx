@@ -22,7 +22,7 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
   return (
     <main className="bg-[#001926] text-[#FCFCFC] pt-4 sticky top-0 z-50 px-8  ">
       <div className="w-full sm:max-w-[800] lg:max-w-[1200px] flex justify-between items-center mx-auto">
-        <Link to="#" className="flex items-center w-20 h-12 md:w-28 md:h-16">
+        <Link to="/" className="flex items-center w-20 h-12 md:w-28 md:h-16">
           <img
             className="w-full"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259811890/d8c5b502-3a13-43b2-829a-ea95fadbc9bc.png"
@@ -36,7 +36,7 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
                 className="hover:text-[#009FF5] transition"
                 onClick={aboutRef}
               >
-                About event
+                About Event
               </button>
               <button
                 className="hover:text-[#009FF5] transition"

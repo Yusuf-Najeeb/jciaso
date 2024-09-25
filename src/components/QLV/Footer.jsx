@@ -104,22 +104,14 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
           </p>
         </div>
 
-        <div>
-          <p className="flex items-center gap-2">
-            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
+        <div className="min-w-[40%] max-w-[50%]">
+          <p className="flex items-center justify-end gap-2">
+            <span className="hover:text-[#009FF5] transition inline-block cursor-pointer text-xs sm:text-sm">
               &copy; 2024 QLV Boot Camp
             </span>
-            |{" "}
-            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
+            |
+            <span className="hover:text-[#009FF5] transition inline-block cursor-pointer text-xs sm:text-sm">
               All Rights Reserved
-            </span>{" "}
-            |{" "}
-            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
-              Privacy Policy
-            </span>{" "}
-            |{" "}
-            <span className="hover:text-[#009FF5] transition inline-block w-[45%] md:w-[25%] cursor-pointer text-xs sm:text-sm">
-              Terms of Service
             </span>
           </p>
         </div>

@@ -4,21 +4,28 @@ import asset2 from "./assets/asset2.png";
 import asset3 from "./assets/asset3.png";
 import asset4 from "./assets/asset4.png";
 import asset5 from "./assets/asset5.png";
+import QLVLogo from "./assets/QLV(White).png";
 
 const Hero = () => {
   return (
     <main className="bg-[#001926] text-[#FCFCFC] overflow-hidden">
       <div className="relative w-full h-dvh max-w-[1400px] mx-auto flex justify-center items-center">
-        <div className="flex flex-col items-center justify-center gap-3 sm:mt-[5rem] sm:mb-4 absolute z-40 px-4 lg:px-0">
-          <h1 className="text-3xl md:text-6xl w-full lg:max-w-[75%] text-center">
-            JCI Aso Quality Leadership Value (QLV){" "}
+        <div className="flex flex-col items-center justify-center gap-3 sm:mb-4 absolute z-40 px-4 lg:px-0">
+          <div className="max-w-[20%] max-h-[20%]">
+            <img
+              src={QLVLogo}
+              alt=""
+              className="w-full object-contain object-center"
+            />
+          </div>
+          <h1 className="text-3xl md:text-5xl w-full lg:max-w-[75%] text-center">
+            Quality Leadership for National Excellence:{" "}
             <span className={`url(${star}) inline-block w-30 h-30`}></span>
-            2024 BootCamp
+            Inspiring Young Leaders to Shape the Future
           </h1>
 
           <h4 className="w-full sm:max-w-[80%] lg:max-w-[60%] text-center text-[1.2rem] md:text-[1.5rem] my-2">
-            Quality Leadership for National Excellence: Inspiring Young Leaders
-            to Shape the Future
+            Welcome to the Quality Leadership Value (QLV) 2024 Boot Camp!
           </h4>
 
           <button
@@ -37,7 +44,7 @@ const Hero = () => {
         <img
           src={asset2}
           alt="Participants at the QLV session 2023"
-          className="absolute rounded-md md:right-[24%] right-0 md:top-6 top-[6rem] w-[40%] md:w-[20%]"
+          className="absolute rounded-md md:right-[20%] right-0 md:top-6 top-[6rem] w-[40%] md:w-[20%]"
         />
         <img
           src={asset3}

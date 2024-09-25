@@ -5,9 +5,8 @@ import CountDown from "./CountDown";
 import About from "./About";
 import Speakers from "./Speakers";
 import Register from "./Registration";
-// import Loading from "./Loading";
 import FAQs from "./FAQs";
-import Partners from "../homepage/sponsors/Sponsors";
+import Partners from "./Partners";
 import Footer from "./Footer";
 
 const Index = () => {
@@ -33,7 +32,6 @@ const Index = () => {
       <About sectionRef={aboutRef} />
       <Speakers sectionRef={speakerRef} />
       <Register />
-      {/* <Loading /> */}
       <FAQs sectionRef={faqRef} />
       <Partners sectionRef={partnerRef} />
       <Footer

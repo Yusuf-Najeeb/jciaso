@@ -7,12 +7,12 @@ import Media from "./media/Media";
 import { HomePageNew } from "./media/LatestArticle";
 import Opportunity from "./opportunities/OpportunityCards";
 import Mission from "../mission/Mission";
-import Notification from "./Notification";
+// import Notification from "./Notification";
 
 const LandingPage = () => {
   return (
     <Fragment>
-      <Notification />
+      {/* <Notification /> */}
       <HeroSection />
       <Opportunity />
       <Vision />

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function CountDown() {
-  const D_Day = new Date("2024-11-07");
+  const D_Day = new Date("2024-11-06");
   const calCounter = () => {
     const diff = D_Day - new Date();
     let counts = {};

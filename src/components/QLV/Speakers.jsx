@@ -101,7 +101,7 @@ const Speakers = ({ sectionRef }) => {
   return (
     <main
       ref={sectionRef}
-      className="bg-[#FCFCFC] text-[#001926] pt-1
+      className="bg-[#FCFCFC] text-[#001926] pt-8
        md:pb-8 px-2 md:px-[5rem]"
     >
       <h2 className="text-3xl md:text-5xl font-bold text-center md:mb-8">
