@@ -5,17 +5,19 @@ import { LiaFacebookSquare } from "react-icons/lia";
 import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { RiLinkedinLine } from "react-icons/ri";
+import QLVLogo from "./assets/QLV(White).png";
 
 const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
   return (
     <main className="bg-[#111] text-[#FCFCFC] pt-4 text-sm px-4 md:px-0">
       <div className="w-full lg:max-w-[1200px] flex justify-between md:items-center mx-auto">
-        <Link to="#" className="flex md:items-center w-10 h-12 md:w-20 md:h-14">
+        <Link to="/" className="flex md:items-center w-15 h-12 md:w-20 md:h-14">
           <img
             className="w-full"
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259811890/d8c5b502-3a13-43b2-829a-ea95fadbc9bc.png"
             alt="JCI-Aso logo"
           />
+          <img className="w-full" src={QLVLogo} alt="JCI-Aso logo" />
         </Link>
 
         <nav className="md:min-w-[450px] flex flex-col md:flex-row md:justify-between justify-end text-right md:text-left">
