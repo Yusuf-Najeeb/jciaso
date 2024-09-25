@@ -11,7 +11,7 @@ const Hero = () => {
     <main className="bg-[#001926] text-[#FCFCFC] overflow-hidden">
       <div className="relative w-full h-dvh max-w-[1400px] mx-auto flex justify-center items-center">
         <div className="flex flex-col items-center justify-center gap-3 sm:mb-4 absolute z-40 px-4 lg:px-0">
-          <div className="max-w-[20%] max-h-[20%]">
+          <div className="max-w-[50%] sm:max-w-[20%] sm:max-h-[20%]">
             <img
               src={QLVLogo}
               alt=""
