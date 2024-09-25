@@ -17,7 +17,7 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259811890/d8c5b502-3a13-43b2-829a-ea95fadbc9bc.png"
             alt="JCI-Aso logo"
           />
-          <img className="w-full" src={QLVLogo} alt="JCI-Aso logo" />
+          <img className="w-full" src={QLVLogo} alt="JCI-Aso QLV 2024 logo" />
         </Link>
 
         <nav className="md:min-w-[450px] flex flex-col md:flex-row md:justify-between justify-end text-right md:text-left">
