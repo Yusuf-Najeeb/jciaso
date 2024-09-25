@@ -30,7 +30,7 @@ const Sponsors = ({ sectionRef }) => {
       </section>
       <div className="w-fit-content mx-auto">
         <button
-          className="bg-[#009FF5] text-white border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent hover:text-[#001926] rounded-md px-4 md:px-8 py-1 md:py-3 mt-2 mb-8
+          className="bg-[#009FF5] text-white border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent hover:text-[#001926] rounded-md px-4 md:px-8 py-1 md:py-3 mt-4 mb-8
         sm:text-xl"
         >
           For Sponsorship

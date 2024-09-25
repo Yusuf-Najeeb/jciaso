@@ -106,8 +106,8 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
           </p>
         </div>
 
-        <div className="min-w-[40%] max-w-[50%]">
-          <p className="flex items-center justify-end gap-2">
+        <div className="w-full min-w-[40%] sm:max-w-[50%]">
+          <p className="flex items-center justify-center sm:justify-end gap-2">
             <span className="hover:text-[#009FF5] transition inline-block cursor-pointer text-xs sm:text-sm">
               &copy; 2024 QLV Boot Camp
             </span>
