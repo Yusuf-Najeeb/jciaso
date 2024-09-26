@@ -32,6 +32,10 @@ const Registration = () => {
     });
   };
 
+  const isFormFilled = () => {
+    return Object.values(formData).every((field) => field.trim() !== "");
+  };
+
   return (
     <main className="relative bg-[#001926] text-[#FCFCFC] pt-12 pb-4 md:pb-8 px-2 md:px-[5rem]">
       <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
@@ -47,6 +51,7 @@ const Registration = () => {
             Full Name
           </label>
           <input
+            required
             type="text"
             name="fullname"
             id="fullname"
@@ -62,6 +67,7 @@ const Registration = () => {
             Email Address
           </label>
           <input
+            required
             type="email"
             name="email"
             id="email"
@@ -77,6 +83,7 @@ const Registration = () => {
             Phone Number
           </label>
           <input
+            required
             type="text"
             name="phoneNumber"
             id="phoneNumber"
@@ -94,6 +101,7 @@ const Registration = () => {
 
           <label htmlFor="yes" className="flex items-center gap-3 mb-2 px-2">
             <input
+              required
               type="radio"
               name="isMember"
               id="yes"
@@ -107,6 +115,7 @@ const Registration = () => {
 
           <label htmlFor="no" className="flex items-center gap-3 mb-2 px-2">
             <input
+              required
               type="radio"
               name="isMember"
               id="no"
@@ -126,6 +135,7 @@ const Registration = () => {
 
           <label htmlFor="yes" className="flex items-center gap-3 mb-2 px-2">
             <input
+              required
               type="radio"
               name="inAbuja"
               id="yes"
@@ -139,6 +149,7 @@ const Registration = () => {
 
           <label htmlFor="no" className="flex items-center gap-3 mb-2 px-2">
             <input
+              required
               type="radio"
               name="inAbuja"
               id="no"
@@ -161,6 +172,7 @@ const Registration = () => {
             className="flex items-center gap-3 mb-2 px-2"
           >
             <input
+              required
               type="radio"
               name="publicity"
               id="socials"
@@ -219,7 +231,12 @@ const Registration = () => {
           <button
             type="button"
             onClick={toggleModal}
-            className="bg-[#009FF5] border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent rounded-md px-6 sm:px-10 sm:py-4 py-2 sm:text-xl mb-2"
+            disabled={!isFormFilled()}
+            className="border transition border-[#009FF5] hover:bg-transparent rounded-md px-6 sm:px-10 sm:py-4 py-2 sm:text-xl mb-2"
+            style={{
+              opacity: !isFormFilled() ? "0.6" : "1",
+              background: !isFormFilled() ? "transparent" : "#009FF5",
+            }}
           >
             Register for Event
           </button>

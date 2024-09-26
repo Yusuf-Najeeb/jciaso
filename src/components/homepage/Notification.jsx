@@ -3,7 +3,6 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { BsX } from "react-icons/bs";
 import { Link } from "react-router-dom";
-// import Qlv from "../QLV/assets/QLV2.png";
 import Loading from "../QLV/Loading";
 
 const Notification = () => {
