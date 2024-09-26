@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import PaymentModal from "./PaymentModal";
 
 const Registration = () => {
+  const [openModal, setOpenModal] = useState(false);
   const [formData, setFormData] = useState({
     fullname: "",
     email: "",
@@ -9,6 +11,8 @@ const Registration = () => {
     inAbuja: "",
     publicity: "",
   });
+
+  const toggleModal = () => setOpenModal(!openModal);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -29,7 +33,7 @@ const Registration = () => {
   };
 
   return (
-    <main className="bg-[#001926] text-[#FCFCFC] pt-12 pb-4 md:pb-8 px-2 md:px-[5rem]">
+    <main className="relative bg-[#001926] text-[#FCFCFC] pt-12 pb-4 md:pb-8 px-2 md:px-[5rem]">
       <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
         Register for JCI Aso QLV 2024
       </h2>
@@ -212,7 +216,11 @@ const Registration = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center gap-4">
-          <button className="bg-[#009FF5] border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent rounded-md px-6 sm:px-10 sm:py-4 py-2 sm:text-xl mb-2">
+          <button
+            type="button"
+            onClick={toggleModal}
+            className="bg-[#009FF5] border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent rounded-md px-6 sm:px-10 sm:py-4 py-2 sm:text-xl mb-2"
+          >
             Register for Event
           </button>
 
@@ -225,6 +233,7 @@ const Registration = () => {
           </p>
         </div>
       </form>
+      <PaymentModal open={openModal} close={toggleModal} />
     </main>
   );
 };
