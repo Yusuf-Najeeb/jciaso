@@ -95,6 +95,7 @@ const Registration = () => {
               id="yes"
               className="w-4 h-4"
               value="yes"
+              onChange={handleChange}
               checked={formData.isMember === "yes"}
             />
             <span className="sm:text-xl">Yes</span>
@@ -107,7 +108,8 @@ const Registration = () => {
               id="no"
               className="w-4 h-4"
               value="no"
-              checked={formData.inAbuja === "no"}
+              onChange={handleChange}
+              checked={formData.isMember === "no"}
             />
             <span className="sm:text-xl">No</span>
           </label>
@@ -125,6 +127,7 @@ const Registration = () => {
               id="yes"
               className="w-4 h-4"
               value="yes"
+              onChange={handleChange}
               checked={formData.inAbuja === "yes"}
             />
             <span className="sm:text-xl">Yes</span>
@@ -137,6 +140,7 @@ const Registration = () => {
               id="no"
               className="w-4 h-4"
               value="no"
+              onChange={handleChange}
               checked={formData.inAbuja === "no"}
             />
             <span className="sm:text-xl">No</span>
@@ -158,6 +162,7 @@ const Registration = () => {
               id="socials"
               className="w-4 h-4"
               value="social media"
+              onChange={handleChange}
               checked={formData.publicity === "social media"}
             />
             <span className="sm:text-xl">Social Media</span>
@@ -173,6 +178,7 @@ const Registration = () => {
               id="newsletter"
               className="w-4 h-4"
               value="newsletter"
+              onChange={handleChange}
               checked={formData.publicity === "newsletter"}
             />
             <span className="sm:text-xl">Newsletter</span>
@@ -185,6 +191,7 @@ const Registration = () => {
               id="friend"
               className="w-4 h-4"
               value="colleague/friend"
+              onChange={handleChange}
               checked={formData.publicity === "colleague/friend"}
             />
             <span className="sm:text-xl">Friend/Colleague</span>
@@ -197,6 +204,7 @@ const Registration = () => {
               id="other"
               className="w-4 h-4"
               value="other"
+              onChange={handleChange}
               checked={formData.publicity === "other"}
             />
             <span className="sm:text-xl">Other</span>
