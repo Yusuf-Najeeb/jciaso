@@ -1,13 +1,43 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Registration = () => {
+  const [formData, setFormData] = useState({
+    fullname: "",
+    email: "",
+    phoneNumber: "",
+    isMember: "",
+    inAbuja: "",
+    publicity: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(formData);
+    setFormData({
+      fullname: "",
+      email: "",
+      phoneNumber: "",
+      isMember: "",
+      inAbuja: "",
+      publicity: "",
+    });
+  };
+
   return (
     <main className="bg-[#001926] text-[#FCFCFC] pt-12 pb-4 md:pb-8 px-2 md:px-[5rem]">
       <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
         Register for JCI Aso QLV 2024
       </h2>
 
-      <form className="flex flex-col items-center justify-center">
+      <form
+        onSubmit={handleSubmit}
+        className="flex flex-col items-center justify-center"
+      >
         <div className="w-full sm:w-2/3 bg-[#FCFCFC] text-[#001926] my-8 py-4 md:py-8 px-4 rounded-xl">
           <label htmlFor="fullname" className="block sm:text-xl mb-2 px-2">
             Full Name
@@ -16,6 +46,8 @@ const Registration = () => {
             type="text"
             name="fullname"
             id="fullname"
+            value={formData.fullname}
+            onChange={(e) => handleChange(e)}
             placeholder="Enter your full name"
             className="outline-none border-b border-[#323F49] py-2 px-2 w-full bg-transparent sm:text-xl"
           />
@@ -29,19 +61,23 @@ const Registration = () => {
             type="email"
             name="email"
             id="email"
+            value={formData.email}
+            onChange={(e) => handleChange(e)}
             placeholder="Enter your email (eg. yourname@email.com)"
             className="outline-none border-b border-[#323F49] py-2 px-2 w-full bg-transparent sm:text-xl"
           />
         </div>
 
         <div className="w-full sm:w-2/3 bg-[#FCFCFC] text-[#001926] my-8 py-4 md:py-8 px-4 rounded-xl">
-          <label htmlFor="phone" className="block sm:text-xl mb-2 px-2">
+          <label htmlFor="phoneNumber" className="block sm:text-xl mb-2 px-2">
             Phone Number
           </label>
           <input
             type="text"
-            name="phone"
-            id="phone"
+            name="phoneNumber"
+            id="phoneNumber"
+            value={formData.phoneNumber}
+            onChange={(e) => handleChange(e)}
             placeholder="Enter phone number"
             className="outline-none border-b border-[#323F49] py-2 px-2 w-full bg-transparent sm:text-xl"
           />
@@ -55,15 +91,24 @@ const Registration = () => {
           <label htmlFor="yes" className="flex items-center gap-3 mb-2 px-2">
             <input
               type="radio"
-              name="membership"
+              name="isMember"
               id="yes"
               className="w-4 h-4"
+              value="yes"
+              checked={formData.isMember === "yes"}
             />
             <span className="sm:text-xl">Yes</span>
           </label>
 
           <label htmlFor="no" className="flex items-center gap-3 mb-2 px-2">
-            <input type="radio" name="membership" id="no" className="w-4 h-4" />
+            <input
+              type="radio"
+              name="isMember"
+              id="no"
+              className="w-4 h-4"
+              value="no"
+              checked={formData.inAbuja === "no"}
+            />
             <span className="sm:text-xl">No</span>
           </label>
         </div>
@@ -74,12 +119,26 @@ const Registration = () => {
           </label>
 
           <label htmlFor="yes" className="flex items-center gap-3 mb-2 px-2">
-            <input type="radio" name="location" id="yes" className="w-4 h-4" />
+            <input
+              type="radio"
+              name="inAbuja"
+              id="yes"
+              className="w-4 h-4"
+              value="yes"
+              checked={formData.inAbuja === "yes"}
+            />
             <span className="sm:text-xl">Yes</span>
           </label>
 
           <label htmlFor="no" className="flex items-center gap-3 mb-2 px-2">
-            <input type="radio" name="location" id="no" className="w-4 h-4" />
+            <input
+              type="radio"
+              name="inAbuja"
+              id="no"
+              className="w-4 h-4"
+              value="no"
+              checked={formData.inAbuja === "no"}
+            />
             <span className="sm:text-xl">No</span>
           </label>
         </div>
@@ -98,6 +157,8 @@ const Registration = () => {
               name="publicity"
               id="socials"
               className="w-4 h-4"
+              value="social media"
+              checked={formData.publicity === "social media"}
             />
             <span className="sm:text-xl">Social Media</span>
           </label>
@@ -111,6 +172,8 @@ const Registration = () => {
               name="publicity"
               id="newsletter"
               className="w-4 h-4"
+              value="newsletter"
+              checked={formData.publicity === "newsletter"}
             />
             <span className="sm:text-xl">Newsletter</span>
           </label>
@@ -121,6 +184,8 @@ const Registration = () => {
               name="publicity"
               id="friend"
               className="w-4 h-4"
+              value="colleague/friend"
+              checked={formData.publicity === "colleague/friend"}
             />
             <span className="sm:text-xl">Friend/Colleague</span>
           </label>
@@ -131,6 +196,8 @@ const Registration = () => {
               name="publicity"
               id="other"
               className="w-4 h-4"
+              value="other"
+              checked={formData.publicity === "other"}
             />
             <span className="sm:text-xl">Other</span>
           </label>

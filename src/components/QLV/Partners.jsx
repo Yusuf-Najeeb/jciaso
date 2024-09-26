@@ -33,7 +33,13 @@ const Sponsors = ({ sectionRef }) => {
           className="bg-[#009FF5] text-white border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent hover:text-[#001926] rounded-md px-4 md:px-8 py-1 md:py-3 mt-4 mb-8
         sm:text-xl"
         >
-          For Sponsorship
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe0D3SUoBPCdb91cjm9Qkxpyb030rsOWeoyijxBkeNJ4qDlhQ/viewform "
+            target="_blank"
+            rel="noreferrer"
+          >
+            For Sponsorship
+          </a>
         </button>
       </div>
     </div>
