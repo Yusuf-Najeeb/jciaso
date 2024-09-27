@@ -3,12 +3,12 @@ import React from "react";
 const PaymentModal = ({ open, close, handleSubmit }) => {
   return (
     <main
-      className="fixed inset-0 z-50 py-6 bg-gray-900 bg-opacity-50 transition-opacity duration-300 ease-in-out backdrop-blur-sm"
+      className="modal fixed inset-0 z-50 py-6 bg-gray-900 bg-opacity-50 transition-opacity duration-300 ease-in-out backdrop-blur-sm"
       style={{
         display: open ? "flex" : "none",
       }}
     >
-      <div className="bg-[#001926] text-[#fff] md:w-[60%] max-h-full mx-auto rounded-sm px-4 py-6 mt-[4rem] overflow-auto">
+      <div className="modal bg-[#001926] text-[#fff] md:w-[60%] max-h-full mx-auto rounded-sm px-4 py-6 overflow-auto">
         <div className="flex flex-col items-start justify-center gap-4 mt-8 text-2xl px-4">
           <h2 className="text-2xl sm:text-4xl font-semibold">
             Thank you for registering for QLV 2024!
@@ -43,6 +43,7 @@ const PaymentModal = ({ open, close, handleSubmit }) => {
           <div className="flex items-center justify-end gap-4 mt-8 text-xl sm:text-2xl">
             <button
               onClick={close}
+              type="button"
               className="flex flex-row items-center gap-2 py-2 px-4 rounded-md bg-[#009FF5]"
             >
               <span>Cancel</span>

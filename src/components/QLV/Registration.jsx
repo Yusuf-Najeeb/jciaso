@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PaymentModal from "./PaymentModal";
 
-const Registration = () => {
+const Registration = ({ sectionRef }) => {
   const [openModal, setOpenModal] = useState(false);
   const [formData, setFormData] = useState({
     fullname: "",
@@ -39,7 +39,10 @@ const Registration = () => {
   };
 
   return (
-    <main className="relative bg-[#001926] text-[#FCFCFC] pt-12 pb-4 md:pb-8 px-2 md:px-[5rem]">
+    <main
+      ref={sectionRef}
+      className="relative bg-[#001926] text-[#FCFCFC] pt-12 pb-4 md:pb-8 px-2 md:px-[5rem]"
+    >
       <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
         Register for JCI Aso QLV 2024
       </h2>

@@ -6,7 +6,7 @@ import asset4 from "./assets/asset4.png";
 import asset5 from "./assets/asset5.png";
 import QLVLogo from "./assets/QLV(White).png";
 
-const Hero = () => {
+const Hero = ({ registerRef }) => {
   return (
     <main className="bg-[#001926] text-[#FCFCFC] overflow-hidden">
       <div className="relative w-full h-dvh max-w-[1400px] mx-auto flex justify-center items-center">
@@ -29,6 +29,7 @@ const Hero = () => {
           </h4>
 
           <button
+            onClick={registerRef}
             className="bg-[#009FF5] border border-transparent transition hover:border hover:border-[#009FF5] hover:bg-transparent rounded-md px-4 md:px-8 py-1 md:py-3 mt-2 mb-8
            sm:text-xl"
           >

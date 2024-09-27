@@ -4,7 +4,7 @@ import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
 import useWindowSize from "../../hooks/useWindowSize";
 
-const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
+const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef, registerRef }) => {
   const [openMobileNav, setMobileNav] = useState(false);
   const [menuHeight, setMenuHeight] = useState(0);
   const { width } = useWindowSize();
@@ -58,7 +58,10 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
               </button>
             </nav>
 
-            <button className="hidden lg:flex border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition">
+            <button
+              onClick={registerRef}
+              className="hidden lg:flex border border-[#009FF5] rounded-md px-4 py-2 hover:bg-[#009FF5] transition"
+            >
               Book a seat
             </button>
           </>
@@ -127,7 +130,13 @@ const QlvNav = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
                     Partners
                   </button>
 
-                  <button className="border bg-[#009FF5] rounded-md px-4 py-2 hover:border-[#009FF5] text-[#fff] font-bold transition">
+                  <button
+                    onClick={() => {
+                      registerRef();
+                      toggleMobileNav();
+                    }}
+                    className="border bg-[#009FF5] rounded-md px-4 py-2 hover:border-[#009FF5] text-[#fff] font-bold transition"
+                  >
                     Book a seat
                   </button>
                 </nav>
