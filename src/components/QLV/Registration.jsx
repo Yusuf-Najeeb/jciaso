@@ -21,7 +21,8 @@ const Registration = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    console.log(formData, "form Submitted");
+
     setFormData({
       fullname: "",
       email: "",
@@ -30,6 +31,7 @@ const Registration = () => {
       inAbuja: "",
       publicity: "",
     });
+    toggleModal();
   };
 
   const isFormFilled = () => {
@@ -249,8 +251,12 @@ const Registration = () => {
             </a>
           </p>
         </div>
+        <PaymentModal
+          open={openModal}
+          close={toggleModal}
+          handleSubmit={handleSubmit}
+        />
       </form>
-      <PaymentModal open={openModal} close={toggleModal} />
     </main>
   );
 };
