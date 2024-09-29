@@ -9,8 +9,8 @@ const PaymentModal = ({ open, close, handleSubmit }) => {
       }}
     >
       <div className="modal bg-[#001926] text-[#fff] md:w-[60%] max-h-full mx-auto rounded-sm px-4 py-6 overflow-auto">
-        <div className="flex flex-col items-start justify-center gap-4 mt-8 text-2xl px-4">
-          <h2 className="text-2xl sm:text-4xl font-semibold">
+        <div className="flex flex-col items-start justify-center gap-4 mt-8 text-xl sm:text-2xl px-4">
+          <h2 className="text-2xl sm:text-3xl font-semibold">
             Thank you for registering for QLV 2024!
           </h2>
           <p>

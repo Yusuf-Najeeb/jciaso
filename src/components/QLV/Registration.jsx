@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
 import PaymentModal from "./PaymentModal";
 
 const Registration = ({ sectionRef }) => {
   const [openModal, setOpenModal] = useState(false);
   const [formData, setFormData] = useState({
-    fullname: "",
+    fullName: "",
     email: "",
     phoneNumber: "",
     isMember: "",
@@ -21,16 +22,43 @@ const Registration = ({ sectionRef }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData, "form Submitted");
+    const { isMember, inAbuja, ...restData } = formData;
+    const BooIsMember = isMember === "yes" ? true : false;
+    const BooInAbuja = inAbuja === "yes" ? true : false;
 
-    setFormData({
-      fullname: "",
-      email: "",
-      phoneNumber: "",
-      isMember: "",
-      inAbuja: "",
-      publicity: "",
-    });
+    const payload = { ...restData, inAbuja: BooInAbuja, isMember: BooIsMember };
+
+    fetch("https://event-form-server-1.onrender.com/api/v1/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+      .then(async (res) => {
+        if (res.ok) {
+          const data = await res.json();
+
+          console.log(data, "Expected response");
+          toast.success("Registration Successful");
+
+          setFormData({
+            fullName: "",
+            email: "",
+            phoneNumber: "",
+            isMember: "",
+            inAbuja: "",
+            publicity: "",
+          });
+        } else {
+          const errorData = await res.json();
+          toast.error(errorData.message || "Registration failed");
+        }
+      })
+      .catch((err) => {
+        toast.error("Network Error: " + err.message);
+      });
+
     toggleModal();
   };
 
@@ -52,15 +80,15 @@ const Registration = ({ sectionRef }) => {
         className="flex flex-col items-center justify-center"
       >
         <div className="w-full sm:w-2/3 bg-[#FCFCFC] text-[#001926] my-8 py-4 md:py-8 px-4 rounded-xl">
-          <label htmlFor="fullname" className="block sm:text-xl mb-2 px-2">
+          <label htmlFor="fullName" className="block sm:text-xl mb-2 px-2">
             Full Name
           </label>
           <input
             required
             type="text"
-            name="fullname"
-            id="fullname"
-            value={formData.fullname}
+            name="fullName"
+            id="fullName"
+            value={formData.fullName}
             onChange={(e) => handleChange(e)}
             placeholder="Enter your full name"
             className="outline-none border-b border-[#323F49] py-2 px-2 w-full bg-transparent sm:text-xl"
@@ -104,12 +132,15 @@ const Registration = ({ sectionRef }) => {
             Are you a JCIN Member?
           </label>
 
-          <label htmlFor="yes" className="flex items-center gap-3 mb-2 px-2">
+          <label
+            htmlFor="isMember"
+            className="flex items-center gap-3 mb-2 px-2"
+          >
             <input
               required
               type="radio"
               name="isMember"
-              id="yes"
+              id="isMember"
               className="w-4 h-4"
               value="yes"
               onChange={handleChange}
@@ -118,12 +149,15 @@ const Registration = ({ sectionRef }) => {
             <span className="sm:text-xl">Yes</span>
           </label>
 
-          <label htmlFor="no" className="flex items-center gap-3 mb-2 px-2">
+          <label
+            htmlFor="notMember"
+            className="flex items-center gap-3 mb-2 px-2"
+          >
             <input
               required
               type="radio"
               name="isMember"
-              id="no"
+              id="notMember"
               className="w-4 h-4"
               value="no"
               onChange={handleChange}
@@ -138,12 +172,15 @@ const Registration = ({ sectionRef }) => {
             Are you based in Abuja?
           </label>
 
-          <label htmlFor="yes" className="flex items-center gap-3 mb-2 px-2">
+          <label
+            htmlFor="liveInAbuja"
+            className="flex items-center gap-3 mb-2 px-2"
+          >
             <input
               required
               type="radio"
               name="inAbuja"
-              id="yes"
+              id="liveInAbuja"
               className="w-4 h-4"
               value="yes"
               onChange={handleChange}
@@ -152,12 +189,15 @@ const Registration = ({ sectionRef }) => {
             <span className="sm:text-xl">Yes</span>
           </label>
 
-          <label htmlFor="no" className="flex items-center gap-3 mb-2 px-2">
+          <label
+            htmlFor="outsideAbuja"
+            className="flex items-center gap-3 mb-2 px-2"
+          >
             <input
               required
               type="radio"
               name="inAbuja"
-              id="no"
+              id="outsideAbuja"
               className="w-4 h-4"
               value="no"
               onChange={handleChange}
