@@ -64,7 +64,7 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
         <div className="flex items-center gap-4">
           <p>Follow us:</p>
           <div className="flex items-center gap-4">
-            <a href="#nowhere" target="_blank">
+            <a href="https://web.facebook.com/jciasoAbuja/" target="_blank">
               <LiaFacebookSquare
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={35}
