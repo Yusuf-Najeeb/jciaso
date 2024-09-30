@@ -64,14 +64,22 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
         <div className="flex items-center gap-4">
           <p>Follow us:</p>
           <div className="flex items-center gap-4">
-            <a href="https://web.facebook.com/jciasoAbuja/" target="_blank">
+            <a
+              href="https://web.facebook.com/jciasoAbuja/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <LiaFacebookSquare
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={35}
               />
             </a>
 
-            <a href="https://www.instagram.com/jci_aso/?hl=en" target="_blank">
+            <a
+              href="https://www.instagram.com/jci_aso/?hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaInstagram
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={30}
@@ -81,6 +89,7 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
             <a
               href="https://www.linkedin.com/company/101489198/admin/feed/posts/"
               target="_blank"
+              rel="noreferrer"
             >
               <RiLinkedinLine
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
@@ -88,7 +97,11 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
               />
             </a>
 
-            <a href="https://twitter.com/jciaso" target="_blank">
+            <a
+              href="https://twitter.com/jciaso"
+              target="_blank"
+              rel="noreferrer"
+            >
               <BsTwitterX
                 className="transition border border-[#001926] p-1 rounded hover:text-[#009FF5] cursor-pointer"
                 size={25}
