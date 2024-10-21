@@ -22,7 +22,7 @@ const Overview = () => {
 
       <ul className="sm:text-xl list-disc ml-4">
         <li className="my-4">
-          <strong>Dates</strong>: November 6th, 7th, and 8th, 2024.
+          <strong>Dates</strong>: November 6th, 7th, and 9th, 2024.
         </li>
         <li className="my-4">
           <strong>Format</strong>: Hybrid (Online and In-person).

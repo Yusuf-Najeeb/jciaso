@@ -1,4 +1,7 @@
 import { useRef } from "react";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import Nav from "./Header";
 import Hero from "./Hero";
 import CountDown from "./CountDown";
@@ -14,6 +17,7 @@ const Index = () => {
   const speakerRef = useRef(null);
   const faqRef = useRef(null);
   const partnerRef = useRef(null);
+  const registerRef = useRef(null);
 
   const scrollToSection = (sectionRef) => {
     sectionRef.current.scrollIntoView({ behavior: "smooth" });
@@ -26,12 +30,13 @@ const Index = () => {
         partnerRef={() => scrollToSection(partnerRef)}
         faqRef={() => scrollToSection(faqRef)}
         speakersRef={() => scrollToSection(speakerRef)}
+        registerRef={() => scrollToSection(registerRef)}
       />
-      <Hero />
+      <Hero registerRef={() => scrollToSection(registerRef)} />
       <CountDown />
       <About sectionRef={aboutRef} />
       <Speakers sectionRef={speakerRef} />
-      <Register />
+      <Register sectionRef={registerRef} />
       <FAQs sectionRef={faqRef} />
       <Partners sectionRef={partnerRef} />
       <Footer
@@ -39,6 +44,18 @@ const Index = () => {
         partnerRef={() => scrollToSection(partnerRef)}
         faqRef={() => scrollToSection(faqRef)}
         speakersRef={() => scrollToSection(speakerRef)}
+      />
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
       />
     </div>
   );
