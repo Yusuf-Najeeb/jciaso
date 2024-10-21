@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import JoinJCIButton from "./JoinJCIButton";
-import Aos, { init } from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 const HeroSection = () => {
   const [backgroundIndex, setBackgroundIndex] = useState(0);
