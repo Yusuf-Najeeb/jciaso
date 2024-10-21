@@ -6,19 +6,11 @@ import { RxCaretLeft } from "react-icons/rx";
 import { RiLinkedinLine } from "react-icons/ri";
 import Avatar from "./assets/avatar.png";
 
-// ** Images
-import Linus from "./assets/speakers/Dr. Linus Okorie, MFR.png";
-import Niyi from "./assets/speakers/Niyi Adesanya.png";
-import Auta from "./assets/speakers/Samuel DanAuta Kyarshik.png";
-import Adetola from "./assets/speakers/JCI Sen. Adetola Akinola.png";
-import Bala from "./assets/speakers/JCI Sen. Abdullahi Attairu.png";
-import Titi from "./assets/speakers/Dr. (Mrs.) Titilola Oshati.png";
-import Salami from "./assets/speakers/Kadir Salami.png";
-
 const data = [
   {
     name: "Dr. Linus Okorie, MFR",
-    avatar: Linus,
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517970964/618ad610-3715-4de4-a7f4-18d1d7c83bd4.png",
     position: "Leadership Development Coach",
     linkedin: "https://www.linkedin.com/in/linus-okorie-mfr-a2b686149/",
     twitter: "https://x.com/linusokorie1",
@@ -29,7 +21,8 @@ const data = [
 
   {
     name: "Niyi Adesanya",
-    avatar: Niyi,
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517870857/b9986f41-b5d7-404e-8ecb-0ca05437ecf9.png",
     position: "Leadership & Performance Expert",
     linkedin: "https://www.linkedin.com/in/niyiadesanya123/",
     twitter: "https://x.com/Nadesanya",
@@ -40,9 +33,10 @@ const data = [
 
   {
     name: "Samuel DanAuta Kyarshik",
-    avatar: Auta,
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517898011/0a7244cf-b6d0-4208-b808-bd5c607afa98.png",
     position: "Development Consultant",
-    linkedin: " https://www.linkedin.com/in/sdkconsultant/",
+    linkedin: "https://www.linkedin.com/in/sdkconsultant/",
     twitter: "https://x.com/SamuelDanAuta",
     bio: "Samuel DanAuta Kyarshik, well known as SDK is a dynamic professional with a robust background in leadership, organizational development, and education consulting. Over the years, SDK has built a career grounded in character, competence, and innovation. With a passion for driving exponential growth, he focuses on accountability, responsibility, and the power of strategic thinking to create meaningful impact.",
     bio1: "SDK holds a B.Sc. in Pure Chemistry from the University of Jos, an MA in Theology and Development Studies, and is a Fellow of the Nigeria Institute for Human Capital Development. His education is complemented by various certifications, including National Transformation Studies, Entrepreneurial Development, and UNICEF Peer Education Training. He has authored multiple publications and is fluent in English, Hausa, and Pidgin English.",
@@ -51,9 +45,10 @@ const data = [
 
   {
     name: "JCI Sen. Adetola Akinola",
-    avatar: Adetola,
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517756180/54107529-f0a9-4f70-85e9-d67d5729ada5.png",
     position: "CEO, Glitz Group of Companies",
-    linkedin: " https://www.linkedin.com/in/adetola-akinola-84898018/",
+    linkedin: "https://www.linkedin.com/in/adetola-akinola-84898018/",
     twitter: "https://twitter.com/",
     bio: "JCI Senator Adetola Akinola is a dynamic leader with excellent interpersonal skills and a proven ability to develop and sustain mutually beneficial relationships. As a solutions-driven professional, she has led international cross-functional teams to deliver strategic initiatives that enhance systems, processes, and bottom-line results while aligning them with organizational vision and goals.",
     bio1: "Her leadership style fosters open communication, motivation, and engagement among teams, even when faced with limited resources. Adetola is proactive in identifying and resolving issues using her cognitive abilities and excels in fast-paced environments where multitasking is essential. Her extensive experience includes organizing and chairing media briefings on policy and leadership reforms, thriving in both non-profit and profit-oriented organizations..",
@@ -62,7 +57,8 @@ const data = [
 
   {
     name: "JCI Sen. Abdullahi Attairu",
-    avatar: Bala,
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517927733/550e0984-ac0e-46f8-843d-cb808c398928.png",
     position: "Business Management & Human Resources Expert",
     linkedin: "https://www.linkedin.com/in/abdullahi-attairu-acipm-99769359/",
     twitter: "https://x.com/hajiabdul2003",
@@ -73,7 +69,8 @@ const data = [
 
   {
     name: "Kadir Salami",
-    avatar: Salami,
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517853546/e62b6034-4c3e-4011-b933-cca30064ca03.png",
     position: "Founder TIIDELab",
     linkedin: "https://www.linkedin.com/in/kadir-salami-0a090054/",
     twitter: "https://twitter.com/",
@@ -83,7 +80,8 @@ const data = [
 
   {
     name: "Dr. Titilola Oshati",
-    avatar: Titi,
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517943591/032a9f45-0903-4727-be2f-003df1e02448.png",
     position:
       "Dir, Productivity Capacity Building (PCB), National Productivity Centre (NPC)",
     linkedin: "https://www.linkedin.com/in/titilola-oshati-b20460125/",
