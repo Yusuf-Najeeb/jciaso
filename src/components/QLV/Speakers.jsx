@@ -110,7 +110,8 @@ const SpeakerCard = ({ speaker }) => {
                 initial={{ width: 0, opacity: 0 }}
                 animate={{ width: "auto", opacity: 1 }}
                 exit={{ width: 0, opacity: 0 }}
-                className="mr-6 pl-2 pr-3 rounded-xl text-sm bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40"
+                className="mr-6 pl-2 pr-3 rounded-xl text-sm bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40 cursor-pointer"
+                onClick={() => setShowDetails(!showDetails)}
               >
                 Show Details
               </motion.span>
@@ -121,7 +122,8 @@ const SpeakerCard = ({ speaker }) => {
                 initial={{ width: 0, opacity: 0 }}
                 animate={{ width: "auto", opacity: 1 }}
                 exit={{ width: 0, opacity: 0 }}
-                className="mr-6 pl-2 pr-3 rounded-xl text-sm bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40"
+                className="mr-6 pl-2 pr-3 rounded-xl text-sm bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40 cursor-pointer"
+                onClick={() => setShowDetails(!showDetails)}
               >
                 Go back
               </motion.span>
@@ -164,6 +166,8 @@ const SpeakerCard = ({ speaker }) => {
             >
               <div className="aspect-video bg-muted rounded-md flex items-center justify-center">
                 <img
+                  onMouseEnter={() => setIsHovered(true)}
+                  onMouseLeave={() => setIsHovered(false)}
                   src={speaker.avatar}
                   alt={speaker.name}
                   className="rounded-t-md w-full object-cover object-center"
