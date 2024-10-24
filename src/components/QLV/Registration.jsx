@@ -25,8 +25,14 @@ const Registration = ({ sectionRef }) => {
     const { isMember, inAbuja, ...restData } = formData;
     const BooIsMember = isMember === "yes" ? true : false;
     const BooInAbuja = inAbuja === "yes" ? true : false;
+    const date = new Date().toISOString;
 
-    const payload = { ...restData, inAbuja: BooInAbuja, isMember: BooIsMember };
+    const payload = {
+      ...restData,
+      createdAt: date,
+      inAbuja: BooInAbuja,
+      isMember: BooIsMember,
+    };
 
     fetch("https://event-form-server-1.onrender.com/api/v1/register", {
       method: "POST",

@@ -18,11 +18,12 @@ import Business from "./components/services/Business";
 import Community from "./components/services/Community";
 import International from "./components/services/International";
 import QLV from "./components/QLV/Index";
+import Attendees from "./components/qlvAttendees/Attendees";
 import Error from "./components/Error";
 
 const router = createBrowserRouter([
   { path: "/qlv2024", element: <QLV /> },
-
+  { path: "/attendees", element: <Attendees /> },
   {
     path: "/",
     element: <App />,

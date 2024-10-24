@@ -94,35 +94,31 @@ const data = [
 
 const SpeakerCard = ({ speaker }) => {
   const [showDetails, setShowDetails] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
+  // const [isHovered, setIsHovered] = useState(true);
 
   return (
     <figure className="w-[100%] sm:w-[48%] md:w-[32%] my-4 md:my-8 rounded-md p-2">
       <div className="relative">
-        <div
-          className="absolute -top-1 right-0 flex items-center"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        >
+        <div className="absolute -top-1 right-0 flex items-center">
           <AnimatePresence>
-            {isHovered && !showDetails && (
+            {!showDetails && (
               <motion.span
                 initial={{ width: 0, opacity: 0 }}
                 animate={{ width: "auto", opacity: 1 }}
                 exit={{ width: 0, opacity: 0 }}
-                className="mr-6 pl-2 pr-3 rounded-xl text-sm bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40 cursor-pointer"
+                className="mr-6 pl-2 pr-3 rounded-l-xl text-xs py-1 bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40 cursor-pointer"
                 onClick={() => setShowDetails(!showDetails)}
               >
-                Show Details
+                Read Profile
               </motion.span>
             )}
 
-            {isHovered && showDetails && (
+            {showDetails && (
               <motion.span
                 initial={{ width: 0, opacity: 0 }}
                 animate={{ width: "auto", opacity: 1 }}
                 exit={{ width: 0, opacity: 0 }}
-                className="mr-6 pl-2 pr-3 rounded-xl text-sm bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40 cursor-pointer"
+                className="mr-6 pl-2 pr-3 rounded-l-xl text-xs py-1 bg-[#FCFCFC] text-[#001926] whitespace-nowrap overflow-hidden relative top-[1.1rem] z-40 cursor-pointer"
                 onClick={() => setShowDetails(!showDetails)}
               >
                 Go back
@@ -136,9 +132,9 @@ const SpeakerCard = ({ speaker }) => {
             className="absolute bg-[#fff] top-4 right-2 rounded-full z-40"
           >
             {showDetails ? (
-              <RxCaretLeft className="h-6 w-6 p-1" />
+              <RxCaretLeft className="h-7 w-7 p-1" />
             ) : (
-              <BsInfoCircle className="h-6 w-6 p-1" />
+              <BsInfoCircle className="h-7 w-7 p-2" />
             )}
           </button>
         </div>
@@ -166,8 +162,6 @@ const SpeakerCard = ({ speaker }) => {
             >
               <div className="aspect-video bg-muted rounded-md flex items-center justify-center">
                 <img
-                  onMouseEnter={() => setIsHovered(true)}
-                  onMouseLeave={() => setIsHovered(false)}
                   src={speaker.avatar}
                   alt={speaker.name}
                   className="rounded-t-md w-full object-cover object-center"
