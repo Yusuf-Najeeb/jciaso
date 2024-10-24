@@ -33,39 +33,43 @@ const Attendees = () => {
     fetchData();
   }, []);
   return (
-    <>
-      <h1 className="font-bold text-sm sm:text-3xl my-4 text-center">
+    <main className="bg-[#001926] text-[#FCFCFC] w-full h-screen p-4">
+      <h1 className="font-bold text-sm sm:text-3xl mb-4 text-center">
         QLV 2024 Attendees
       </h1>
-      <table className="w-full border border-collapse space-y-4 px-3">
+      <table className="w-[95%] border border-collapse p-4 mx-4">
         <thead>
-          <th className="text-left">S/N</th>
-          <th className="text-left">Name</th>
-          <th className="text-left">Email</th>
-          <th className="text-left">Phone</th>
-          <th className="text-left">JCI Member</th>
-          <th className="text-left">Abuja Resident</th>
-          <th className="text-left">Date Registered</th>
-          <th className="text-left">How did you hear about us?</th>
+          <th className="text-left border p-2">S/N</th>
+          <th className="text-left border p-2">Name</th>
+          <th className="text-left border p-2">Email</th>
+          <th className="text-left border p-2">Phone</th>
+          <th className="text-left border p-2">JCI Member</th>
+          <th className="text-left border p-2">Abuja Resident</th>
+          <th className="text-left border p-2">Date Registered</th>
+          <th className="text-left border p-2">How did you hear about us?</th>
         </thead>
         <tbody>
           {data.map((item, i) => {
             return (
-              <tr className="border p-3">
-                <tr>{i + 1}</tr>
-                <td>{item.fullName}</td>
-                <td>{item.email}</td>
-                <td>{item.phoneNumber}</td>
-                <td>{item.isMember ? "Member" : "Non-member"}</td>
-                <td>{item.inAbuja ? "Yes" : "No"}</td>
-                <td>{item.createdAt ? formatDate(item.createdAt) : "-"}</td>
-                <td>{item.publicity}</td>
+              <tr>
+                <td className="p-2 border">{i + 1}</td>
+                <td className="p-2 border">{item.fullName}</td>
+                <td className="p-2 border">{item.email}</td>
+                <td className="p-2 border">{item.phoneNumber}</td>
+                <td className="p-2 border">
+                  {item.isMember ? "Member" : "Non-member"}
+                </td>
+                <td className="p-2 border">{item.inAbuja ? "Yes" : "No"}</td>
+                <td className="p-2 border text-center">
+                  {item.createdAt ? formatDate(item.createdAt) : "-"}
+                </td>
+                <td className="p-2 border">{item.publicity}</td>
               </tr>
             );
           })}
         </tbody>
       </table>
-    </>
+    </main>
   );
 };
 
