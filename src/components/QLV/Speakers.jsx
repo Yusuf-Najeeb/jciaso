@@ -8,6 +8,18 @@ import Avatar from "./assets/avatar.png";
 
 const data = [
   {
+    name: "JCIN Amb. Yetunde Adebisi",
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729865268764/930c6d8d-d01d-47de-8c74-11a0236f24dd.png",
+    position: "JCI ASO President",
+    linkedin: "https://www.linkedin.com/in/yetunde-adebisi-a21812170/",
+    twitter: "https://twitter.com/",
+    bio: "HOST: Qualitative Leader Value 2024",
+    bio1: "",
+    bio2: "",
+  },
+
+  {
     name: "Dr. Linus Okorie, MFR",
     avatar:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517970964/618ad610-3715-4de4-a7f4-18d1d7c83bd4.png",
@@ -56,6 +68,17 @@ const data = [
   },
 
   {
+    name: "Kadir Salami",
+    avatar:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517853546/e62b6034-4c3e-4011-b933-cca30064ca03.png",
+    position: "Founder TIIDELab",
+    linkedin: "https://www.linkedin.com/in/kadir-salami-0a090054/",
+    twitter: "https://twitter.com/",
+    bio: "Kadir Salami has built a dynamic career starting as an IT support specialist with the United Nations, where he gained valuable experience in leveraging technology for positive change. He later served as the IT advisor to the Nigeria Sovereign Investment Authority, contributing to strategic tech initiatives. In 2008, Kadir founded Techspecialist, an organization dedicated to personalized IT services, which he nurtured for 13 years before stepping down as CEO in 2021. He now serves as the chairman, focusing on fostering talent and ideas in the media and film industries through Mswitch, an integrated media and communications company based in Abuja.",
+    bio1: "Additionally, Kadir founded TIIDELab, a platform that has empowered over 130 candidates, with more than 85% securing gainful employment. His philosophy centers on creating value for humanity through technology, defining him as a visionary leader who shapes the future of tech, media, and creativity. Kadir invites others to join him on this journey of innovation and impact.",
+  },
+
+  {
     name: "JCI Sen. Abdullahi Attairu",
     avatar:
       "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517927733/550e0984-ac0e-46f8-843d-cb808c398928.png",
@@ -65,17 +88,6 @@ const data = [
     bio: "JCI Senator Abdullahi Attairu is a seasoned professional with a wealth of experience in Business Management and Human Resources. He holds a graduate degree in Plant Biology from the University of Ilorin and a Postgraduate Diploma in Business Management. Abdullahi is also a distinguished member of the Chartered Institute of Personnel Management.",
     bio1: "His career spans various industries, where he has continually pursued professional development, acquiring certifications and licenses as a Human Resources expert. Abdullahi began his professional journey in 2013 at Qriosity Nigeria Limited, Abuja, as an Assistant Manager/EA. He later joined XOA Solutions, where he gained insights into renewable energy solutions. In 2015, he became the Human Resources and Operations Manager at Oxynate Global Solutions Limited. His career further progressed with roles as an HR Officer at U-Connect Human Resources Limited and as a Recruitment Specialist and EA to the CEO at Cedarcrest Hospitals Limited. Currently, Abdullahi serves as an HR Manager at ACIOE, an advisory firm in Abuja.",
     bio2: "Abdullahi's leadership extends beyond his career into his work with Junior Chamber International (JCI). Since joining in 2008 as a member of JCIN Unilorin, he has held multiple leadership roles, including President of JCI Aso in 2019 and National President of JCI Nigeria in 2023.",
-  },
-
-  {
-    name: "Kadir Salami",
-    avatar:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517853546/e62b6034-4c3e-4011-b933-cca30064ca03.png",
-    position: "Founder TIIDELab",
-    linkedin: "https://www.linkedin.com/in/kadir-salami-0a090054/",
-    twitter: "https://twitter.com/",
-    bio: "Kadir Salami has built a dynamic career starting as an IT support specialist with the United Nations, where he gained valuable experience in leveraging technology for positive change. He later served as the IT advisor to the Nigeria Sovereign Investment Authority, contributing to strategic tech initiatives. In 2008, Kadir founded Techspecialist, an organization dedicated to personalized IT services, which he nurtured for 13 years before stepping down as CEO in 2021. He now serves as the chairman, focusing on fostering talent and ideas in the media and film industries through Mswitch, an integrated media and communications company based in Abuja.",
-    bio1: "Additionally, Kadir founded TIIDELab, a platform that has empowered over 130 candidates, with more than 85% securing gainful employment. His philosophy centers on creating value for humanity through technology, defining him as a visionary leader who shapes the future of tech, media, and creativity. Kadir invites others to join him on this journey of innovation and impact.",
   },
 
   {
@@ -94,10 +106,9 @@ const data = [
 
 const SpeakerCard = ({ speaker }) => {
   const [showDetails, setShowDetails] = useState(false);
-  // const [isHovered, setIsHovered] = useState(true);
 
   return (
-    <figure className="w-[100%] sm:w-[48%] md:w-[32%] my-4 md:my-8 rounded-md p-2">
+    <figure className="w-[100%] sm:w-[40%] lg:w-[31%] my-4 md:my-8 rounded-md p-2">
       <div className="relative">
         <div className="absolute -top-1 right-0 flex items-center">
           <AnimatePresence>
@@ -198,13 +209,13 @@ const Speakers = ({ sectionRef }) => {
     <main
       ref={sectionRef}
       className="bg-[#FCFCFC] text-[#001926] pt-8
-       md:pb-8 px-2 md:px-[5rem]"
+       md:pb-8 px-2 md:px-[2rem]"
     >
       <h2 className="text-3xl md:text-5xl font-bold text-center py-8 md:mb-8">
         Meet The Speakers
       </h2>
       {data.length > 0 ? (
-        <div className="flex items-center justify-center md:justify-between flex-wrap">
+        <div className="flex items-center justify-center md:justify-center gap-8 flex-wrap">
           {data.map((item, i) => {
             return <SpeakerCard speaker={item} key={i} />;
           })}
