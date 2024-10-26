@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import speaker from "./assets/speaker.png";
 import { RxCaretDown, RxCaretUp } from "react-icons/rx";
-import useWindowSize from "../../hooks/useWindowSize";
+// import useWindowSize from "../../hooks/useWindowSize";
 
 const Overview = () => {
   return (
@@ -89,7 +89,7 @@ const Schedule = () => {
 const About = ({ sectionRef }) => {
   const [toggler, setToggler] = useState(0);
   const [height, setHeight] = useState(false);
-  const { width } = useWindowSize();
+  // const { width } = useWindowSize();
 
   const heightRef = useRef(null);
 

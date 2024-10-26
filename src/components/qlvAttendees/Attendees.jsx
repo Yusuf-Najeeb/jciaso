@@ -27,16 +27,15 @@ const Attendees = () => {
         if (res.ok) {
           const data = await res.json();
           setData(data.data);
+          setLoading(false);
         } else {
           const errorData = await res.json();
           setData(errorData.data);
+          setLoading(false);
         }
       })
       .catch((err) => {
         console.log(err);
-      })
-      .finally(() => {
-        setLoading(false);
       });
   }, []);
 
