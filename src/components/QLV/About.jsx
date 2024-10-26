@@ -144,7 +144,7 @@ const About = ({ sectionRef }) => {
             className="p-4 transition-all duration-300 ease-in-out overflow-hidden scroll-hidden"
             style={{
               minHeight: toggler === 0 ? "550px" : "500px",
-              maxHeight: "600px",
+              maxHeight: "570px",
               height:
                 height && toggler === 0 ? "50%" : toggler === 1 ? "60%" : "40%",
               overflowY: height && toggler === 0 ? "scroll" : "hidden",
@@ -154,7 +154,7 @@ const About = ({ sectionRef }) => {
             {toggler === 1 && <Schedule />}
           </div>
 
-          {width > 870 && toggler === 0 && (
+          {toggler === 0 && (
             <button
               className="mt-4 font-bold text-sky-600 flex items-center"
               onClick={toggleHeight}
