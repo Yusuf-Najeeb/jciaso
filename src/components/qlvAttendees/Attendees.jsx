@@ -40,7 +40,7 @@ const Attendees = () => {
   }, []);
 
   return (
-    <main className="bg-[#001926] text-[#FCFCFC] w-full h-screen p-4">
+    <main className="bg-[#001926] text-[#FCFCFC] w-full h-full p-4">
       <h1 className="font-bold text-sm sm:text-3xl mb-4 text-center">
         QLV 2024 Attendees
       </h1>
@@ -53,7 +53,7 @@ const Attendees = () => {
           data-testid="loader"
         />
       ) : (
-        <table className="w-[95%] border border-collapse p-4 mx-4">
+        <table className="w-[95%] border border-collapse p-4 mx-4 bg-[#001926] text-[#fcfcfc]">
           <thead>
             <th className="text-left border p-2">S/N</th>
             <th className="text-left border p-2">Name</th>
