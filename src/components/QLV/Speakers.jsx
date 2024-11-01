@@ -19,16 +19,27 @@ const data = [
     bio2: "",
   },
 
+  // {
+  //   name: "Dr. Linus Okorie, MFR",
+  //   avatar:
+  //     "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517970964/618ad610-3715-4de4-a7f4-18d1d7c83bd4.png",
+  //   position: "Leadership Development Coach",
+  //   linkedin: "https://www.linkedin.com/in/linus-okorie-mfr-a2b686149/",
+  //   twitter: "https://x.com/linusokorie1",
+  //   bio: "Dr. Linus Okorie, MFR, is a prominent leadership coach and human capital development expert with over 20 years of experience. As the Founder and President of Guardians of the Nation International (GOTNI), a leading leadership development non-profit in Nigeria, he has trained and inspired over 300,000 individuals across Nigeria and Africa. His work through the GOTNI Leadership Centre in Abuja has helped groom a new generation of leaders for Nigeria and the African continent.",
+  //   bio1: " A passionate advocate for leadership excellence, Linus is a regular guest speaker on leadership across Africa, the Middle East, Europe, and the USA. He is the author of Footprints: Leading Beyond Today, a book forwarded by Dr. Myles Munroe, and host of Leadership Clinic on AIT.",
+  //   bio2: " Linus holds a Master’s degree in Organizational Leadership from Regent University, USA, and certifications from Harvard University’s Kennedy School of Government. He has received honorary doctoral degrees in recognition of his contributions to leadership development and continues to be a driving force in shaping effective governance across Africa.",
+  // },
   {
-    name: "Dr. Linus Okorie, MFR",
+    name: "Dr. Lanre Philips",
     avatar:
-      "https://cdn.hashnode.com/res/hashnode/image/upload/v1729517970964/618ad610-3715-4de4-a7f4-18d1d7c83bd4.png",
-    position: "Leadership Development Coach",
-    linkedin: "https://www.linkedin.com/in/linus-okorie-mfr-a2b686149/",
-    twitter: "https://x.com/linusokorie1",
-    bio: "Dr. Linus Okorie, MFR, is a prominent leadership coach and human capital development expert with over 20 years of experience. As the Founder and President of Guardians of the Nation International (GOTNI), a leading leadership development non-profit in Nigeria, he has trained and inspired over 300,000 individuals across Nigeria and Africa. His work through the GOTNI Leadership Centre in Abuja has helped groom a new generation of leaders for Nigeria and the African continent.",
-    bio1: " A passionate advocate for leadership excellence, Linus is a regular guest speaker on leadership across Africa, the Middle East, Europe, and the USA. He is the author of Footprints: Leading Beyond Today, a book forwarded by Dr. Myles Munroe, and host of Leadership Clinic on AIT.",
-    bio2: " Linus holds a Master’s degree in Organizational Leadership from Regent University, USA, and certifications from Harvard University’s Kennedy School of Government. He has received honorary doctoral degrees in recognition of his contributions to leadership development and continues to be a driving force in shaping effective governance across Africa.",
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1730470295058/6a63fc05-084c-4544-a0d1-1ebaba7f07a8.png",
+    position: "Founder & CEO, Elpee Consults",
+    linkedin: "https://www.linkedin.com/in/lanre-phillips-dr-9702aa5/",
+    twitter: "https://x.com/eLPee_",
+    bio: "Dr. Lanre Phillips is a renowned strategist and development consultant with over 25 years of experience spanning FMCG, banking, telecom, and IT sectors. As CEO of Elpee Consults, he has guided numerous organizations in Africa through transformative leadership, emphasizing strategic growth and operational excellence.",
+    bio1: "A committed advocate for social impact, Dr. Phillips collaborates extensively with NGOs and accelerators, including his work with YouWIN and the World Bank's Women X Programme, advancing entrepreneurial and capacity-building efforts across Africa. He is a two-time TEDx speaker recognized for his insights on leadership, innovation, and social change.",
+    bio2: "Dr. Phillips holds a Ph.D. in Business Administration from SMC University, Switzerland, alongside certifications from Harvard Business School, which complement his earlier degrees in Economics. He is a respected board member and active participant in the Global Entrepreneurship Network, where he champions sustainable leadership and impact across sectors.",
   },
 
   {
