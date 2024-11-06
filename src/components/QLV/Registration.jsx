@@ -78,10 +78,11 @@ const Registration = ({ sectionRef }) => {
       className="relative bg-[#001926] text-[#FCFCFC] pt-12 pb-4 md:pb-8 px-2 md:px-[5rem]"
     >
       <h2 className="text-3xl md:text-5xl font-bold text-center mb-8">
-        Register for JCI Aso QLV 2024
+        Register for JCI Aso QLV 2024 <br />
+        Closed
       </h2>
 
-      <form
+      {/* <form
         onSubmit={handleSubmit}
         className="flex flex-col items-center justify-center"
       >
@@ -305,7 +306,7 @@ const Registration = ({ sectionRef }) => {
           close={toggleModal}
           handleSubmit={handleSubmit}
         />
-      </form>
+      </form> */}
     </main>
   );
 };

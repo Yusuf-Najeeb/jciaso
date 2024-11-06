@@ -39,10 +39,12 @@ function CountDown() {
   return (
     <main className="bg-[#FCFCFC] text-[#001926] pt-4 md:pt-[6rem] pb-8">
       <h2 className="text-3xl md:text-5xl font-bold text-center">
-        Hurray! Events holds in
+        Hurray! QLV Event is in Progress🎉
+        <br />
+        See You there!
       </h2>
 
-      <div className="flex justify-center items-center gap-2 sm:gap-4 mt-8 px-4">
+      {/* <div className="flex justify-center items-center gap-2 sm:gap-4 mt-8 px-4">
         <div
           className="min-w-[70px] lg:min-w-[200px] bg-[#001926] text-[#FCFCFC] p-2 
         md:py-4 md:px-8 flex justify-center items-center flex-col-reverse"
@@ -77,7 +79,7 @@ function CountDown() {
           <h4 className="text-sm sm:text-3xl md:uppercase mt-2">Seconds</h4>
           <p className="text-xl md:text-8xl">{counter.secs}</p>
         </div>
-      </div>
+      </div> */}
     </main>
   );
 }
