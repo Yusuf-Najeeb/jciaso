@@ -23,23 +23,23 @@ const Vision = () => {
           >
             <div className="flex flex-row px-2">
               <img
-                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1706434169210/6a30b8fa-0719-4c52-b001-9e1490aa2f08.png"
-                alt="JCI_President"
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751148887212/16c42dcd-5a5b-43a7-bcbf-f79dab33efe3.jpeg"
+                alt="JCI Amb. Felix Akinyemi President"
                 className="w-1/2 lg:w-full rounded-lg object-cover relative z-10"
               />
               <img
                 className="lg:hidden w-1/2"
-                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259400614/9059e1a4-ce8b-4a9d-9f74-23f165e4228c.png"
-                alt="2024 Presidential Theme: Partnership, Membership & Sustainability"
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751188640694/5e20d6a6-f3de-4f0e-95aa-e61abbb626b5.png"
+                alt="2025 Presidential Theme: Inspiring Change"
               />
             </div>
 
             <div className="flex flex-col items-center">
               <h1 className="text-[1.2rem] sm:text-[1.5rem] font-bold sm:font-semibold mt-4">
-                JCIN Amb. Yetunde Adebisi
+                JCIN Amb. Felix Akinyemi
               </h1>
               <p className="text-[.9rem] sm:text-[1.2rem] font-semibold">
-                24<sup>th</sup> President JCI Aso
+                25<sup>th</sup> President JCI Aso
               </p>
             </div>
           </div>
@@ -54,14 +54,13 @@ const Vision = () => {
               {now.getFullYear()} New Year Message
             </h1>
             <p className="text-start">
-              In my tenure as JCI ASO President, I will be committed to
-              fostering a vibrant and inclusive community by putting our members
-              first, cultivating partnerships, and prioritizing sustainability,
-              together we will create lasting impact and inspire positive change
-              in our region and beyond...
+              It is with great humility and excitement that I address you today
+              as the Local Organization President for 2025. As we step into this
+              new year, we carry with us the hopes and aspirations of our
+              dynamic and diverse organization...
             </p>
             <a
-              href="https://drive.google.com/file/d/1hM4G1iObehg8d6V231L7_lR9ELdheyqT/view?usp=sharing"
+              href="https://drive.google.com/file/d/1dxBRX-Uh-Vr6E-hDoH-avJbfg4DgkrBo/view"
               target="blank"
             >
               <button className="border border-[#2288A9] text-[#2288A9] font-medium px-4 py-2 rounded-lg hover:border-red-500 hover:text-red-500 duration-300 mb-4">
@@ -77,12 +76,12 @@ const Vision = () => {
             data-aos-easing="ease-in-out"
             className="font-semibold title text-2xl lg:text-[1.8rem] text-center"
           >
-            2024 Presidential Theme
+            2025 Presidential Theme
           </h1>
           <img
             className="hidden lg:block w-[60%]"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259400614/9059e1a4-ce8b-4a9d-9f74-23f165e4228c.png"
-            alt="2024 Presidential Theme: Partnership, Membership & Sustainability"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751188640694/5e20d6a6-f3de-4f0e-95aa-e61abbb626b5.png"
+            alt="2025 Presidential Theme: Inspiring Change"
           />
 
           <section className="flex flex-col gap-8 px-4">
@@ -97,12 +96,14 @@ const Vision = () => {
               </p>
               <div className="flex flex-col gap-2">
                 <h3 className="font-semibold text-[1.2rem] ">
-                  Member-Centric Approach
+                  Innovative Solution
                 </h3>
                 <p className="text-[#333]">
-                  Establish a member-centric approach by conducting regular
-                  surveys to gather feedback and ideas, and implement incentive
-                  programs to recognize and reward member engagement.
+                  Our approach to championing JCI Aso projects and programs
+                  shall be centered on Innovation. Through data-driven
+                  decisions, we shall employ technology tools, innovative
+                  thinking caps, and the accommodation of fresh ideas to tackle
+                  complex challenges.
                 </p>
               </div>
             </div>
@@ -118,13 +119,17 @@ const Vision = () => {
               </p>
               <div className="flex flex-col gap-2">
                 <h3 className="font-semibold text-[1.2rem]">
-                  Strengthening Local Collaborations
+                  Members Empowerment
                 </h3>
                 <p className="text-[#333]">
-                  Forge partnerships with local businesses, NGOs, and government
-                  agencies, and collaborate with other JCI chapters and similar
-                  organizations to enhance community impact and collective
-                  efforts.
+                  Riding on the shoulders of our predecessors in office and
+                  standing in line with the JCI strategy, we shall prioritize
+                  our members in all facets of our projects and programs. The
+                  General Assembly conversations shall be centered on our
+                  members, our officers' training school shall be revamped, we
+                  shall expand the scope of our members' development summit, and
+                  shall democratize our pieces of training and empowerment
+                  programs to include our members.
                 </p>
               </div>
             </div>
@@ -139,13 +144,14 @@ const Vision = () => {
                 <MdOutline6FtApart size={30} color="#FFF" />
               </p>
               <div className="flex flex-col gap-2">
-                <h3 className="font-semibold text-[1.2rem]">Partnership</h3>
+                <h3 className="font-semibold text-[1.2rem]">
+                  Collaborative Leadership
+                </h3>
                 <p className="text-[#333]">
-                  Conducting regular financial audits ensures transparency,
-                  while also facilitating knowledge sharing and capacity
-                  building initiatives. Enhancing brand awareness and visibility
-                  is achieved through various channels, including the
-                  publication of partners.
+                  As a leadership organization, established to build leaders who
+                  will make the world a better place, we are intentional about
+                  leveraging the expertise of our members to drive policies,
+                  plan programs and implement projects.
                 </p>
               </div>
             </div>

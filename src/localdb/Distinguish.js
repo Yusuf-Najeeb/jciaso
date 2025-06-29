@@ -163,4 +163,11 @@ export const jciDistinguish = [
     name: "Olubunmi Ajayi",
     position: "President-2023",
   },
+  {
+    image:
+      "https://cdn.hashnode.com/res/hashnode/image/upload/v1751149587990/0cd7a8ac-2df5-49c4-814a-5b535d7ccc10.jpeg",
+    sen: "JCIN Amb.",
+    name: "Yetunde Adebisi",
+    position: "President-2024",
+  },
 ];

@@ -20,8 +20,8 @@ const ContactInfo = () => {
       <div className="flex flex-col gap-6">
         <h1 className="font-bold text-[1.6rem]">Phone</h1>
         <ul className="flex flex-col gap-2 text-[#1F1D21] opacity-80">
-          <li>+234-8177-098-608 </li>
-          <li>+234-7037-370-003</li>
+          <li>+234-7031-362-870</li>
+          <li>+234-8170-138-861</li>
         </ul>
       </div>
       <div className="flex flex-col gap-4">

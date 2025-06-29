@@ -53,7 +53,7 @@ const Footer = ({ aboutRef, partnerRef, faqRef, speakersRef }) => {
           </p>
           <p className="flex items-center gap-2 my-2 hover:text-[#009FF5] transition">
             <MdOutlinePhoneEnabled size={25} />
-            <a href="tel:+2348112326974">Contact: +234 8112 326 974</a>
+            <a href="tel:+2347031362870">Contact: +234 7031 362 870</a>
           </p>
         </div>
       </div>

@@ -10,13 +10,13 @@ const Excecutive = () => {
       <div className="flex flex-col gap-20 items-center">
         <div className="flex flex-col items-center gap-1 font-semibold p-1">
           <img
-            className=" object-cover rounded-3xl lg:w-[40%] w-[60%] border-[#C7C4B8]"
+            className=" object-cover rounded-3xl lg:w-[100%] w-[60%] min-h-[400px] max-h-[400px] border-[#ffd700] border-2"
             loading="lazy"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710327853850/81c3ab36-903a-4a77-bde4-cf8cbe37a0cd.png"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751148887212/16c42dcd-5a5b-43a7-bcbf-f79dab33efe3.jpeg"
             alt="President"
           />
           <p className="opacity-80">JCIN Amb.</p>
-          <h3 className="text-center font-bold">Yetunde A. Adebisi</h3>
+          <h3 className="text-center font-bold">Felix Akinyemi</h3>
           <p className="text-center">Local Organization President</p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 justify-center items-center lg:gap-16 gap-4">

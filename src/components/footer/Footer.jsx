@@ -49,7 +49,8 @@ const Footer = () => {
               Suite B21, Abuja Shopping Mall, Zone 3, Wuse, Abuja
             </Link>
             <Link to="">info@jciaso.ng</Link>
-            <Link to=""> +2348135153620, +2347037370003</Link>
+            <Link to="">+2347031362870, +2348170138861</Link>
+
             <SocialMedia />
           </ul>
         </div>
