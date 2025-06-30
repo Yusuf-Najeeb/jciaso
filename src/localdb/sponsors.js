@@ -115,13 +115,13 @@ export const sponsors = [
     name: "MTN Nigeria",
   },
   {
-    id: 22,
+    id: 20,
     src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1751197317972/3f9834ba-e631-4aec-9c03-12c3c1a0a7b6.jpeg",
     alt: "Afri-bistro logo",
     name: "Afri-Bistro",
   },
   {
-    id: 23,
+    id: 21,
     src: "https://cdn.hashnode.com/res/hashnode/image/upload/v1751190057088/f46f5057-c016-4a26-8050-a4b972cf10b0.jpeg",
     alt: "Sylvaster logo",
     name: "Sylvaster Group",
