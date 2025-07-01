@@ -25,7 +25,7 @@ const OpportunityCards = () => {
             <BsPersonCheckFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
-                Individual Opportunity
+                Individual Development
               </p>
               <Link to="/individual">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
@@ -52,7 +52,7 @@ const OpportunityCards = () => {
             <MdBusinessCenter size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
-                Business Opportunity
+                Business and Entrepreneurship
               </p>
               <Link to="/business">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
@@ -79,7 +79,7 @@ const OpportunityCards = () => {
             <BsPeopleFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
-                Community Opportunity
+                Community Action
               </p>
               <Link to="/community">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
@@ -106,7 +106,7 @@ const OpportunityCards = () => {
             <BsGlobeAsiaAustralia size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
-                International Opportunity
+                International Cooperation
               </p>
               <Link to="/international">
                 <button className="w-fit bg-[#0199CC] font-semibold hover:bg-white text-[#050505] rounded-lg px-3 py-2 mt-2 transition-colors">
