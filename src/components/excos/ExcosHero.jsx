@@ -2,10 +2,10 @@ import React from "react";
 
 const ExcosHero = () => {
   return (
-    <section className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
+    <section className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[60vh]  w-full relative">
       <img
-        className="w-full h-full object-cover absolute mix-blend-overlay"
-        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710340592474/b4bac391-cd50-4137-b8a1-c25233f00593.jpeg"
+        className="w-full h-full object-cover object-center absolute mix-blend-overlay"
+        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751381433835/ad1ee147-7850-46ec-9cad-accbd053fa3a.jpeg"
         alt=""
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">

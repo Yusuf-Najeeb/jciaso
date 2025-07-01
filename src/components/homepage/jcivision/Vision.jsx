@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-// import { Link } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { MdCenterFocusStrong, MdOutline6FtApart } from "react-icons/md";
@@ -36,7 +35,7 @@ const Vision = () => {
 
             <div className="flex flex-col items-center">
               <h1 className="text-[1.2rem] sm:text-[1.5rem] font-bold sm:font-semibold mt-4">
-                JCIN Amb. Felix Akinyemi
+                JCIN Amb. Felix Sunday Akinyemi
               </h1>
               <p className="text-[.9rem] sm:text-[1.2rem] font-semibold">
                 25<sup>th</sup> President JCI Aso

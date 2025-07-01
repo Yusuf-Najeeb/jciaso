@@ -5,7 +5,7 @@ const AboutHeroSection = () => {
     <section className="bg-gradient-to-r from-[#081c24] via-[#032532] to-[#37758e] h-[50vh]  w-full relative">
       <img
         className="w-full h-full object-cover absolute mix-blend-overlay"
-        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1710259524145/6f17457b-5171-4f60-a119-fec84a0a16a8.jpeg"
+        src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751381420988/31be0c00-2db9-4f37-964d-fd5edbfa4e58.jpeg"
         alt="Group Photograph"
       />
       <div className=" h-[50vh] flex flex-col justify-center items-start  text-[#FFF]  px-4 lg:px-16">

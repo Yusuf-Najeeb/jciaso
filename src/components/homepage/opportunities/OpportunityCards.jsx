@@ -17,11 +17,11 @@ const OpportunityCards = () => {
       <div className="w-fit mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         <figure className="group relative hover:bg-white">
           <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716119368326/412541c3-d9c0-4658-ad37-dea36258997e.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751380669686/d5e2a766-b55a-498e-8015-d01b171b5c82.jpeg"
             alt="An Individual dancing at an awareness campaign"
-            className="w-full object-cover object-top"
+            className="w-full object-cover object-top h-[200px] max-h-[200px] rounded"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200 rounded">
             <BsPersonCheckFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -44,11 +44,11 @@ const OpportunityCards = () => {
 
         <figure className="group relative hover:bg-white">
           <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716120531388/9b584610-39c2-4f23-8979-dd82faab82f3.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751380711605/466fd094-68d0-4886-a8fb-db0dccad37f6.jpeg"
             alt="Business meeting"
-            className="w-full object-cover object-top"
+            className="w-full object-cover object-top h-[200px] max-h-[200px] rounded"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200 rounded">
             <MdBusinessCenter size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -71,11 +71,11 @@ const OpportunityCards = () => {
 
         <figure className="group relative hover:bg-white">
           <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716129979057/cc881a17-ae8f-4580-921a-f48599a266c7.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751380684541/9d8ed593-1c3a-4c70-b00b-c18b51911692.jpeg"
             alt="Friends making the peace gesture"
-            className="w-full object-cover object-top"
+            className="w-full object-cover object-top h-[200px] max-h-[200px] rounded"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200 rounded">
             <BsPeopleFill size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
@@ -98,11 +98,11 @@ const OpportunityCards = () => {
 
         <figure className="group relative hover:bg-white">
           <img
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1716130895474/43b4680b-c8f4-4412-90ef-bb3ed56e8585.jpeg"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751380698503/4515b035-2b67-4c0c-8e6c-6732f85e5bb7.jpeg"
             alt="Business men and women from every part of the country"
-            className="w-full object-cover object-top"
+            className="w-full object-cover object-top h-[200px] max-h-[200px] rounded"
           />
-          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200">
+          <figcaption className="hidden group-hover:flex md:justify-center items-center gap-4 absolute inset-x-0 top-0 bottom-[4.2rem] bg-[#ECBD37]/60 transition duration-200 rounded">
             <BsGlobeAsiaAustralia size={45} className="mb-12 text-[#fff]" />
             <div className="flex flex-col md:justify-center w-1/2">
               <p className="text-2xl text-[#0199CC] font-semibold drop-shadow leading-tight">
