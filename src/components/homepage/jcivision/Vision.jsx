@@ -28,7 +28,7 @@ const Vision = () => {
               />
               <img
                 className="lg:hidden w-1/2"
-                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751188640694/5e20d6a6-f3de-4f0e-95aa-e61abbb626b5.png"
+                src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751410832976/18238c0a-cb33-4557-be9b-c75515f0ca39.png"
                 alt="2025 Presidential Theme: Inspiring Change"
               />
             </div>
@@ -79,7 +79,7 @@ const Vision = () => {
           </h1>
           <img
             className="hidden lg:block w-[60%]"
-            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751188640694/5e20d6a6-f3de-4f0e-95aa-e61abbb626b5.png"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751410832976/18238c0a-cb33-4557-be9b-c75515f0ca39.png"
             alt="2025 Presidential Theme: Inspiring Change"
           />
 

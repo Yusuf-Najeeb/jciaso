@@ -37,7 +37,7 @@ const OpportunityCards = () => {
           <div className="flex gap-4 mt-3">
             <BsPersonCheckFill size={40} className="text-[#ECBD37]" />
             <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
-              Individual Opportunity
+              Individual Development
             </p>
           </div>
         </figure>
@@ -64,7 +64,7 @@ const OpportunityCards = () => {
           <div className="flex gap-4 mt-3">
             <MdBusinessCenter size={40} className="text-[#ECBD37]" />
             <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
-              Business Opportunity
+              Business and Entrepreneurship
             </p>
           </div>
         </figure>
@@ -91,7 +91,7 @@ const OpportunityCards = () => {
           <div className="flex gap-4 mt-3">
             <BsPeopleFill size={40} className="text-[#ECBD37]" />
             <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
-              Community Opportunity
+              Community Action
             </p>
           </div>
         </figure>
@@ -118,7 +118,7 @@ const OpportunityCards = () => {
           <div className="flex gap-4 mt-3">
             <BsGlobeAsiaAustralia size={40} className="text-[#ECBD37]" />
             <p className="text-[1.2rem] sm:text-xl w-1/2 leading-tight hover:text-[#0199CC] transition-all font-semibold">
-              International Opportunity
+              International Cooperation
             </p>
           </div>
         </figure>
