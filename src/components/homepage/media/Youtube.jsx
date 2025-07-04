@@ -4,12 +4,45 @@ import { BsYoutube } from "react-icons/bs";
 import "../../../App.css";
 
 const videos = [
-  // {
-  //   id: 1,
-  //   vid: "https://www.youtube.com/live/zIiqYCLXoRc?si=53DDcwXY5227fqxK",
-  // },
+  {
+    id: 0,
+    vid: "  https://youtu.be/UoIUwPEhqOk?si=MjtUalfXpXraIdp2",
+  },
+
   {
     id: 1,
+    vid: "  https://youtu.be/x3MRnVo7_y8?si=dktQpFe4uIXhZ1_P",
+  },
+
+  {
+    id: 2,
+    vid: "  https://youtu.be/BQFUP_bKTmE?si=VNwMhwU5j-w-WVkK",
+  },
+
+  {
+    id: 3,
+    vid: "  https://youtube.com/shorts/QzyHpNl9HkM?si=lQHY1THocbsZc0w6",
+  },
+
+  {
+    id: 4,
+    vid: "https://youtube.com/shorts/UpJ0syR_dt8?si=1oJ1F2sncebOWsdE",
+  },
+
+  {
+    id: 5,
+    vid: "https://youtube.com/shorts/yE-HhYbdx24?si=E57pe1iXl54x7BTR",
+  },
+  {
+    id: 6,
+    vid: " https://youtube.com/shorts/dbuPcVSlQZE?si=dl-hYOGyKMIpqOSX",
+  },
+  {
+    id: 7,
+    vid: "https://youtu.be/FreWsdB5Y8w?si=D3VOq4YyzzC7Qkmy",
+  },
+  {
+    id: 8,
     vid: "https://www.youtube.com/watch?v=_MN8K8POptc",
   },
   {
