@@ -15,9 +15,13 @@ const Excecutive = () => {
             src="https://cdn.hashnode.com/res/hashnode/image/upload/v1751148887212/16c42dcd-5a5b-43a7-bcbf-f79dab33efe3.jpeg"
             alt="President"
           />
-          <p className="opacity-80">JCIN Amb.</p>
-          <h3 className="text-center font-bold">Felix Sunday Akinyemi</h3>
-          <p className="text-center">Local Organization President</p>
+          <p className="opacity-80 -mb-2">JCIN Amb.</p>
+          <h3 className="text-center font-bold leading-tight text-xl">
+            Felix Sunday Akinyemi
+          </h3>
+          <p className="text-center text-black/70 text-sm leading-tight -mt-1 font-normal">
+            Local Organization President
+          </p>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 justify-center items-center lg:gap-16 gap-4">
           {exco.map((executive) => (
